@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "packVersion": 2,
+  "packVersion": 3,
   "topicId": "ocean_networks",
   "questionCount": 100,
   "questions": [
     {
-      "id": "ocean_networks.phytoplankton.v0",
+      "id": "ocean_networks.phytoplankton.q0",
       "conceptId": "phytoplankton",
-      "prompt": "What begins many ocean food webs?",
+      "prompt": "What starts many ocean food webs?",
       "options": [
         "Phytoplankton",
         "Plastic",
         "Sand alone"
       ],
       "correctIndex": 0,
-      "explanation": "Phytoplankton capture solar energy.",
+      "explanation": "Phytoplankton use sunlight to produce food and support many marine food webs.",
       "difficulty": "easy",
       "ageBands": [
         "explorer6to8",
@@ -23,17 +23,17 @@
       ]
     },
     {
-      "id": "ocean_networks.phytoplankton.v1",
+      "id": "ocean_networks.phytoplankton.q1",
       "conceptId": "phytoplankton",
-      "prompt": "Think carefully: What begins many ocean food webs?",
+      "prompt": "Which answer best fits this clue: What starts many ocean food webs?",
       "options": [
         "Plastic",
         "Phytoplankton",
         "Sand alone"
       ],
       "correctIndex": 1,
-      "explanation": "Phytoplankton capture solar energy.",
-      "difficulty": "medium",
+      "explanation": "Phytoplankton use sunlight to produce food and support many marine food webs.",
+      "difficulty": "easy",
       "ageBands": [
         "explorer6to8",
         "adventurer9to11",
@@ -41,34 +41,16 @@
       ]
     },
     {
-      "id": "ocean_networks.phytoplankton.v2",
+      "id": "ocean_networks.phytoplankton.q2",
       "conceptId": "phytoplankton",
-      "prompt": "Level challenge — What begins many ocean food webs?",
+      "prompt": "Quizzie challenge: choose the correct statement for phytoplankton.",
       "options": [
         "Plastic",
         "Sand alone",
         "Phytoplankton"
       ],
       "correctIndex": 2,
-      "explanation": "Phytoplankton capture solar energy.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.phytoplankton.v3",
-      "conceptId": "phytoplankton",
-      "prompt": "Choose the best answer: What begins many ocean food webs?",
-      "options": [
-        "Phytoplankton",
-        "Sand alone",
-        "Plastic"
-      ],
-      "correctIndex": 0,
-      "explanation": "Phytoplankton capture solar energy.",
+      "explanation": "Phytoplankton use sunlight to produce food and support many marine food webs.",
       "difficulty": "medium",
       "ageBands": [
         "explorer6to8",
@@ -77,17 +59,17 @@
       ]
     },
     {
-      "id": "ocean_networks.phytoplankton.v4",
+      "id": "ocean_networks.phytoplankton.q3",
       "conceptId": "phytoplankton",
-      "prompt": "Final clue — What begins many ocean food webs?",
+      "prompt": "If you were teaching a friend about phytoplankton, which answer would you use?",
       "options": [
-        "Sand alone",
         "Phytoplankton",
+        "Sand alone",
         "Plastic"
       ],
-      "correctIndex": 1,
-      "explanation": "Phytoplankton capture solar energy.",
-      "difficulty": "hard",
+      "correctIndex": 0,
+      "explanation": "Phytoplankton use sunlight to produce food and support many marine food webs.",
+      "difficulty": "medium",
       "ageBands": [
         "explorer6to8",
         "adventurer9to11",
@@ -95,7 +77,7 @@
       ]
     },
     {
-      "id": "ocean_networks.gills.v0",
+      "id": "ocean_networks.gills.q0",
       "conceptId": "gills",
       "prompt": "What organ lets most fish take oxygen from water?",
       "options": [
@@ -104,7 +86,7 @@
         "Fur"
       ],
       "correctIndex": 0,
-      "explanation": "Gills exchange gases with water.",
+      "explanation": "Gills exchange gases between water and blood.",
       "difficulty": "easy",
       "ageBands": [
         "explorer6to8",
@@ -113,178 +95,16 @@
       ]
     },
     {
-      "id": "ocean_networks.gills.v1",
+      "id": "ocean_networks.gills.q1",
       "conceptId": "gills",
-      "prompt": "Think carefully: What organ lets most fish take oxygen from water?",
+      "prompt": "Which answer best fits this clue: What organ lets most fish take oxygen from water?",
       "options": [
         "Wings",
         "Gills",
         "Fur"
       ],
       "correctIndex": 1,
-      "explanation": "Gills exchange gases with water.",
-      "difficulty": "medium",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.gills.v2",
-      "conceptId": "gills",
-      "prompt": "Level challenge — What organ lets most fish take oxygen from water?",
-      "options": [
-        "Wings",
-        "Fur",
-        "Gills"
-      ],
-      "correctIndex": 2,
-      "explanation": "Gills exchange gases with water.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.gills.v3",
-      "conceptId": "gills",
-      "prompt": "Choose the best answer: What organ lets most fish take oxygen from water?",
-      "options": [
-        "Gills",
-        "Fur",
-        "Wings"
-      ],
-      "correctIndex": 0,
-      "explanation": "Gills exchange gases with water.",
-      "difficulty": "medium",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.gills.v4",
-      "conceptId": "gills",
-      "prompt": "Final clue — What organ lets most fish take oxygen from water?",
-      "options": [
-        "Fur",
-        "Gills",
-        "Wings"
-      ],
-      "correctIndex": 1,
-      "explanation": "Gills exchange gases with water.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.coral.v0",
-      "conceptId": "coral",
-      "prompt": "Are reef-building corals animals?",
-      "options": [
-        "Yes",
-        "No, all are rocks",
-        "Only at night"
-      ],
-      "correctIndex": 0,
-      "explanation": "Coral polyps are animals living in colonies.",
-      "difficulty": "medium",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.coral.v1",
-      "conceptId": "coral",
-      "prompt": "Think carefully: Are reef-building corals animals?",
-      "options": [
-        "No, all are rocks",
-        "Yes",
-        "Only at night"
-      ],
-      "correctIndex": 1,
-      "explanation": "Coral polyps are animals living in colonies.",
-      "difficulty": "medium",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.coral.v2",
-      "conceptId": "coral",
-      "prompt": "Level challenge — Are reef-building corals animals?",
-      "options": [
-        "No, all are rocks",
-        "Only at night",
-        "Yes"
-      ],
-      "correctIndex": 2,
-      "explanation": "Coral polyps are animals living in colonies.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.coral.v3",
-      "conceptId": "coral",
-      "prompt": "Choose the best answer: Are reef-building corals animals?",
-      "options": [
-        "Yes",
-        "Only at night",
-        "No, all are rocks"
-      ],
-      "correctIndex": 0,
-      "explanation": "Coral polyps are animals living in colonies.",
-      "difficulty": "medium",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.coral.v4",
-      "conceptId": "coral",
-      "prompt": "Final clue — Are reef-building corals animals?",
-      "options": [
-        "Only at night",
-        "Yes",
-        "No, all are rocks"
-      ],
-      "correctIndex": 1,
-      "explanation": "Coral polyps are animals living in colonies.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.mammal.v0",
-      "conceptId": "mammal",
-      "prompt": "Which ocean animal is a mammal?",
-      "options": [
-        "Dolphin",
-        "Shark",
-        "Octopus"
-      ],
-      "correctIndex": 0,
-      "explanation": "Dolphins breathe air and nurse their young.",
+      "explanation": "Gills exchange gases between water and blood.",
       "difficulty": "easy",
       "ageBands": [
         "explorer6to8",
@@ -293,52 +113,16 @@
       ]
     },
     {
-      "id": "ocean_networks.mammal.v1",
-      "conceptId": "mammal",
-      "prompt": "Think carefully: Which ocean animal is a mammal?",
+      "id": "ocean_networks.gills.q2",
+      "conceptId": "gills",
+      "prompt": "Quizzie challenge: choose the correct statement for gills.",
       "options": [
-        "Shark",
-        "Dolphin",
-        "Octopus"
-      ],
-      "correctIndex": 1,
-      "explanation": "Dolphins breathe air and nurse their young.",
-      "difficulty": "medium",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.mammal.v2",
-      "conceptId": "mammal",
-      "prompt": "Level challenge — Which ocean animal is a mammal?",
-      "options": [
-        "Shark",
-        "Octopus",
-        "Dolphin"
+        "Wings",
+        "Fur",
+        "Gills"
       ],
       "correctIndex": 2,
-      "explanation": "Dolphins breathe air and nurse their young.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.mammal.v3",
-      "conceptId": "mammal",
-      "prompt": "Choose the best answer: Which ocean animal is a mammal?",
-      "options": [
-        "Dolphin",
-        "Octopus",
-        "Shark"
-      ],
-      "correctIndex": 0,
-      "explanation": "Dolphins breathe air and nurse their young.",
+      "explanation": "Gills exchange gases between water and blood.",
       "difficulty": "medium",
       "ageBands": [
         "explorer6to8",
@@ -347,17 +131,17 @@
       ]
     },
     {
-      "id": "ocean_networks.mammal.v4",
-      "conceptId": "mammal",
-      "prompt": "Final clue — Which ocean animal is a mammal?",
+      "id": "ocean_networks.gills.q3",
+      "conceptId": "gills",
+      "prompt": "If you were teaching a friend about gills, which answer would you use?",
       "options": [
-        "Octopus",
-        "Dolphin",
-        "Shark"
+        "Gills",
+        "Fur",
+        "Wings"
       ],
-      "correctIndex": 1,
-      "explanation": "Dolphins breathe air and nurse their young.",
-      "difficulty": "hard",
+      "correctIndex": 0,
+      "explanation": "Gills exchange gases between water and blood.",
+      "difficulty": "medium",
       "ageBands": [
         "explorer6to8",
         "adventurer9to11",
@@ -365,17 +149,233 @@
       ]
     },
     {
-      "id": "ocean_networks.salinity.v0",
-      "conceptId": "salinity",
-      "prompt": "What does ocean salinity measure?",
+      "id": "ocean_networks.coral_animal.q0",
+      "conceptId": "coral_animal",
+      "prompt": "Are reef-building corals animals?",
       "options": [
-        "Dissolved salts",
+        "Yes",
+        "No, they are rocks",
+        "Only at night"
+      ],
+      "correctIndex": 0,
+      "explanation": "Coral polyps are animals that often live in colonies.",
+      "difficulty": "easy",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.coral_animal.q1",
+      "conceptId": "coral_animal",
+      "prompt": "Which answer best fits this clue: Are reef-building corals animals?",
+      "options": [
+        "No, they are rocks",
+        "Yes",
+        "Only at night"
+      ],
+      "correctIndex": 1,
+      "explanation": "Coral polyps are animals that often live in colonies.",
+      "difficulty": "easy",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.coral_animal.q2",
+      "conceptId": "coral_animal",
+      "prompt": "Quizzie challenge: choose the correct statement for coral animal.",
+      "options": [
+        "No, they are rocks",
+        "Only at night",
+        "Yes"
+      ],
+      "correctIndex": 2,
+      "explanation": "Coral polyps are animals that often live in colonies.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.coral_animal.q3",
+      "conceptId": "coral_animal",
+      "prompt": "If you were teaching a friend about coral animal, which answer would you use?",
+      "options": [
+        "Yes",
+        "Only at night",
+        "No, they are rocks"
+      ],
+      "correctIndex": 0,
+      "explanation": "Coral polyps are animals that often live in colonies.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.zooxanthellae.q0",
+      "conceptId": "zooxanthellae",
+      "prompt": "Why are microscopic algae important to many corals?",
+      "options": [
+        "They provide much of the coral’s energy",
+        "They turn coral into rock instantly",
+        "They make ocean water fresh"
+      ],
+      "correctIndex": 0,
+      "explanation": "Symbiotic algae photosynthesise and share energy with their coral hosts.",
+      "difficulty": "easy",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.zooxanthellae.q1",
+      "conceptId": "zooxanthellae",
+      "prompt": "Which answer best fits this clue: Why are microscopic algae important to many corals?",
+      "options": [
+        "They turn coral into rock instantly",
+        "They provide much of the coral’s energy",
+        "They make ocean water fresh"
+      ],
+      "correctIndex": 1,
+      "explanation": "Symbiotic algae photosynthesise and share energy with their coral hosts.",
+      "difficulty": "easy",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.zooxanthellae.q2",
+      "conceptId": "zooxanthellae",
+      "prompt": "Quizzie challenge: choose the correct statement for zooxanthellae.",
+      "options": [
+        "They turn coral into rock instantly",
+        "They make ocean water fresh",
+        "They provide much of the coral’s energy"
+      ],
+      "correctIndex": 2,
+      "explanation": "Symbiotic algae photosynthesise and share energy with their coral hosts.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.zooxanthellae.q3",
+      "conceptId": "zooxanthellae",
+      "prompt": "If you were teaching a friend about zooxanthellae, which answer would you use?",
+      "options": [
+        "They provide much of the coral’s energy",
+        "They make ocean water fresh",
+        "They turn coral into rock instantly"
+      ],
+      "correctIndex": 0,
+      "explanation": "Symbiotic algae photosynthesise and share energy with their coral hosts.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.bleaching.q0",
+      "conceptId": "bleaching",
+      "prompt": "What is coral bleaching?",
+      "options": [
+        "Corals lose or expel their symbiotic algae",
+        "Corals grow extra shells",
+        "Reefs become covered in snow"
+      ],
+      "correctIndex": 0,
+      "explanation": "Heat stress can cause corals to lose their algae and colour.",
+      "difficulty": "easy",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.bleaching.q1",
+      "conceptId": "bleaching",
+      "prompt": "Which answer best fits this clue: What is coral bleaching?",
+      "options": [
+        "Corals grow extra shells",
+        "Corals lose or expel their symbiotic algae",
+        "Reefs become covered in snow"
+      ],
+      "correctIndex": 1,
+      "explanation": "Heat stress can cause corals to lose their algae and colour.",
+      "difficulty": "easy",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.bleaching.q2",
+      "conceptId": "bleaching",
+      "prompt": "Quizzie challenge: choose the correct statement for bleaching.",
+      "options": [
+        "Corals grow extra shells",
+        "Reefs become covered in snow",
+        "Corals lose or expel their symbiotic algae"
+      ],
+      "correctIndex": 2,
+      "explanation": "Heat stress can cause corals to lose their algae and colour.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.bleaching.q3",
+      "conceptId": "bleaching",
+      "prompt": "If you were teaching a friend about bleaching, which answer would you use?",
+      "options": [
+        "Corals lose or expel their symbiotic algae",
+        "Reefs become covered in snow",
+        "Corals grow extra shells"
+      ],
+      "correctIndex": 0,
+      "explanation": "Heat stress can cause corals to lose their algae and colour.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.salinity.q0",
+      "conceptId": "salinity",
+      "prompt": "What does salinity measure?",
+      "options": [
+        "The amount of dissolved salts",
         "Wave height",
         "Fish speed"
       ],
       "correctIndex": 0,
-      "explanation": "Salinity describes the concentration of dissolved salts.",
-      "difficulty": "medium",
+      "explanation": "Salinity describes dissolved salt concentration in water.",
+      "difficulty": "easy",
       "ageBands": [
         "explorer6to8",
         "adventurer9to11",
@@ -383,17 +383,17 @@
       ]
     },
     {
-      "id": "ocean_networks.salinity.v1",
+      "id": "ocean_networks.salinity.q1",
       "conceptId": "salinity",
-      "prompt": "Think carefully: What does ocean salinity measure?",
+      "prompt": "Which answer best fits this clue: What does salinity measure?",
       "options": [
         "Wave height",
-        "Dissolved salts",
+        "The amount of dissolved salts",
         "Fish speed"
       ],
       "correctIndex": 1,
-      "explanation": "Salinity describes the concentration of dissolved salts.",
-      "difficulty": "medium",
+      "explanation": "Salinity describes dissolved salt concentration in water.",
+      "difficulty": "easy",
       "ageBands": [
         "explorer6to8",
         "adventurer9to11",
@@ -401,17 +401,17 @@
       ]
     },
     {
-      "id": "ocean_networks.salinity.v2",
+      "id": "ocean_networks.salinity.q2",
       "conceptId": "salinity",
-      "prompt": "Level challenge — What does ocean salinity measure?",
+      "prompt": "Quizzie challenge: choose the correct statement for salinity.",
       "options": [
         "Wave height",
         "Fish speed",
-        "Dissolved salts"
+        "The amount of dissolved salts"
       ],
       "correctIndex": 2,
-      "explanation": "Salinity describes the concentration of dissolved salts.",
-      "difficulty": "hard",
+      "explanation": "Salinity describes dissolved salt concentration in water.",
+      "difficulty": "medium",
       "ageBands": [
         "explorer6to8",
         "adventurer9to11",
@@ -419,16 +419,16 @@
       ]
     },
     {
-      "id": "ocean_networks.salinity.v3",
+      "id": "ocean_networks.salinity.q3",
       "conceptId": "salinity",
-      "prompt": "Choose the best answer: What does ocean salinity measure?",
+      "prompt": "If you were teaching a friend about salinity, which answer would you use?",
       "options": [
-        "Dissolved salts",
+        "The amount of dissolved salts",
         "Fish speed",
         "Wave height"
       ],
       "correctIndex": 0,
-      "explanation": "Salinity describes the concentration of dissolved salts.",
+      "explanation": "Salinity describes dissolved salt concentration in water.",
       "difficulty": "medium",
       "ageBands": [
         "explorer6to8",
@@ -437,35 +437,17 @@
       ]
     },
     {
-      "id": "ocean_networks.salinity.v4",
-      "conceptId": "salinity",
-      "prompt": "Final clue — What does ocean salinity measure?",
-      "options": [
-        "Fish speed",
-        "Dissolved salts",
-        "Wave height"
-      ],
-      "correctIndex": 1,
-      "explanation": "Salinity describes the concentration of dissolved salts.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.current.v0",
+      "id": "ocean_networks.current.q0",
       "conceptId": "current",
-      "prompt": "What can move heat around the planet?",
+      "prompt": "What do ocean currents move around the planet?",
       "options": [
-        "Ocean currents",
-        "Seashells alone",
-        "Sand castles"
+        "Water and heat",
+        "Only sand",
+        "Only fish eggs"
       ],
       "correctIndex": 0,
-      "explanation": "Currents redistribute heat and influence climate.",
-      "difficulty": "medium",
+      "explanation": "Currents redistribute water, heat, nutrients, and organisms.",
+      "difficulty": "easy",
       "ageBands": [
         "explorer6to8",
         "adventurer9to11",
@@ -473,17 +455,17 @@
       ]
     },
     {
-      "id": "ocean_networks.current.v1",
+      "id": "ocean_networks.current.q1",
       "conceptId": "current",
-      "prompt": "Think carefully: What can move heat around the planet?",
+      "prompt": "Which answer best fits this clue: What do ocean currents move around the planet?",
       "options": [
-        "Seashells alone",
-        "Ocean currents",
-        "Sand castles"
+        "Only sand",
+        "Water and heat",
+        "Only fish eggs"
       ],
       "correctIndex": 1,
-      "explanation": "Currents redistribute heat and influence climate.",
-      "difficulty": "medium",
+      "explanation": "Currents redistribute water, heat, nutrients, and organisms.",
+      "difficulty": "easy",
       "ageBands": [
         "explorer6to8",
         "adventurer9to11",
@@ -491,34 +473,16 @@
       ]
     },
     {
-      "id": "ocean_networks.current.v2",
+      "id": "ocean_networks.current.q2",
       "conceptId": "current",
-      "prompt": "Level challenge — What can move heat around the planet?",
+      "prompt": "Quizzie challenge: choose the correct statement for current.",
       "options": [
-        "Seashells alone",
-        "Sand castles",
-        "Ocean currents"
+        "Only sand",
+        "Only fish eggs",
+        "Water and heat"
       ],
       "correctIndex": 2,
-      "explanation": "Currents redistribute heat and influence climate.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.current.v3",
-      "conceptId": "current",
-      "prompt": "Choose the best answer: What can move heat around the planet?",
-      "options": [
-        "Ocean currents",
-        "Sand castles",
-        "Seashells alone"
-      ],
-      "correctIndex": 0,
-      "explanation": "Currents redistribute heat and influence climate.",
+      "explanation": "Currents redistribute water, heat, nutrients, and organisms.",
       "difficulty": "medium",
       "ageBands": [
         "explorer6to8",
@@ -527,17 +491,17 @@
       ]
     },
     {
-      "id": "ocean_networks.current.v4",
+      "id": "ocean_networks.current.q3",
       "conceptId": "current",
-      "prompt": "Final clue — What can move heat around the planet?",
+      "prompt": "If you were teaching a friend about current, which answer would you use?",
       "options": [
-        "Sand castles",
-        "Ocean currents",
-        "Seashells alone"
+        "Water and heat",
+        "Only fish eggs",
+        "Only sand"
       ],
-      "correctIndex": 1,
-      "explanation": "Currents redistribute heat and influence climate.",
-      "difficulty": "hard",
+      "correctIndex": 0,
+      "explanation": "Currents redistribute water, heat, nutrients, and organisms.",
+      "difficulty": "medium",
       "ageBands": [
         "explorer6to8",
         "adventurer9to11",
@@ -545,7 +509,799 @@
       ]
     },
     {
-      "id": "ocean_networks.acidification.v0",
+      "id": "ocean_networks.thermohaline.q0",
+      "conceptId": "thermohaline",
+      "prompt": "What helps drive deep-ocean circulation?",
+      "options": [
+        "Differences in temperature and salinity",
+        "Moonlight only",
+        "Volcano sounds"
+      ],
+      "correctIndex": 0,
+      "explanation": "Density differences from temperature and salinity help drive circulation.",
+      "difficulty": "easy",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.thermohaline.q1",
+      "conceptId": "thermohaline",
+      "prompt": "Which answer best fits this clue: What helps drive deep-ocean circulation?",
+      "options": [
+        "Moonlight only",
+        "Differences in temperature and salinity",
+        "Volcano sounds"
+      ],
+      "correctIndex": 1,
+      "explanation": "Density differences from temperature and salinity help drive circulation.",
+      "difficulty": "easy",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.thermohaline.q2",
+      "conceptId": "thermohaline",
+      "prompt": "Quizzie challenge: choose the correct statement for thermohaline.",
+      "options": [
+        "Moonlight only",
+        "Volcano sounds",
+        "Differences in temperature and salinity"
+      ],
+      "correctIndex": 2,
+      "explanation": "Density differences from temperature and salinity help drive circulation.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.thermohaline.q3",
+      "conceptId": "thermohaline",
+      "prompt": "If you were teaching a friend about thermohaline, which answer would you use?",
+      "options": [
+        "Differences in temperature and salinity",
+        "Volcano sounds",
+        "Moonlight only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Density differences from temperature and salinity help drive circulation.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.sunlit_zone.q0",
+      "conceptId": "sunlit_zone",
+      "prompt": "Where does most ocean photosynthesis occur?",
+      "options": [
+        "The sunlit zone",
+        "The deepest trench floor",
+        "Inside rocks"
+      ],
+      "correctIndex": 0,
+      "explanation": "Enough sunlight reaches the photic zone for photosynthesis.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.sunlit_zone.q1",
+      "conceptId": "sunlit_zone",
+      "prompt": "Which answer best fits this clue: Where does most ocean photosynthesis occur?",
+      "options": [
+        "The deepest trench floor",
+        "The sunlit zone",
+        "Inside rocks"
+      ],
+      "correctIndex": 1,
+      "explanation": "Enough sunlight reaches the photic zone for photosynthesis.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.sunlit_zone.q2",
+      "conceptId": "sunlit_zone",
+      "prompt": "Quizzie challenge: choose the correct statement for sunlit zone.",
+      "options": [
+        "The deepest trench floor",
+        "Inside rocks",
+        "The sunlit zone"
+      ],
+      "correctIndex": 2,
+      "explanation": "Enough sunlight reaches the photic zone for photosynthesis.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.sunlit_zone.q3",
+      "conceptId": "sunlit_zone",
+      "prompt": "If you were teaching a friend about sunlit zone, which answer would you use?",
+      "options": [
+        "The sunlit zone",
+        "Inside rocks",
+        "The deepest trench floor"
+      ],
+      "correctIndex": 0,
+      "explanation": "Enough sunlight reaches the photic zone for photosynthesis.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.twilight_zone.q0",
+      "conceptId": "twilight_zone",
+      "prompt": "What is special about the ocean twilight zone?",
+      "options": [
+        "There is dim light but too little for much photosynthesis",
+        "It is fully dry",
+        "It is above the atmosphere"
+      ],
+      "correctIndex": 0,
+      "explanation": "The mesopelagic has low light and little to no photosynthesis.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.twilight_zone.q1",
+      "conceptId": "twilight_zone",
+      "prompt": "Which answer best fits this clue: What is special about the ocean twilight zone?",
+      "options": [
+        "It is fully dry",
+        "There is dim light but too little for much photosynthesis",
+        "It is above the atmosphere"
+      ],
+      "correctIndex": 1,
+      "explanation": "The mesopelagic has low light and little to no photosynthesis.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.twilight_zone.q2",
+      "conceptId": "twilight_zone",
+      "prompt": "Quizzie challenge: choose the correct statement for twilight zone.",
+      "options": [
+        "It is fully dry",
+        "It is above the atmosphere",
+        "There is dim light but too little for much photosynthesis"
+      ],
+      "correctIndex": 2,
+      "explanation": "The mesopelagic has low light and little to no photosynthesis.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.twilight_zone.q3",
+      "conceptId": "twilight_zone",
+      "prompt": "If you were teaching a friend about twilight zone, which answer would you use?",
+      "options": [
+        "There is dim light but too little for much photosynthesis",
+        "It is above the atmosphere",
+        "It is fully dry"
+      ],
+      "correctIndex": 0,
+      "explanation": "The mesopelagic has low light and little to no photosynthesis.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.abyss.q0",
+      "conceptId": "abyss",
+      "prompt": "What describes the abyssal ocean?",
+      "options": [
+        "Deep, dark, cold water",
+        "Warm shallow coral reef",
+        "Freshwater lake"
+      ],
+      "correctIndex": 0,
+      "explanation": "Abyssal zones are deep, dark, high-pressure marine environments.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.abyss.q1",
+      "conceptId": "abyss",
+      "prompt": "Which answer best fits this clue: What describes the abyssal ocean?",
+      "options": [
+        "Warm shallow coral reef",
+        "Deep, dark, cold water",
+        "Freshwater lake"
+      ],
+      "correctIndex": 1,
+      "explanation": "Abyssal zones are deep, dark, high-pressure marine environments.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.abyss.q2",
+      "conceptId": "abyss",
+      "prompt": "Quizzie challenge: choose the correct statement for abyss.",
+      "options": [
+        "Warm shallow coral reef",
+        "Freshwater lake",
+        "Deep, dark, cold water"
+      ],
+      "correctIndex": 2,
+      "explanation": "Abyssal zones are deep, dark, high-pressure marine environments.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.abyss.q3",
+      "conceptId": "abyss",
+      "prompt": "If you were teaching a friend about abyss, which answer would you use?",
+      "options": [
+        "Deep, dark, cold water",
+        "Freshwater lake",
+        "Warm shallow coral reef"
+      ],
+      "correctIndex": 0,
+      "explanation": "Abyssal zones are deep, dark, high-pressure marine environments.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.pressure.q0",
+      "conceptId": "pressure",
+      "prompt": "What happens to water pressure as ocean depth increases?",
+      "options": [
+        "It increases",
+        "It becomes zero",
+        "It stays exactly the same"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pressure increases with the weight of water above.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.pressure.q1",
+      "conceptId": "pressure",
+      "prompt": "Which answer best fits this clue: What happens to water pressure as ocean depth increases?",
+      "options": [
+        "It becomes zero",
+        "It increases",
+        "It stays exactly the same"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pressure increases with the weight of water above.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.pressure.q2",
+      "conceptId": "pressure",
+      "prompt": "Quizzie challenge: choose the correct statement for pressure.",
+      "options": [
+        "It becomes zero",
+        "It stays exactly the same",
+        "It increases"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pressure increases with the weight of water above.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.pressure.q3",
+      "conceptId": "pressure",
+      "prompt": "If you were teaching a friend about pressure, which answer would you use?",
+      "options": [
+        "It increases",
+        "It stays exactly the same",
+        "It becomes zero"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pressure increases with the weight of water above.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.dolphin.q0",
+      "conceptId": "dolphin",
+      "prompt": "Why must dolphins surface?",
+      "options": [
+        "They breathe air with lungs",
+        "They have dry gills",
+        "They need sunlight to swim"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dolphins are mammals and breathe air.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.dolphin.q1",
+      "conceptId": "dolphin",
+      "prompt": "Which answer best fits this clue: Why must dolphins surface?",
+      "options": [
+        "They have dry gills",
+        "They breathe air with lungs",
+        "They need sunlight to swim"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dolphins are mammals and breathe air.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.dolphin.q2",
+      "conceptId": "dolphin",
+      "prompt": "Quizzie challenge: choose the correct statement for dolphin.",
+      "options": [
+        "They have dry gills",
+        "They need sunlight to swim",
+        "They breathe air with lungs"
+      ],
+      "correctIndex": 2,
+      "explanation": "Dolphins are mammals and breathe air.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.dolphin.q3",
+      "conceptId": "dolphin",
+      "prompt": "If you were teaching a friend about dolphin, which answer would you use?",
+      "options": [
+        "They breathe air with lungs",
+        "They need sunlight to swim",
+        "They have dry gills"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dolphins are mammals and breathe air.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.whale.q0",
+      "conceptId": "whale",
+      "prompt": "What kind of animal is a whale?",
+      "options": [
+        "A mammal",
+        "A fish",
+        "An amphibian"
+      ],
+      "correctIndex": 0,
+      "explanation": "Whales are marine mammals with lungs and nurse their young.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.whale.q1",
+      "conceptId": "whale",
+      "prompt": "Which answer best fits this clue: What kind of animal is a whale?",
+      "options": [
+        "A fish",
+        "A mammal",
+        "An amphibian"
+      ],
+      "correctIndex": 1,
+      "explanation": "Whales are marine mammals with lungs and nurse their young.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.whale.q2",
+      "conceptId": "whale",
+      "prompt": "Quizzie challenge: choose the correct statement for whale.",
+      "options": [
+        "A fish",
+        "An amphibian",
+        "A mammal"
+      ],
+      "correctIndex": 2,
+      "explanation": "Whales are marine mammals with lungs and nurse their young.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.whale.q3",
+      "conceptId": "whale",
+      "prompt": "If you were teaching a friend about whale, which answer would you use?",
+      "options": [
+        "A mammal",
+        "An amphibian",
+        "A fish"
+      ],
+      "correctIndex": 0,
+      "explanation": "Whales are marine mammals with lungs and nurse their young.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.shark.q0",
+      "conceptId": "shark",
+      "prompt": "What kind of skeleton do sharks have?",
+      "options": [
+        "Mostly cartilage",
+        "Solid iron",
+        "Only shell"
+      ],
+      "correctIndex": 0,
+      "explanation": "Shark skeletons are made mainly of cartilage rather than bone.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.shark.q1",
+      "conceptId": "shark",
+      "prompt": "Which answer best fits this clue: What kind of skeleton do sharks have?",
+      "options": [
+        "Solid iron",
+        "Mostly cartilage",
+        "Only shell"
+      ],
+      "correctIndex": 1,
+      "explanation": "Shark skeletons are made mainly of cartilage rather than bone.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.shark.q2",
+      "conceptId": "shark",
+      "prompt": "Quizzie challenge: choose the correct statement for shark.",
+      "options": [
+        "Solid iron",
+        "Only shell",
+        "Mostly cartilage"
+      ],
+      "correctIndex": 2,
+      "explanation": "Shark skeletons are made mainly of cartilage rather than bone.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.shark.q3",
+      "conceptId": "shark",
+      "prompt": "If you were teaching a friend about shark, which answer would you use?",
+      "options": [
+        "Mostly cartilage",
+        "Only shell",
+        "Solid iron"
+      ],
+      "correctIndex": 0,
+      "explanation": "Shark skeletons are made mainly of cartilage rather than bone.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.octopus.q0",
+      "conceptId": "octopus",
+      "prompt": "How many arms does an octopus have?",
+      "options": [
+        "Eight",
+        "Six",
+        "Ten"
+      ],
+      "correctIndex": 0,
+      "explanation": "Octopuses have eight arms lined with suckers.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.octopus.q1",
+      "conceptId": "octopus",
+      "prompt": "Which answer best fits this clue: How many arms does an octopus have?",
+      "options": [
+        "Six",
+        "Eight",
+        "Ten"
+      ],
+      "correctIndex": 1,
+      "explanation": "Octopuses have eight arms lined with suckers.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.octopus.q2",
+      "conceptId": "octopus",
+      "prompt": "Quizzie challenge: choose the correct statement for octopus.",
+      "options": [
+        "Six",
+        "Ten",
+        "Eight"
+      ],
+      "correctIndex": 2,
+      "explanation": "Octopuses have eight arms lined with suckers.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.octopus.q3",
+      "conceptId": "octopus",
+      "prompt": "If you were teaching a friend about octopus, which answer would you use?",
+      "options": [
+        "Eight",
+        "Ten",
+        "Six"
+      ],
+      "correctIndex": 0,
+      "explanation": "Octopuses have eight arms lined with suckers.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.food_web.q0",
+      "conceptId": "food_web",
+      "prompt": "What is a food web?",
+      "options": [
+        "A network of feeding relationships",
+        "A fishing net",
+        "A map of waves"
+      ],
+      "correctIndex": 0,
+      "explanation": "Food webs show interconnected predator-prey and feeding relationships.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.food_web.q1",
+      "conceptId": "food_web",
+      "prompt": "Which answer best fits this clue: What is a food web?",
+      "options": [
+        "A fishing net",
+        "A network of feeding relationships",
+        "A map of waves"
+      ],
+      "correctIndex": 1,
+      "explanation": "Food webs show interconnected predator-prey and feeding relationships.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.food_web.q2",
+      "conceptId": "food_web",
+      "prompt": "Quizzie challenge: choose the correct statement for food web.",
+      "options": [
+        "A fishing net",
+        "A map of waves",
+        "A network of feeding relationships"
+      ],
+      "correctIndex": 2,
+      "explanation": "Food webs show interconnected predator-prey and feeding relationships.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.food_web.q3",
+      "conceptId": "food_web",
+      "prompt": "If you were teaching a friend about food web, which answer would you use?",
+      "options": [
+        "A network of feeding relationships",
+        "A map of waves",
+        "A fishing net"
+      ],
+      "correctIndex": 0,
+      "explanation": "Food webs show interconnected predator-prey and feeding relationships.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.biodiversity.q0",
+      "conceptId": "biodiversity",
+      "prompt": "Why can biodiversity help ecosystem resilience?",
+      "options": [
+        "Different species can support different ecological roles",
+        "It always removes predators",
+        "It stops all change"
+      ],
+      "correctIndex": 0,
+      "explanation": "Diverse communities can provide functional redundancy and resilience.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.biodiversity.q1",
+      "conceptId": "biodiversity",
+      "prompt": "Which answer best fits this clue: Why can biodiversity help ecosystem resilience?",
+      "options": [
+        "It always removes predators",
+        "Different species can support different ecological roles",
+        "It stops all change"
+      ],
+      "correctIndex": 1,
+      "explanation": "Diverse communities can provide functional redundancy and resilience.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.biodiversity.q2",
+      "conceptId": "biodiversity",
+      "prompt": "Quizzie challenge: choose the correct statement for biodiversity.",
+      "options": [
+        "It always removes predators",
+        "It stops all change",
+        "Different species can support different ecological roles"
+      ],
+      "correctIndex": 2,
+      "explanation": "Diverse communities can provide functional redundancy and resilience.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.biodiversity.q3",
+      "conceptId": "biodiversity",
+      "prompt": "If you were teaching a friend about biodiversity, which answer would you use?",
+      "options": [
+        "Different species can support different ecological roles",
+        "It stops all change",
+        "It always removes predators"
+      ],
+      "correctIndex": 0,
+      "explanation": "Diverse communities can provide functional redundancy and resilience.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.acidification.q0",
       "conceptId": "acidification",
       "prompt": "What gas drives modern ocean acidification when absorbed?",
       "options": [
@@ -554,7 +1310,7 @@
         "Neon"
       ],
       "correctIndex": 0,
-      "explanation": "Dissolved carbon dioxide changes seawater chemistry.",
+      "explanation": "Dissolved carbon dioxide changes seawater chemistry and lowers pH.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",
@@ -563,16 +1319,16 @@
       ]
     },
     {
-      "id": "ocean_networks.acidification.v1",
+      "id": "ocean_networks.acidification.q1",
       "conceptId": "acidification",
-      "prompt": "Think carefully: What gas drives modern ocean acidification when absorbed?",
+      "prompt": "Which answer best fits this clue: What gas drives modern ocean acidification when absorbed?",
       "options": [
         "Helium",
         "Carbon dioxide",
         "Neon"
       ],
       "correctIndex": 1,
-      "explanation": "Dissolved carbon dioxide changes seawater chemistry.",
+      "explanation": "Dissolved carbon dioxide changes seawater chemistry and lowers pH.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",
@@ -581,16 +1337,16 @@
       ]
     },
     {
-      "id": "ocean_networks.acidification.v2",
+      "id": "ocean_networks.acidification.q2",
       "conceptId": "acidification",
-      "prompt": "Level challenge — What gas drives modern ocean acidification when absorbed?",
+      "prompt": "Quizzie challenge: choose the correct statement for acidification.",
       "options": [
         "Helium",
         "Neon",
         "Carbon dioxide"
       ],
       "correctIndex": 2,
-      "explanation": "Dissolved carbon dioxide changes seawater chemistry.",
+      "explanation": "Dissolved carbon dioxide changes seawater chemistry and lowers pH.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",
@@ -599,16 +1355,16 @@
       ]
     },
     {
-      "id": "ocean_networks.acidification.v3",
+      "id": "ocean_networks.acidification.q3",
       "conceptId": "acidification",
-      "prompt": "Choose the best answer: What gas drives modern ocean acidification when absorbed?",
+      "prompt": "If you were teaching a friend about acidification, which answer would you use?",
       "options": [
         "Carbon dioxide",
         "Neon",
         "Helium"
       ],
       "correctIndex": 0,
-      "explanation": "Dissolved carbon dioxide changes seawater chemistry.",
+      "explanation": "Dissolved carbon dioxide changes seawater chemistry and lowers pH.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",
@@ -617,70 +1373,16 @@
       ]
     },
     {
-      "id": "ocean_networks.acidification.v4",
-      "conceptId": "acidification",
-      "prompt": "Final clue — What gas drives modern ocean acidification when absorbed?",
+      "id": "ocean_networks.oxygen.q0",
+      "conceptId": "oxygen",
+      "prompt": "What is ocean deoxygenation?",
       "options": [
-        "Neon",
-        "Carbon dioxide",
-        "Helium"
-      ],
-      "correctIndex": 1,
-      "explanation": "Dissolved carbon dioxide changes seawater chemistry.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.depth.v0",
-      "conceptId": "depth",
-      "prompt": "Which ocean zone receives enough light for photosynthesis?",
-      "options": [
-        "Sunlit zone",
-        "Abyss only",
-        "Trench floor only"
+        "A decline in dissolved oxygen",
+        "An increase in salt only",
+        "The ocean losing all hydrogen"
       ],
       "correctIndex": 0,
-      "explanation": "Photosynthesis is concentrated in the photic or sunlit zone.",
-      "difficulty": "medium",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.depth.v1",
-      "conceptId": "depth",
-      "prompt": "Think carefully: Which ocean zone receives enough light for photosynthesis?",
-      "options": [
-        "Abyss only",
-        "Sunlit zone",
-        "Trench floor only"
-      ],
-      "correctIndex": 1,
-      "explanation": "Photosynthesis is concentrated in the photic or sunlit zone.",
-      "difficulty": "medium",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.depth.v2",
-      "conceptId": "depth",
-      "prompt": "Level challenge — Which ocean zone receives enough light for photosynthesis?",
-      "options": [
-        "Abyss only",
-        "Trench floor only",
-        "Sunlit zone"
-      ],
-      "correctIndex": 2,
-      "explanation": "Photosynthesis is concentrated in the photic or sunlit zone.",
+      "explanation": "Warming and other processes can reduce dissolved oxygen in marine waters.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",
@@ -689,34 +1391,52 @@
       ]
     },
     {
-      "id": "ocean_networks.depth.v3",
-      "conceptId": "depth",
-      "prompt": "Choose the best answer: Which ocean zone receives enough light for photosynthesis?",
+      "id": "ocean_networks.oxygen.q1",
+      "conceptId": "oxygen",
+      "prompt": "Which answer best fits this clue: What is ocean deoxygenation?",
       "options": [
-        "Sunlit zone",
-        "Trench floor only",
-        "Abyss only"
+        "An increase in salt only",
+        "A decline in dissolved oxygen",
+        "The ocean losing all hydrogen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Warming and other processes can reduce dissolved oxygen in marine waters.",
+      "difficulty": "hard",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.oxygen.q2",
+      "conceptId": "oxygen",
+      "prompt": "Quizzie challenge: choose the correct statement for oxygen.",
+      "options": [
+        "An increase in salt only",
+        "The ocean losing all hydrogen",
+        "A decline in dissolved oxygen"
+      ],
+      "correctIndex": 2,
+      "explanation": "Warming and other processes can reduce dissolved oxygen in marine waters.",
+      "difficulty": "hard",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.oxygen.q3",
+      "conceptId": "oxygen",
+      "prompt": "If you were teaching a friend about oxygen, which answer would you use?",
+      "options": [
+        "A decline in dissolved oxygen",
+        "The ocean losing all hydrogen",
+        "An increase in salt only"
       ],
       "correctIndex": 0,
-      "explanation": "Photosynthesis is concentrated in the photic or sunlit zone.",
-      "difficulty": "medium",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.depth.v4",
-      "conceptId": "depth",
-      "prompt": "Final clue — Which ocean zone receives enough light for photosynthesis?",
-      "options": [
-        "Trench floor only",
-        "Sunlit zone",
-        "Abyss only"
-      ],
-      "correctIndex": 1,
-      "explanation": "Photosynthesis is concentrated in the photic or sunlit zone.",
+      "explanation": "Warming and other processes can reduce dissolved oxygen in marine waters.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",
@@ -725,16 +1445,16 @@
       ]
     },
     {
-      "id": "ocean_networks.biodiversity.v0",
-      "conceptId": "biodiversity",
-      "prompt": "What often helps an ecosystem recover from disturbance?",
+      "id": "ocean_networks.upwelling.q0",
+      "conceptId": "upwelling",
+      "prompt": "What does upwelling bring toward the surface?",
       "options": [
-        "Biodiversity",
-        "Removing all predators",
-        "More pollution"
+        "Cold, nutrient-rich deep water",
+        "Only warm rainwater",
+        "Desert sand"
       ],
       "correctIndex": 0,
-      "explanation": "Varied species and relationships improve resilience.",
+      "explanation": "Upwelling can deliver nutrients that support productive ecosystems.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",
@@ -743,16 +1463,16 @@
       ]
     },
     {
-      "id": "ocean_networks.biodiversity.v1",
-      "conceptId": "biodiversity",
-      "prompt": "Think carefully: What often helps an ecosystem recover from disturbance?",
+      "id": "ocean_networks.upwelling.q1",
+      "conceptId": "upwelling",
+      "prompt": "Which answer best fits this clue: What does upwelling bring toward the surface?",
       "options": [
-        "Removing all predators",
-        "Biodiversity",
-        "More pollution"
+        "Only warm rainwater",
+        "Cold, nutrient-rich deep water",
+        "Desert sand"
       ],
       "correctIndex": 1,
-      "explanation": "Varied species and relationships improve resilience.",
+      "explanation": "Upwelling can deliver nutrients that support productive ecosystems.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",
@@ -761,16 +1481,16 @@
       ]
     },
     {
-      "id": "ocean_networks.biodiversity.v2",
-      "conceptId": "biodiversity",
-      "prompt": "Level challenge — What often helps an ecosystem recover from disturbance?",
+      "id": "ocean_networks.upwelling.q2",
+      "conceptId": "upwelling",
+      "prompt": "Quizzie challenge: choose the correct statement for upwelling.",
       "options": [
-        "Removing all predators",
-        "More pollution",
-        "Biodiversity"
+        "Only warm rainwater",
+        "Desert sand",
+        "Cold, nutrient-rich deep water"
       ],
       "correctIndex": 2,
-      "explanation": "Varied species and relationships improve resilience.",
+      "explanation": "Upwelling can deliver nutrients that support productive ecosystems.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",
@@ -779,16 +1499,16 @@
       ]
     },
     {
-      "id": "ocean_networks.biodiversity.v3",
-      "conceptId": "biodiversity",
-      "prompt": "Choose the best answer: What often helps an ecosystem recover from disturbance?",
+      "id": "ocean_networks.upwelling.q3",
+      "conceptId": "upwelling",
+      "prompt": "If you were teaching a friend about upwelling, which answer would you use?",
       "options": [
-        "Biodiversity",
-        "More pollution",
-        "Removing all predators"
+        "Cold, nutrient-rich deep water",
+        "Desert sand",
+        "Only warm rainwater"
       ],
       "correctIndex": 0,
-      "explanation": "Varied species and relationships improve resilience.",
+      "explanation": "Upwelling can deliver nutrients that support productive ecosystems.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",
@@ -797,70 +1517,16 @@
       ]
     },
     {
-      "id": "ocean_networks.biodiversity.v4",
-      "conceptId": "biodiversity",
-      "prompt": "Final clue — What often helps an ecosystem recover from disturbance?",
+      "id": "ocean_networks.estuary.q0",
+      "conceptId": "estuary",
+      "prompt": "What is an estuary?",
       "options": [
-        "More pollution",
-        "Biodiversity",
-        "Removing all predators"
-      ],
-      "correctIndex": 1,
-      "explanation": "Varied species and relationships improve resilience.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.whale.v0",
-      "conceptId": "whale",
-      "prompt": "Why must whales surface?",
-      "options": [
-        "They breathe air with lungs",
-        "They need sunlight to swim",
-        "Their gills dry out"
+        "A place where river freshwater mixes with seawater",
+        "A deep-sea volcano only",
+        "A frozen crater"
       ],
       "correctIndex": 0,
-      "explanation": "Whales are mammals with lungs.",
-      "difficulty": "easy",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.whale.v1",
-      "conceptId": "whale",
-      "prompt": "Think carefully: Why must whales surface?",
-      "options": [
-        "They need sunlight to swim",
-        "They breathe air with lungs",
-        "Their gills dry out"
-      ],
-      "correctIndex": 1,
-      "explanation": "Whales are mammals with lungs.",
-      "difficulty": "medium",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.whale.v2",
-      "conceptId": "whale",
-      "prompt": "Level challenge — Why must whales surface?",
-      "options": [
-        "They need sunlight to swim",
-        "Their gills dry out",
-        "They breathe air with lungs"
-      ],
-      "correctIndex": 2,
-      "explanation": "Whales are mammals with lungs.",
+      "explanation": "Estuaries are transition zones between rivers and the sea.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",
@@ -869,34 +1535,52 @@
       ]
     },
     {
-      "id": "ocean_networks.whale.v3",
-      "conceptId": "whale",
-      "prompt": "Choose the best answer: Why must whales surface?",
+      "id": "ocean_networks.estuary.q1",
+      "conceptId": "estuary",
+      "prompt": "Which answer best fits this clue: What is an estuary?",
       "options": [
-        "They breathe air with lungs",
-        "Their gills dry out",
-        "They need sunlight to swim"
+        "A deep-sea volcano only",
+        "A place where river freshwater mixes with seawater",
+        "A frozen crater"
+      ],
+      "correctIndex": 1,
+      "explanation": "Estuaries are transition zones between rivers and the sea.",
+      "difficulty": "hard",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.estuary.q2",
+      "conceptId": "estuary",
+      "prompt": "Quizzie challenge: choose the correct statement for estuary.",
+      "options": [
+        "A deep-sea volcano only",
+        "A frozen crater",
+        "A place where river freshwater mixes with seawater"
+      ],
+      "correctIndex": 2,
+      "explanation": "Estuaries are transition zones between rivers and the sea.",
+      "difficulty": "hard",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ocean_networks.estuary.q3",
+      "conceptId": "estuary",
+      "prompt": "If you were teaching a friend about estuary, which answer would you use?",
+      "options": [
+        "A place where river freshwater mixes with seawater",
+        "A frozen crater",
+        "A deep-sea volcano only"
       ],
       "correctIndex": 0,
-      "explanation": "Whales are mammals with lungs.",
-      "difficulty": "medium",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.whale.v4",
-      "conceptId": "whale",
-      "prompt": "Final clue — Why must whales surface?",
-      "options": [
-        "Their gills dry out",
-        "They breathe air with lungs",
-        "They need sunlight to swim"
-      ],
-      "correctIndex": 1,
-      "explanation": "Whales are mammals with lungs.",
+      "explanation": "Estuaries are transition zones between rivers and the sea.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",
@@ -905,52 +1589,16 @@
       ]
     },
     {
-      "id": "ocean_networks.phytoplankton.v5",
-      "conceptId": "phytoplankton",
-      "prompt": "Reason it out: What begins many ocean food webs?",
+      "id": "ocean_networks.mangrove.q0",
+      "conceptId": "mangrove",
+      "prompt": "Why are mangroves valuable coastal habitats?",
       "options": [
-        "Plastic",
-        "Phytoplankton",
-        "Sand alone"
-      ],
-      "correctIndex": 1,
-      "explanation": "Phytoplankton capture solar energy.",
-      "difficulty": "medium",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.phytoplankton.v6",
-      "conceptId": "phytoplankton",
-      "prompt": "Quick recall challenge: What begins many ocean food webs?",
-      "options": [
-        "Sand alone",
-        "Plastic",
-        "Phytoplankton"
-      ],
-      "correctIndex": 2,
-      "explanation": "Phytoplankton capture solar energy.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.phytoplankton.v7",
-      "conceptId": "phytoplankton",
-      "prompt": "Apply the clue: What begins many ocean food webs?",
-      "options": [
-        "Phytoplankton",
-        "Sand alone",
-        "Plastic"
+        "They provide nursery habitat and help protect shorelines",
+        "They make seawater drinkable",
+        "They stop tides completely"
       ],
       "correctIndex": 0,
-      "explanation": "Phytoplankton capture solar energy.",
+      "explanation": "Mangroves support wildlife, trap sediment, and reduce wave energy.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",
@@ -959,34 +1607,16 @@
       ]
     },
     {
-      "id": "ocean_networks.phytoplankton.v8",
-      "conceptId": "phytoplankton",
-      "prompt": "Expert checkpoint: What begins many ocean food webs?",
+      "id": "ocean_networks.mangrove.q1",
+      "conceptId": "mangrove",
+      "prompt": "Which answer best fits this clue: Why are mangroves valuable coastal habitats?",
       "options": [
-        "Plastic",
-        "Sand alone",
-        "Phytoplankton"
-      ],
-      "correctIndex": 2,
-      "explanation": "Phytoplankton capture solar energy.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.phytoplankton.v9",
-      "conceptId": "phytoplankton",
-      "prompt": "Final mastery question: What begins many ocean food webs?",
-      "options": [
-        "Sand alone",
-        "Phytoplankton",
-        "Plastic"
+        "They make seawater drinkable",
+        "They provide nursery habitat and help protect shorelines",
+        "They stop tides completely"
       ],
       "correctIndex": 1,
-      "explanation": "Phytoplankton capture solar energy.",
+      "explanation": "Mangroves support wildlife, trap sediment, and reduce wave energy.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",
@@ -995,34 +1625,16 @@
       ]
     },
     {
-      "id": "ocean_networks.gills.v5",
-      "conceptId": "gills",
-      "prompt": "Reason it out: What organ lets most fish take oxygen from water?",
+      "id": "ocean_networks.mangrove.q2",
+      "conceptId": "mangrove",
+      "prompt": "Quizzie challenge: choose the correct statement for mangrove.",
       "options": [
-        "Wings",
-        "Gills",
-        "Fur"
-      ],
-      "correctIndex": 1,
-      "explanation": "Gills exchange gases with water.",
-      "difficulty": "medium",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.gills.v6",
-      "conceptId": "gills",
-      "prompt": "Quick recall challenge: What organ lets most fish take oxygen from water?",
-      "options": [
-        "Fur",
-        "Wings",
-        "Gills"
+        "They make seawater drinkable",
+        "They stop tides completely",
+        "They provide nursery habitat and help protect shorelines"
       ],
       "correctIndex": 2,
-      "explanation": "Gills exchange gases with water.",
+      "explanation": "Mangroves support wildlife, trap sediment, and reduce wave energy.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",
@@ -1031,16 +1643,16 @@
       ]
     },
     {
-      "id": "ocean_networks.gills.v7",
-      "conceptId": "gills",
-      "prompt": "Apply the clue: What organ lets most fish take oxygen from water?",
+      "id": "ocean_networks.mangrove.q3",
+      "conceptId": "mangrove",
+      "prompt": "If you were teaching a friend about mangrove, which answer would you use?",
       "options": [
-        "Gills",
-        "Fur",
-        "Wings"
+        "They provide nursery habitat and help protect shorelines",
+        "They stop tides completely",
+        "They make seawater drinkable"
       ],
       "correctIndex": 0,
-      "explanation": "Gills exchange gases with water.",
+      "explanation": "Mangroves support wildlife, trap sediment, and reduce wave energy.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",
@@ -1049,88 +1661,16 @@
       ]
     },
     {
-      "id": "ocean_networks.gills.v8",
-      "conceptId": "gills",
-      "prompt": "Expert checkpoint: What organ lets most fish take oxygen from water?",
+      "id": "ocean_networks.seagrass.q0",
+      "conceptId": "seagrass",
+      "prompt": "What is seagrass?",
       "options": [
-        "Wings",
-        "Fur",
-        "Gills"
-      ],
-      "correctIndex": 2,
-      "explanation": "Gills exchange gases with water.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.gills.v9",
-      "conceptId": "gills",
-      "prompt": "Final mastery question: What organ lets most fish take oxygen from water?",
-      "options": [
-        "Fur",
-        "Gills",
-        "Wings"
-      ],
-      "correctIndex": 1,
-      "explanation": "Gills exchange gases with water.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.coral.v5",
-      "conceptId": "coral",
-      "prompt": "Reason it out: Are reef-building corals animals?",
-      "options": [
-        "No, all are rocks",
-        "Yes",
-        "Only at night"
-      ],
-      "correctIndex": 1,
-      "explanation": "Coral polyps are animals living in colonies.",
-      "difficulty": "medium",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.coral.v6",
-      "conceptId": "coral",
-      "prompt": "Quick recall challenge: Are reef-building corals animals?",
-      "options": [
-        "Only at night",
-        "No, all are rocks",
-        "Yes"
-      ],
-      "correctIndex": 2,
-      "explanation": "Coral polyps are animals living in colonies.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.coral.v7",
-      "conceptId": "coral",
-      "prompt": "Apply the clue: Are reef-building corals animals?",
-      "options": [
-        "Yes",
-        "Only at night",
-        "No, all are rocks"
+        "A flowering plant that lives underwater",
+        "A type of coral",
+        "A floating plastic"
       ],
       "correctIndex": 0,
-      "explanation": "Coral polyps are animals living in colonies.",
+      "explanation": "Seagrasses are marine flowering plants that create productive habitats.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",
@@ -1139,34 +1679,16 @@
       ]
     },
     {
-      "id": "ocean_networks.coral.v8",
-      "conceptId": "coral",
-      "prompt": "Expert checkpoint: Are reef-building corals animals?",
+      "id": "ocean_networks.seagrass.q1",
+      "conceptId": "seagrass",
+      "prompt": "Which answer best fits this clue: What is seagrass?",
       "options": [
-        "No, all are rocks",
-        "Only at night",
-        "Yes"
-      ],
-      "correctIndex": 2,
-      "explanation": "Coral polyps are animals living in colonies.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.coral.v9",
-      "conceptId": "coral",
-      "prompt": "Final mastery question: Are reef-building corals animals?",
-      "options": [
-        "Only at night",
-        "Yes",
-        "No, all are rocks"
+        "A type of coral",
+        "A flowering plant that lives underwater",
+        "A floating plastic"
       ],
       "correctIndex": 1,
-      "explanation": "Coral polyps are animals living in colonies.",
+      "explanation": "Seagrasses are marine flowering plants that create productive habitats.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",
@@ -1175,34 +1697,16 @@
       ]
     },
     {
-      "id": "ocean_networks.mammal.v5",
-      "conceptId": "mammal",
-      "prompt": "Reason it out: Which ocean animal is a mammal?",
+      "id": "ocean_networks.seagrass.q2",
+      "conceptId": "seagrass",
+      "prompt": "Quizzie challenge: choose the correct statement for seagrass.",
       "options": [
-        "Shark",
-        "Dolphin",
-        "Octopus"
-      ],
-      "correctIndex": 1,
-      "explanation": "Dolphins breathe air and nurse their young.",
-      "difficulty": "medium",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.mammal.v6",
-      "conceptId": "mammal",
-      "prompt": "Quick recall challenge: Which ocean animal is a mammal?",
-      "options": [
-        "Octopus",
-        "Shark",
-        "Dolphin"
+        "A type of coral",
+        "A floating plastic",
+        "A flowering plant that lives underwater"
       ],
       "correctIndex": 2,
-      "explanation": "Dolphins breathe air and nurse their young.",
+      "explanation": "Seagrasses are marine flowering plants that create productive habitats.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",
@@ -1211,16 +1715,16 @@
       ]
     },
     {
-      "id": "ocean_networks.mammal.v7",
-      "conceptId": "mammal",
-      "prompt": "Apply the clue: Which ocean animal is a mammal?",
+      "id": "ocean_networks.seagrass.q3",
+      "conceptId": "seagrass",
+      "prompt": "If you were teaching a friend about seagrass, which answer would you use?",
       "options": [
-        "Dolphin",
-        "Octopus",
-        "Shark"
+        "A flowering plant that lives underwater",
+        "A floating plastic",
+        "A type of coral"
       ],
       "correctIndex": 0,
-      "explanation": "Dolphins breathe air and nurse their young.",
+      "explanation": "Seagrasses are marine flowering plants that create productive habitats.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",
@@ -1229,88 +1733,16 @@
       ]
     },
     {
-      "id": "ocean_networks.mammal.v8",
-      "conceptId": "mammal",
-      "prompt": "Expert checkpoint: Which ocean animal is a mammal?",
+      "id": "ocean_networks.plastic.q0",
+      "conceptId": "plastic",
+      "prompt": "Why is plastic pollution harmful in oceans?",
       "options": [
-        "Shark",
-        "Octopus",
-        "Dolphin"
-      ],
-      "correctIndex": 2,
-      "explanation": "Dolphins breathe air and nurse their young.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.mammal.v9",
-      "conceptId": "mammal",
-      "prompt": "Final mastery question: Which ocean animal is a mammal?",
-      "options": [
-        "Octopus",
-        "Dolphin",
-        "Shark"
-      ],
-      "correctIndex": 1,
-      "explanation": "Dolphins breathe air and nurse their young.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.salinity.v5",
-      "conceptId": "salinity",
-      "prompt": "Reason it out: What does ocean salinity measure?",
-      "options": [
-        "Wave height",
-        "Dissolved salts",
-        "Fish speed"
-      ],
-      "correctIndex": 1,
-      "explanation": "Salinity describes the concentration of dissolved salts.",
-      "difficulty": "medium",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.salinity.v6",
-      "conceptId": "salinity",
-      "prompt": "Quick recall challenge: What does ocean salinity measure?",
-      "options": [
-        "Fish speed",
-        "Wave height",
-        "Dissolved salts"
-      ],
-      "correctIndex": 2,
-      "explanation": "Salinity describes the concentration of dissolved salts.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.salinity.v7",
-      "conceptId": "salinity",
-      "prompt": "Apply the clue: What does ocean salinity measure?",
-      "options": [
-        "Dissolved salts",
-        "Fish speed",
-        "Wave height"
+        "Animals can ingest or become entangled in it",
+        "It increases oxygen everywhere",
+        "It turns into food safely"
       ],
       "correctIndex": 0,
-      "explanation": "Salinity describes the concentration of dissolved salts.",
+      "explanation": "Plastic can persist, fragment, and harm marine organisms.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",
@@ -1319,34 +1751,16 @@
       ]
     },
     {
-      "id": "ocean_networks.salinity.v8",
-      "conceptId": "salinity",
-      "prompt": "Expert checkpoint: What does ocean salinity measure?",
+      "id": "ocean_networks.plastic.q1",
+      "conceptId": "plastic",
+      "prompt": "Which answer best fits this clue: Why is plastic pollution harmful in oceans?",
       "options": [
-        "Wave height",
-        "Fish speed",
-        "Dissolved salts"
-      ],
-      "correctIndex": 2,
-      "explanation": "Salinity describes the concentration of dissolved salts.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.salinity.v9",
-      "conceptId": "salinity",
-      "prompt": "Final mastery question: What does ocean salinity measure?",
-      "options": [
-        "Fish speed",
-        "Dissolved salts",
-        "Wave height"
+        "It increases oxygen everywhere",
+        "Animals can ingest or become entangled in it",
+        "It turns into food safely"
       ],
       "correctIndex": 1,
-      "explanation": "Salinity describes the concentration of dissolved salts.",
+      "explanation": "Plastic can persist, fragment, and harm marine organisms.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",
@@ -1355,34 +1769,16 @@
       ]
     },
     {
-      "id": "ocean_networks.current.v5",
-      "conceptId": "current",
-      "prompt": "Reason it out: What can move heat around the planet?",
+      "id": "ocean_networks.plastic.q2",
+      "conceptId": "plastic",
+      "prompt": "Quizzie challenge: choose the correct statement for plastic.",
       "options": [
-        "Seashells alone",
-        "Ocean currents",
-        "Sand castles"
-      ],
-      "correctIndex": 1,
-      "explanation": "Currents redistribute heat and influence climate.",
-      "difficulty": "medium",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.current.v6",
-      "conceptId": "current",
-      "prompt": "Quick recall challenge: What can move heat around the planet?",
-      "options": [
-        "Sand castles",
-        "Seashells alone",
-        "Ocean currents"
+        "It increases oxygen everywhere",
+        "It turns into food safely",
+        "Animals can ingest or become entangled in it"
       ],
       "correctIndex": 2,
-      "explanation": "Currents redistribute heat and influence climate.",
+      "explanation": "Plastic can persist, fragment, and harm marine organisms.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",
@@ -1391,412 +1787,16 @@
       ]
     },
     {
-      "id": "ocean_networks.current.v7",
-      "conceptId": "current",
-      "prompt": "Apply the clue: What can move heat around the planet?",
+      "id": "ocean_networks.plastic.q3",
+      "conceptId": "plastic",
+      "prompt": "If you were teaching a friend about plastic, which answer would you use?",
       "options": [
-        "Ocean currents",
-        "Sand castles",
-        "Seashells alone"
+        "Animals can ingest or become entangled in it",
+        "It turns into food safely",
+        "It increases oxygen everywhere"
       ],
       "correctIndex": 0,
-      "explanation": "Currents redistribute heat and influence climate.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.current.v8",
-      "conceptId": "current",
-      "prompt": "Expert checkpoint: What can move heat around the planet?",
-      "options": [
-        "Seashells alone",
-        "Sand castles",
-        "Ocean currents"
-      ],
-      "correctIndex": 2,
-      "explanation": "Currents redistribute heat and influence climate.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.current.v9",
-      "conceptId": "current",
-      "prompt": "Final mastery question: What can move heat around the planet?",
-      "options": [
-        "Sand castles",
-        "Ocean currents",
-        "Seashells alone"
-      ],
-      "correctIndex": 1,
-      "explanation": "Currents redistribute heat and influence climate.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.acidification.v5",
-      "conceptId": "acidification",
-      "prompt": "Reason it out: What gas drives modern ocean acidification when absorbed?",
-      "options": [
-        "Helium",
-        "Carbon dioxide",
-        "Neon"
-      ],
-      "correctIndex": 1,
-      "explanation": "Dissolved carbon dioxide changes seawater chemistry.",
-      "difficulty": "medium",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.acidification.v6",
-      "conceptId": "acidification",
-      "prompt": "Quick recall challenge: What gas drives modern ocean acidification when absorbed?",
-      "options": [
-        "Neon",
-        "Helium",
-        "Carbon dioxide"
-      ],
-      "correctIndex": 2,
-      "explanation": "Dissolved carbon dioxide changes seawater chemistry.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.acidification.v7",
-      "conceptId": "acidification",
-      "prompt": "Apply the clue: What gas drives modern ocean acidification when absorbed?",
-      "options": [
-        "Carbon dioxide",
-        "Neon",
-        "Helium"
-      ],
-      "correctIndex": 0,
-      "explanation": "Dissolved carbon dioxide changes seawater chemistry.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.acidification.v8",
-      "conceptId": "acidification",
-      "prompt": "Expert checkpoint: What gas drives modern ocean acidification when absorbed?",
-      "options": [
-        "Helium",
-        "Neon",
-        "Carbon dioxide"
-      ],
-      "correctIndex": 2,
-      "explanation": "Dissolved carbon dioxide changes seawater chemistry.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.acidification.v9",
-      "conceptId": "acidification",
-      "prompt": "Final mastery question: What gas drives modern ocean acidification when absorbed?",
-      "options": [
-        "Neon",
-        "Carbon dioxide",
-        "Helium"
-      ],
-      "correctIndex": 1,
-      "explanation": "Dissolved carbon dioxide changes seawater chemistry.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.depth.v5",
-      "conceptId": "depth",
-      "prompt": "Reason it out: Which ocean zone receives enough light for photosynthesis?",
-      "options": [
-        "Abyss only",
-        "Sunlit zone",
-        "Trench floor only"
-      ],
-      "correctIndex": 1,
-      "explanation": "Photosynthesis is concentrated in the photic or sunlit zone.",
-      "difficulty": "medium",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.depth.v6",
-      "conceptId": "depth",
-      "prompt": "Quick recall challenge: Which ocean zone receives enough light for photosynthesis?",
-      "options": [
-        "Trench floor only",
-        "Abyss only",
-        "Sunlit zone"
-      ],
-      "correctIndex": 2,
-      "explanation": "Photosynthesis is concentrated in the photic or sunlit zone.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.depth.v7",
-      "conceptId": "depth",
-      "prompt": "Apply the clue: Which ocean zone receives enough light for photosynthesis?",
-      "options": [
-        "Sunlit zone",
-        "Trench floor only",
-        "Abyss only"
-      ],
-      "correctIndex": 0,
-      "explanation": "Photosynthesis is concentrated in the photic or sunlit zone.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.depth.v8",
-      "conceptId": "depth",
-      "prompt": "Expert checkpoint: Which ocean zone receives enough light for photosynthesis?",
-      "options": [
-        "Abyss only",
-        "Trench floor only",
-        "Sunlit zone"
-      ],
-      "correctIndex": 2,
-      "explanation": "Photosynthesis is concentrated in the photic or sunlit zone.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.depth.v9",
-      "conceptId": "depth",
-      "prompt": "Final mastery question: Which ocean zone receives enough light for photosynthesis?",
-      "options": [
-        "Trench floor only",
-        "Sunlit zone",
-        "Abyss only"
-      ],
-      "correctIndex": 1,
-      "explanation": "Photosynthesis is concentrated in the photic or sunlit zone.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.biodiversity.v5",
-      "conceptId": "biodiversity",
-      "prompt": "Reason it out: What often helps an ecosystem recover from disturbance?",
-      "options": [
-        "Removing all predators",
-        "Biodiversity",
-        "More pollution"
-      ],
-      "correctIndex": 1,
-      "explanation": "Varied species and relationships improve resilience.",
-      "difficulty": "medium",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.biodiversity.v6",
-      "conceptId": "biodiversity",
-      "prompt": "Quick recall challenge: What often helps an ecosystem recover from disturbance?",
-      "options": [
-        "More pollution",
-        "Removing all predators",
-        "Biodiversity"
-      ],
-      "correctIndex": 2,
-      "explanation": "Varied species and relationships improve resilience.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.biodiversity.v7",
-      "conceptId": "biodiversity",
-      "prompt": "Apply the clue: What often helps an ecosystem recover from disturbance?",
-      "options": [
-        "Biodiversity",
-        "More pollution",
-        "Removing all predators"
-      ],
-      "correctIndex": 0,
-      "explanation": "Varied species and relationships improve resilience.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.biodiversity.v8",
-      "conceptId": "biodiversity",
-      "prompt": "Expert checkpoint: What often helps an ecosystem recover from disturbance?",
-      "options": [
-        "Removing all predators",
-        "More pollution",
-        "Biodiversity"
-      ],
-      "correctIndex": 2,
-      "explanation": "Varied species and relationships improve resilience.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.biodiversity.v9",
-      "conceptId": "biodiversity",
-      "prompt": "Final mastery question: What often helps an ecosystem recover from disturbance?",
-      "options": [
-        "More pollution",
-        "Biodiversity",
-        "Removing all predators"
-      ],
-      "correctIndex": 1,
-      "explanation": "Varied species and relationships improve resilience.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.whale.v5",
-      "conceptId": "whale",
-      "prompt": "Reason it out: Why must whales surface?",
-      "options": [
-        "They need sunlight to swim",
-        "They breathe air with lungs",
-        "Their gills dry out"
-      ],
-      "correctIndex": 1,
-      "explanation": "Whales are mammals with lungs.",
-      "difficulty": "medium",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.whale.v6",
-      "conceptId": "whale",
-      "prompt": "Quick recall challenge: Why must whales surface?",
-      "options": [
-        "Their gills dry out",
-        "They need sunlight to swim",
-        "They breathe air with lungs"
-      ],
-      "correctIndex": 2,
-      "explanation": "Whales are mammals with lungs.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.whale.v7",
-      "conceptId": "whale",
-      "prompt": "Apply the clue: Why must whales surface?",
-      "options": [
-        "They breathe air with lungs",
-        "Their gills dry out",
-        "They need sunlight to swim"
-      ],
-      "correctIndex": 0,
-      "explanation": "Whales are mammals with lungs.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.whale.v8",
-      "conceptId": "whale",
-      "prompt": "Expert checkpoint: Why must whales surface?",
-      "options": [
-        "They need sunlight to swim",
-        "Their gills dry out",
-        "They breathe air with lungs"
-      ],
-      "correctIndex": 2,
-      "explanation": "Whales are mammals with lungs.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ocean_networks.whale.v9",
-      "conceptId": "whale",
-      "prompt": "Final mastery question: Why must whales surface?",
-      "options": [
-        "Their gills dry out",
-        "They breathe air with lungs",
-        "They need sunlight to swim"
-      ],
-      "correctIndex": 1,
-      "explanation": "Whales are mammals with lungs.",
+      "explanation": "Plastic can persist, fragment, and harm marine organisms.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",

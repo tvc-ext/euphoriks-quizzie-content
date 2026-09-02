@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "packVersion": 2,
+  "packVersion": 3,
   "topicId": "animal_detective",
   "questionCount": 100,
   "questions": [
     {
-      "id": "animal_detective.feathers.v0",
+      "id": "animal_detective.feathers.q0",
       "conceptId": "feathers",
-      "prompt": "Which covering identifies all living birds?",
+      "prompt": "Which body covering identifies all living birds?",
       "options": [
         "Feathers",
         "Fur",
@@ -23,9 +23,9 @@
       ]
     },
     {
-      "id": "animal_detective.feathers.v1",
+      "id": "animal_detective.feathers.q1",
       "conceptId": "feathers",
-      "prompt": "Think carefully: Which covering identifies all living birds?",
+      "prompt": "Which answer best fits this clue: Which body covering identifies all living birds?",
       "options": [
         "Fur",
         "Feathers",
@@ -33,7 +33,7 @@
       ],
       "correctIndex": 1,
       "explanation": "Feathers are unique to birds among living animals.",
-      "difficulty": "medium",
+      "difficulty": "easy",
       "ageBands": [
         "explorer6to8",
         "adventurer9to11",
@@ -41,9 +41,9 @@
       ]
     },
     {
-      "id": "animal_detective.feathers.v2",
+      "id": "animal_detective.feathers.q2",
       "conceptId": "feathers",
-      "prompt": "Level challenge — Which covering identifies all living birds?",
+      "prompt": "Quizzie challenge: choose the correct statement for feathers.",
       "options": [
         "Fur",
         "Wet skin",
@@ -51,7 +51,7 @@
       ],
       "correctIndex": 2,
       "explanation": "Feathers are unique to birds among living animals.",
-      "difficulty": "hard",
+      "difficulty": "medium",
       "ageBands": [
         "explorer6to8",
         "adventurer9to11",
@@ -59,9 +59,9 @@
       ]
     },
     {
-      "id": "animal_detective.feathers.v3",
+      "id": "animal_detective.feathers.q3",
       "conceptId": "feathers",
-      "prompt": "Choose the best answer: Which covering identifies all living birds?",
+      "prompt": "If you were teaching a friend about feathers, which answer would you use?",
       "options": [
         "Feathers",
         "Wet skin",
@@ -77,116 +77,8 @@
       ]
     },
     {
-      "id": "animal_detective.feathers.v4",
-      "conceptId": "feathers",
-      "prompt": "Final clue — Which covering identifies all living birds?",
-      "options": [
-        "Wet skin",
-        "Feathers",
-        "Fur"
-      ],
-      "correctIndex": 1,
-      "explanation": "Feathers are unique to birds among living animals.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "animal_detective.tiger.v0",
-      "conceptId": "tiger",
-      "prompt": "Which animal has dark stripes on orange or pale fur?",
-      "options": [
-        "Tiger",
-        "Dolphin",
-        "Peafowl"
-      ],
-      "correctIndex": 0,
-      "explanation": "Individual tigers have distinctive stripe patterns.",
-      "difficulty": "easy",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "animal_detective.tiger.v1",
-      "conceptId": "tiger",
-      "prompt": "Think carefully: Which animal has dark stripes on orange or pale fur?",
-      "options": [
-        "Dolphin",
-        "Tiger",
-        "Peafowl"
-      ],
-      "correctIndex": 1,
-      "explanation": "Individual tigers have distinctive stripe patterns.",
-      "difficulty": "medium",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "animal_detective.tiger.v2",
-      "conceptId": "tiger",
-      "prompt": "Level challenge — Which animal has dark stripes on orange or pale fur?",
-      "options": [
-        "Dolphin",
-        "Peafowl",
-        "Tiger"
-      ],
-      "correctIndex": 2,
-      "explanation": "Individual tigers have distinctive stripe patterns.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "animal_detective.tiger.v3",
-      "conceptId": "tiger",
-      "prompt": "Choose the best answer: Which animal has dark stripes on orange or pale fur?",
-      "options": [
-        "Tiger",
-        "Peafowl",
-        "Dolphin"
-      ],
-      "correctIndex": 0,
-      "explanation": "Individual tigers have distinctive stripe patterns.",
-      "difficulty": "medium",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "animal_detective.tiger.v4",
-      "conceptId": "tiger",
-      "prompt": "Final clue — Which animal has dark stripes on orange or pale fur?",
-      "options": [
-        "Peafowl",
-        "Tiger",
-        "Dolphin"
-      ],
-      "correctIndex": 1,
-      "explanation": "Individual tigers have distinctive stripe patterns.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "animal_detective.mammal.v0",
-      "conceptId": "mammal",
+      "id": "animal_detective.mammal_milk.q0",
+      "conceptId": "mammal_milk",
       "prompt": "What do female mammals produce for their young?",
       "options": [
         "Milk",
@@ -203,9 +95,9 @@
       ]
     },
     {
-      "id": "animal_detective.mammal.v1",
-      "conceptId": "mammal",
-      "prompt": "Think carefully: What do female mammals produce for their young?",
+      "id": "animal_detective.mammal_milk.q1",
+      "conceptId": "mammal_milk",
+      "prompt": "Which answer best fits this clue: What do female mammals produce for their young?",
       "options": [
         "Feathers",
         "Milk",
@@ -213,7 +105,7 @@
       ],
       "correctIndex": 1,
       "explanation": "Milk production is a defining mammalian trait.",
-      "difficulty": "medium",
+      "difficulty": "easy",
       "ageBands": [
         "explorer6to8",
         "adventurer9to11",
@@ -221,9 +113,9 @@
       ]
     },
     {
-      "id": "animal_detective.mammal.v2",
-      "conceptId": "mammal",
-      "prompt": "Level challenge — What do female mammals produce for their young?",
+      "id": "animal_detective.mammal_milk.q2",
+      "conceptId": "mammal_milk",
+      "prompt": "Quizzie challenge: choose the correct statement for mammal milk.",
       "options": [
         "Feathers",
         "Gills",
@@ -231,7 +123,7 @@
       ],
       "correctIndex": 2,
       "explanation": "Milk production is a defining mammalian trait.",
-      "difficulty": "hard",
+      "difficulty": "medium",
       "ageBands": [
         "explorer6to8",
         "adventurer9to11",
@@ -239,9 +131,9 @@
       ]
     },
     {
-      "id": "animal_detective.mammal.v3",
-      "conceptId": "mammal",
-      "prompt": "Choose the best answer: What do female mammals produce for their young?",
+      "id": "animal_detective.mammal_milk.q3",
+      "conceptId": "mammal_milk",
+      "prompt": "If you were teaching a friend about mammal milk, which answer would you use?",
       "options": [
         "Milk",
         "Gills",
@@ -257,17 +149,17 @@
       ]
     },
     {
-      "id": "animal_detective.mammal.v4",
-      "conceptId": "mammal",
-      "prompt": "Final clue — What do female mammals produce for their young?",
+      "id": "animal_detective.reptile_scales.q0",
+      "conceptId": "reptile_scales",
+      "prompt": "Which feature is typical of reptiles?",
       "options": [
-        "Gills",
-        "Milk",
-        "Feathers"
+        "Keratinised scales or scutes",
+        "Feathers on every species",
+        "Milk glands"
       ],
-      "correctIndex": 1,
-      "explanation": "Milk production is a defining mammalian trait.",
-      "difficulty": "hard",
+      "correctIndex": 0,
+      "explanation": "Reptiles have scales or scutes that help protect their bodies.",
+      "difficulty": "easy",
       "ageBands": [
         "explorer6to8",
         "adventurer9to11",
@@ -275,17 +167,71 @@
       ]
     },
     {
-      "id": "animal_detective.amphibian.v0",
-      "conceptId": "amphibian",
-      "prompt": "Which animal group often has moist skin and aquatic larvae?",
+      "id": "animal_detective.reptile_scales.q1",
+      "conceptId": "reptile_scales",
+      "prompt": "Which answer best fits this clue: Which feature is typical of reptiles?",
+      "options": [
+        "Feathers on every species",
+        "Keratinised scales or scutes",
+        "Milk glands"
+      ],
+      "correctIndex": 1,
+      "explanation": "Reptiles have scales or scutes that help protect their bodies.",
+      "difficulty": "easy",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "animal_detective.reptile_scales.q2",
+      "conceptId": "reptile_scales",
+      "prompt": "Quizzie challenge: choose the correct statement for reptile scales.",
+      "options": [
+        "Feathers on every species",
+        "Milk glands",
+        "Keratinised scales or scutes"
+      ],
+      "correctIndex": 2,
+      "explanation": "Reptiles have scales or scutes that help protect their bodies.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "animal_detective.reptile_scales.q3",
+      "conceptId": "reptile_scales",
+      "prompt": "If you were teaching a friend about reptile scales, which answer would you use?",
+      "options": [
+        "Keratinised scales or scutes",
+        "Milk glands",
+        "Feathers on every species"
+      ],
+      "correctIndex": 0,
+      "explanation": "Reptiles have scales or scutes that help protect their bodies.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "animal_detective.amphibian_skin.q0",
+      "conceptId": "amphibian_skin",
+      "prompt": "Which group often has moist, permeable skin?",
       "options": [
         "Amphibians",
         "Birds",
         "Mammals"
       ],
       "correctIndex": 0,
-      "explanation": "Many amphibians change from aquatic larvae to adults.",
-      "difficulty": "medium",
+      "explanation": "Many amphibians have moist skin important for gas and water exchange.",
+      "difficulty": "easy",
       "ageBands": [
         "explorer6to8",
         "adventurer9to11",
@@ -293,17 +239,17 @@
       ]
     },
     {
-      "id": "animal_detective.amphibian.v1",
-      "conceptId": "amphibian",
-      "prompt": "Think carefully: Which animal group often has moist skin and aquatic larvae?",
+      "id": "animal_detective.amphibian_skin.q1",
+      "conceptId": "amphibian_skin",
+      "prompt": "Which answer best fits this clue: Which group often has moist, permeable skin?",
       "options": [
         "Birds",
         "Amphibians",
         "Mammals"
       ],
       "correctIndex": 1,
-      "explanation": "Many amphibians change from aquatic larvae to adults.",
-      "difficulty": "medium",
+      "explanation": "Many amphibians have moist skin important for gas and water exchange.",
+      "difficulty": "easy",
       "ageBands": [
         "explorer6to8",
         "adventurer9to11",
@@ -311,17 +257,17 @@
       ]
     },
     {
-      "id": "animal_detective.amphibian.v2",
-      "conceptId": "amphibian",
-      "prompt": "Level challenge — Which animal group often has moist skin and aquatic larvae?",
+      "id": "animal_detective.amphibian_skin.q2",
+      "conceptId": "amphibian_skin",
+      "prompt": "Quizzie challenge: choose the correct statement for amphibian skin.",
       "options": [
         "Birds",
         "Mammals",
         "Amphibians"
       ],
       "correctIndex": 2,
-      "explanation": "Many amphibians change from aquatic larvae to adults.",
-      "difficulty": "hard",
+      "explanation": "Many amphibians have moist skin important for gas and water exchange.",
+      "difficulty": "medium",
       "ageBands": [
         "explorer6to8",
         "adventurer9to11",
@@ -329,16 +275,16 @@
       ]
     },
     {
-      "id": "animal_detective.amphibian.v3",
-      "conceptId": "amphibian",
-      "prompt": "Choose the best answer: Which animal group often has moist skin and aquatic larvae?",
+      "id": "animal_detective.amphibian_skin.q3",
+      "conceptId": "amphibian_skin",
+      "prompt": "If you were teaching a friend about amphibian skin, which answer would you use?",
       "options": [
         "Amphibians",
         "Mammals",
         "Birds"
       ],
       "correctIndex": 0,
-      "explanation": "Many amphibians change from aquatic larvae to adults.",
+      "explanation": "Many amphibians have moist skin important for gas and water exchange.",
       "difficulty": "medium",
       "ageBands": [
         "explorer6to8",
@@ -347,116 +293,8 @@
       ]
     },
     {
-      "id": "animal_detective.amphibian.v4",
-      "conceptId": "amphibian",
-      "prompt": "Final clue — Which animal group often has moist skin and aquatic larvae?",
-      "options": [
-        "Mammals",
-        "Amphibians",
-        "Birds"
-      ],
-      "correctIndex": 1,
-      "explanation": "Many amphibians change from aquatic larvae to adults.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "animal_detective.reptile.v0",
-      "conceptId": "reptile",
-      "prompt": "Which feature is typical of reptiles?",
-      "options": [
-        "Scaly skin",
-        "Feathers on every species",
-        "Milk glands"
-      ],
-      "correctIndex": 0,
-      "explanation": "Reptiles have keratinised scales or scutes.",
-      "difficulty": "medium",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "animal_detective.reptile.v1",
-      "conceptId": "reptile",
-      "prompt": "Think carefully: Which feature is typical of reptiles?",
-      "options": [
-        "Feathers on every species",
-        "Scaly skin",
-        "Milk glands"
-      ],
-      "correctIndex": 1,
-      "explanation": "Reptiles have keratinised scales or scutes.",
-      "difficulty": "medium",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "animal_detective.reptile.v2",
-      "conceptId": "reptile",
-      "prompt": "Level challenge — Which feature is typical of reptiles?",
-      "options": [
-        "Feathers on every species",
-        "Milk glands",
-        "Scaly skin"
-      ],
-      "correctIndex": 2,
-      "explanation": "Reptiles have keratinised scales or scutes.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "animal_detective.reptile.v3",
-      "conceptId": "reptile",
-      "prompt": "Choose the best answer: Which feature is typical of reptiles?",
-      "options": [
-        "Scaly skin",
-        "Milk glands",
-        "Feathers on every species"
-      ],
-      "correctIndex": 0,
-      "explanation": "Reptiles have keratinised scales or scutes.",
-      "difficulty": "medium",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "animal_detective.reptile.v4",
-      "conceptId": "reptile",
-      "prompt": "Final clue — Which feature is typical of reptiles?",
-      "options": [
-        "Milk glands",
-        "Scaly skin",
-        "Feathers on every species"
-      ],
-      "correctIndex": 1,
-      "explanation": "Reptiles have keratinised scales or scutes.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "animal_detective.insect.v0",
-      "conceptId": "insect",
+      "id": "animal_detective.insect_legs.q0",
+      "conceptId": "insect_legs",
       "prompt": "How many legs does an adult insect have?",
       "options": [
         "Six",
@@ -473,15 +311,33 @@
       ]
     },
     {
-      "id": "animal_detective.insect.v1",
-      "conceptId": "insect",
-      "prompt": "Think carefully: How many legs does an adult insect have?",
+      "id": "animal_detective.insect_legs.q1",
+      "conceptId": "insect_legs",
+      "prompt": "Which answer best fits this clue: How many legs does an adult insect have?",
       "options": [
         "Eight",
         "Six",
         "Ten"
       ],
       "correctIndex": 1,
+      "explanation": "Adult insects have three pairs of legs.",
+      "difficulty": "easy",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "animal_detective.insect_legs.q2",
+      "conceptId": "insect_legs",
+      "prompt": "Quizzie challenge: choose the correct statement for insect legs.",
+      "options": [
+        "Eight",
+        "Ten",
+        "Six"
+      ],
+      "correctIndex": 2,
       "explanation": "Adult insects have three pairs of legs.",
       "difficulty": "medium",
       "ageBands": [
@@ -491,27 +347,9 @@
       ]
     },
     {
-      "id": "animal_detective.insect.v2",
-      "conceptId": "insect",
-      "prompt": "Level challenge — How many legs does an adult insect have?",
-      "options": [
-        "Eight",
-        "Ten",
-        "Six"
-      ],
-      "correctIndex": 2,
-      "explanation": "Adult insects have three pairs of legs.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "animal_detective.insect.v3",
-      "conceptId": "insect",
-      "prompt": "Choose the best answer: How many legs does an adult insect have?",
+      "id": "animal_detective.insect_legs.q3",
+      "conceptId": "insect_legs",
+      "prompt": "If you were teaching a friend about insect legs, which answer would you use?",
       "options": [
         "Six",
         "Ten",
@@ -527,26 +365,8 @@
       ]
     },
     {
-      "id": "animal_detective.insect.v4",
-      "conceptId": "insect",
-      "prompt": "Final clue — How many legs does an adult insect have?",
-      "options": [
-        "Ten",
-        "Six",
-        "Eight"
-      ],
-      "correctIndex": 1,
-      "explanation": "Adult insects have three pairs of legs.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "animal_detective.arachnid.v0",
-      "conceptId": "arachnid",
+      "id": "animal_detective.spider_legs.q0",
+      "conceptId": "spider_legs",
       "prompt": "How many legs does a typical adult spider have?",
       "options": [
         "Eight",
@@ -563,9 +383,9 @@
       ]
     },
     {
-      "id": "animal_detective.arachnid.v1",
-      "conceptId": "arachnid",
-      "prompt": "Think carefully: How many legs does a typical adult spider have?",
+      "id": "animal_detective.spider_legs.q1",
+      "conceptId": "spider_legs",
+      "prompt": "Which answer best fits this clue: How many legs does a typical adult spider have?",
       "options": [
         "Six",
         "Eight",
@@ -573,7 +393,7 @@
       ],
       "correctIndex": 1,
       "explanation": "Spiders are arachnids with four pairs of legs.",
-      "difficulty": "medium",
+      "difficulty": "easy",
       "ageBands": [
         "explorer6to8",
         "adventurer9to11",
@@ -581,9 +401,9 @@
       ]
     },
     {
-      "id": "animal_detective.arachnid.v2",
-      "conceptId": "arachnid",
-      "prompt": "Level challenge — How many legs does a typical adult spider have?",
+      "id": "animal_detective.spider_legs.q2",
+      "conceptId": "spider_legs",
+      "prompt": "Quizzie challenge: choose the correct statement for spider legs.",
       "options": [
         "Six",
         "Four",
@@ -591,7 +411,7 @@
       ],
       "correctIndex": 2,
       "explanation": "Spiders are arachnids with four pairs of legs.",
-      "difficulty": "hard",
+      "difficulty": "medium",
       "ageBands": [
         "explorer6to8",
         "adventurer9to11",
@@ -599,9 +419,9 @@
       ]
     },
     {
-      "id": "animal_detective.arachnid.v3",
-      "conceptId": "arachnid",
-      "prompt": "Choose the best answer: How many legs does a typical adult spider have?",
+      "id": "animal_detective.spider_legs.q3",
+      "conceptId": "spider_legs",
+      "prompt": "If you were teaching a friend about spider legs, which answer would you use?",
       "options": [
         "Eight",
         "Four",
@@ -617,35 +437,17 @@
       ]
     },
     {
-      "id": "animal_detective.arachnid.v4",
-      "conceptId": "arachnid",
-      "prompt": "Final clue — How many legs does a typical adult spider have?",
+      "id": "animal_detective.fish_gills.q0",
+      "conceptId": "fish_gills",
+      "prompt": "What organ do most fish use to breathe in water?",
       "options": [
-        "Four",
-        "Eight",
-        "Six"
-      ],
-      "correctIndex": 1,
-      "explanation": "Spiders are arachnids with four pairs of legs.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "animal_detective.camouflage.v0",
-      "conceptId": "camouflage",
-      "prompt": "What is camouflage used for?",
-      "options": [
-        "Blending with surroundings",
-        "Making every animal louder",
-        "Changing the weather"
+        "Gills",
+        "Lungs only",
+        "Feathers"
       ],
       "correctIndex": 0,
-      "explanation": "Camouflage can help animals hide from predators or prey.",
-      "difficulty": "medium",
+      "explanation": "Gills exchange oxygen and carbon dioxide with water.",
+      "difficulty": "easy",
       "ageBands": [
         "explorer6to8",
         "adventurer9to11",
@@ -653,17 +455,17 @@
       ]
     },
     {
-      "id": "animal_detective.camouflage.v1",
-      "conceptId": "camouflage",
-      "prompt": "Think carefully: What is camouflage used for?",
+      "id": "animal_detective.fish_gills.q1",
+      "conceptId": "fish_gills",
+      "prompt": "Which answer best fits this clue: What organ do most fish use to breathe in water?",
       "options": [
-        "Making every animal louder",
-        "Blending with surroundings",
-        "Changing the weather"
+        "Lungs only",
+        "Gills",
+        "Feathers"
       ],
       "correctIndex": 1,
-      "explanation": "Camouflage can help animals hide from predators or prey.",
-      "difficulty": "medium",
+      "explanation": "Gills exchange oxygen and carbon dioxide with water.",
+      "difficulty": "easy",
       "ageBands": [
         "explorer6to8",
         "adventurer9to11",
@@ -671,34 +473,16 @@
       ]
     },
     {
-      "id": "animal_detective.camouflage.v2",
-      "conceptId": "camouflage",
-      "prompt": "Level challenge — What is camouflage used for?",
+      "id": "animal_detective.fish_gills.q2",
+      "conceptId": "fish_gills",
+      "prompt": "Quizzie challenge: choose the correct statement for fish gills.",
       "options": [
-        "Making every animal louder",
-        "Changing the weather",
-        "Blending with surroundings"
+        "Lungs only",
+        "Feathers",
+        "Gills"
       ],
       "correctIndex": 2,
-      "explanation": "Camouflage can help animals hide from predators or prey.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "animal_detective.camouflage.v3",
-      "conceptId": "camouflage",
-      "prompt": "Choose the best answer: What is camouflage used for?",
-      "options": [
-        "Blending with surroundings",
-        "Changing the weather",
-        "Making every animal louder"
-      ],
-      "correctIndex": 0,
-      "explanation": "Camouflage can help animals hide from predators or prey.",
+      "explanation": "Gills exchange oxygen and carbon dioxide with water.",
       "difficulty": "medium",
       "ageBands": [
         "explorer6to8",
@@ -707,17 +491,17 @@
       ]
     },
     {
-      "id": "animal_detective.camouflage.v4",
-      "conceptId": "camouflage",
-      "prompt": "Final clue — What is camouflage used for?",
+      "id": "animal_detective.fish_gills.q3",
+      "conceptId": "fish_gills",
+      "prompt": "If you were teaching a friend about fish gills, which answer would you use?",
       "options": [
-        "Changing the weather",
-        "Blending with surroundings",
-        "Making every animal louder"
+        "Gills",
+        "Feathers",
+        "Lungs only"
       ],
-      "correctIndex": 1,
-      "explanation": "Camouflage can help animals hide from predators or prey.",
-      "difficulty": "hard",
+      "correctIndex": 0,
+      "explanation": "Gills exchange oxygen and carbon dioxide with water.",
+      "difficulty": "medium",
       "ageBands": [
         "explorer6to8",
         "adventurer9to11",
@@ -725,16 +509,808 @@
       ]
     },
     {
-      "id": "animal_detective.taxonomy.v0",
+      "id": "animal_detective.bird_beak.q0",
+      "conceptId": "bird_beak",
+      "prompt": "What can a bird’s beak shape suggest?",
+      "options": [
+        "How it feeds",
+        "Its exact age",
+        "Its blood type"
+      ],
+      "correctIndex": 0,
+      "explanation": "Beak shapes are often adapted to different food sources and feeding methods.",
+      "difficulty": "easy",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "animal_detective.bird_beak.q1",
+      "conceptId": "bird_beak",
+      "prompt": "Which answer best fits this clue: What can a bird’s beak shape suggest?",
+      "options": [
+        "Its exact age",
+        "How it feeds",
+        "Its blood type"
+      ],
+      "correctIndex": 1,
+      "explanation": "Beak shapes are often adapted to different food sources and feeding methods.",
+      "difficulty": "easy",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "animal_detective.bird_beak.q2",
+      "conceptId": "bird_beak",
+      "prompt": "Quizzie challenge: choose the correct statement for bird beak.",
+      "options": [
+        "Its exact age",
+        "Its blood type",
+        "How it feeds"
+      ],
+      "correctIndex": 2,
+      "explanation": "Beak shapes are often adapted to different food sources and feeding methods.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "animal_detective.bird_beak.q3",
+      "conceptId": "bird_beak",
+      "prompt": "If you were teaching a friend about bird beak, which answer would you use?",
+      "options": [
+        "How it feeds",
+        "Its blood type",
+        "Its exact age"
+      ],
+      "correctIndex": 0,
+      "explanation": "Beak shapes are often adapted to different food sources and feeding methods.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "animal_detective.teeth_diet.q0",
+      "conceptId": "teeth_diet",
+      "prompt": "What can an animal’s teeth tell us?",
+      "options": [
+        "Clues about diet",
+        "Exact colour",
+        "Exact name"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tooth form and wear can reveal feeding habits.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "animal_detective.teeth_diet.q1",
+      "conceptId": "teeth_diet",
+      "prompt": "Which answer best fits this clue: What can an animal’s teeth tell us?",
+      "options": [
+        "Exact colour",
+        "Clues about diet",
+        "Exact name"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tooth form and wear can reveal feeding habits.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "animal_detective.teeth_diet.q2",
+      "conceptId": "teeth_diet",
+      "prompt": "Quizzie challenge: choose the correct statement for teeth diet.",
+      "options": [
+        "Exact colour",
+        "Exact name",
+        "Clues about diet"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tooth form and wear can reveal feeding habits.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "animal_detective.teeth_diet.q3",
+      "conceptId": "teeth_diet",
+      "prompt": "If you were teaching a friend about teeth diet, which answer would you use?",
+      "options": [
+        "Clues about diet",
+        "Exact name",
+        "Exact colour"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tooth form and wear can reveal feeding habits.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "animal_detective.camouflage.q0",
+      "conceptId": "camouflage",
+      "prompt": "What is camouflage?",
+      "options": [
+        "Traits that help an animal blend with surroundings",
+        "A way to make every animal louder",
+        "A type of weather"
+      ],
+      "correctIndex": 0,
+      "explanation": "Camouflage can reduce detection by predators or prey.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "animal_detective.camouflage.q1",
+      "conceptId": "camouflage",
+      "prompt": "Which answer best fits this clue: What is camouflage?",
+      "options": [
+        "A way to make every animal louder",
+        "Traits that help an animal blend with surroundings",
+        "A type of weather"
+      ],
+      "correctIndex": 1,
+      "explanation": "Camouflage can reduce detection by predators or prey.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "animal_detective.camouflage.q2",
+      "conceptId": "camouflage",
+      "prompt": "Quizzie challenge: choose the correct statement for camouflage.",
+      "options": [
+        "A way to make every animal louder",
+        "A type of weather",
+        "Traits that help an animal blend with surroundings"
+      ],
+      "correctIndex": 2,
+      "explanation": "Camouflage can reduce detection by predators or prey.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "animal_detective.camouflage.q3",
+      "conceptId": "camouflage",
+      "prompt": "If you were teaching a friend about camouflage, which answer would you use?",
+      "options": [
+        "Traits that help an animal blend with surroundings",
+        "A type of weather",
+        "A way to make every animal louder"
+      ],
+      "correctIndex": 0,
+      "explanation": "Camouflage can reduce detection by predators or prey.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "animal_detective.mimicry.q0",
+      "conceptId": "mimicry",
+      "prompt": "What is mimicry?",
+      "options": [
+        "Resembling another organism or object for an advantage",
+        "Growing extra legs",
+        "Changing species instantly"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mimicry can deter predators or help animals approach prey.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "animal_detective.mimicry.q1",
+      "conceptId": "mimicry",
+      "prompt": "Which answer best fits this clue: What is mimicry?",
+      "options": [
+        "Growing extra legs",
+        "Resembling another organism or object for an advantage",
+        "Changing species instantly"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mimicry can deter predators or help animals approach prey.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "animal_detective.mimicry.q2",
+      "conceptId": "mimicry",
+      "prompt": "Quizzie challenge: choose the correct statement for mimicry.",
+      "options": [
+        "Growing extra legs",
+        "Changing species instantly",
+        "Resembling another organism or object for an advantage"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mimicry can deter predators or help animals approach prey.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "animal_detective.mimicry.q3",
+      "conceptId": "mimicry",
+      "prompt": "If you were teaching a friend about mimicry, which answer would you use?",
+      "options": [
+        "Resembling another organism or object for an advantage",
+        "Changing species instantly",
+        "Growing extra legs"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mimicry can deter predators or help animals approach prey.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "animal_detective.nocturnal.q0",
+      "conceptId": "nocturnal",
+      "prompt": "What does nocturnal mean?",
+      "options": [
+        "Active mainly at night",
+        "Active only at noon",
+        "Living underwater"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nocturnal animals are primarily active during nighttime.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "animal_detective.nocturnal.q1",
+      "conceptId": "nocturnal",
+      "prompt": "Which answer best fits this clue: What does nocturnal mean?",
+      "options": [
+        "Active only at noon",
+        "Active mainly at night",
+        "Living underwater"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nocturnal animals are primarily active during nighttime.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "animal_detective.nocturnal.q2",
+      "conceptId": "nocturnal",
+      "prompt": "Quizzie challenge: choose the correct statement for nocturnal.",
+      "options": [
+        "Active only at noon",
+        "Living underwater",
+        "Active mainly at night"
+      ],
+      "correctIndex": 2,
+      "explanation": "Nocturnal animals are primarily active during nighttime.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "animal_detective.nocturnal.q3",
+      "conceptId": "nocturnal",
+      "prompt": "If you were teaching a friend about nocturnal, which answer would you use?",
+      "options": [
+        "Active mainly at night",
+        "Living underwater",
+        "Active only at noon"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nocturnal animals are primarily active during nighttime.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "animal_detective.diurnal.q0",
+      "conceptId": "diurnal",
+      "prompt": "What does diurnal mean?",
+      "options": [
+        "Active mainly during the day",
+        "Active only at night",
+        "Living underground always"
+      ],
+      "correctIndex": 0,
+      "explanation": "Diurnal animals are primarily active during daylight.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "animal_detective.diurnal.q1",
+      "conceptId": "diurnal",
+      "prompt": "Which answer best fits this clue: What does diurnal mean?",
+      "options": [
+        "Active only at night",
+        "Active mainly during the day",
+        "Living underground always"
+      ],
+      "correctIndex": 1,
+      "explanation": "Diurnal animals are primarily active during daylight.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "animal_detective.diurnal.q2",
+      "conceptId": "diurnal",
+      "prompt": "Quizzie challenge: choose the correct statement for diurnal.",
+      "options": [
+        "Active only at night",
+        "Living underground always",
+        "Active mainly during the day"
+      ],
+      "correctIndex": 2,
+      "explanation": "Diurnal animals are primarily active during daylight.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "animal_detective.diurnal.q3",
+      "conceptId": "diurnal",
+      "prompt": "If you were teaching a friend about diurnal, which answer would you use?",
+      "options": [
+        "Active mainly during the day",
+        "Living underground always",
+        "Active only at night"
+      ],
+      "correctIndex": 0,
+      "explanation": "Diurnal animals are primarily active during daylight.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "animal_detective.herbivore.q0",
+      "conceptId": "herbivore",
+      "prompt": "What does herbivore mean?",
+      "options": [
+        "An animal that mainly eats plants",
+        "An animal that mainly eats meat",
+        "An animal that eats only minerals"
+      ],
+      "correctIndex": 0,
+      "explanation": "Herbivores feed mainly on plant material.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "animal_detective.herbivore.q1",
+      "conceptId": "herbivore",
+      "prompt": "Which answer best fits this clue: What does herbivore mean?",
+      "options": [
+        "An animal that mainly eats meat",
+        "An animal that mainly eats plants",
+        "An animal that eats only minerals"
+      ],
+      "correctIndex": 1,
+      "explanation": "Herbivores feed mainly on plant material.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "animal_detective.herbivore.q2",
+      "conceptId": "herbivore",
+      "prompt": "Quizzie challenge: choose the correct statement for herbivore.",
+      "options": [
+        "An animal that mainly eats meat",
+        "An animal that eats only minerals",
+        "An animal that mainly eats plants"
+      ],
+      "correctIndex": 2,
+      "explanation": "Herbivores feed mainly on plant material.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "animal_detective.herbivore.q3",
+      "conceptId": "herbivore",
+      "prompt": "If you were teaching a friend about herbivore, which answer would you use?",
+      "options": [
+        "An animal that mainly eats plants",
+        "An animal that eats only minerals",
+        "An animal that mainly eats meat"
+      ],
+      "correctIndex": 0,
+      "explanation": "Herbivores feed mainly on plant material.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "animal_detective.carnivore.q0",
+      "conceptId": "carnivore",
+      "prompt": "What does carnivore mean?",
+      "options": [
+        "An animal that mainly eats other animals",
+        "An animal that eats only plants",
+        "An animal that makes its own food"
+      ],
+      "correctIndex": 0,
+      "explanation": "Carnivores feed mainly on animal tissue.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "animal_detective.carnivore.q1",
+      "conceptId": "carnivore",
+      "prompt": "Which answer best fits this clue: What does carnivore mean?",
+      "options": [
+        "An animal that eats only plants",
+        "An animal that mainly eats other animals",
+        "An animal that makes its own food"
+      ],
+      "correctIndex": 1,
+      "explanation": "Carnivores feed mainly on animal tissue.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "animal_detective.carnivore.q2",
+      "conceptId": "carnivore",
+      "prompt": "Quizzie challenge: choose the correct statement for carnivore.",
+      "options": [
+        "An animal that eats only plants",
+        "An animal that makes its own food",
+        "An animal that mainly eats other animals"
+      ],
+      "correctIndex": 2,
+      "explanation": "Carnivores feed mainly on animal tissue.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "animal_detective.carnivore.q3",
+      "conceptId": "carnivore",
+      "prompt": "If you were teaching a friend about carnivore, which answer would you use?",
+      "options": [
+        "An animal that mainly eats other animals",
+        "An animal that makes its own food",
+        "An animal that eats only plants"
+      ],
+      "correctIndex": 0,
+      "explanation": "Carnivores feed mainly on animal tissue.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "animal_detective.omnivore.q0",
+      "conceptId": "omnivore",
+      "prompt": "What does omnivore mean?",
+      "options": [
+        "An animal that eats both plant and animal foods",
+        "An animal that eats only grass",
+        "An animal that eats only fish"
+      ],
+      "correctIndex": 0,
+      "explanation": "Omnivores can use both plant and animal food sources.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "animal_detective.omnivore.q1",
+      "conceptId": "omnivore",
+      "prompt": "Which answer best fits this clue: What does omnivore mean?",
+      "options": [
+        "An animal that eats only grass",
+        "An animal that eats both plant and animal foods",
+        "An animal that eats only fish"
+      ],
+      "correctIndex": 1,
+      "explanation": "Omnivores can use both plant and animal food sources.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "animal_detective.omnivore.q2",
+      "conceptId": "omnivore",
+      "prompt": "Quizzie challenge: choose the correct statement for omnivore.",
+      "options": [
+        "An animal that eats only grass",
+        "An animal that eats only fish",
+        "An animal that eats both plant and animal foods"
+      ],
+      "correctIndex": 2,
+      "explanation": "Omnivores can use both plant and animal food sources.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "animal_detective.omnivore.q3",
+      "conceptId": "omnivore",
+      "prompt": "If you were teaching a friend about omnivore, which answer would you use?",
+      "options": [
+        "An animal that eats both plant and animal foods",
+        "An animal that eats only fish",
+        "An animal that eats only grass"
+      ],
+      "correctIndex": 0,
+      "explanation": "Omnivores can use both plant and animal food sources.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "animal_detective.vertebrate.q0",
+      "conceptId": "vertebrate",
+      "prompt": "What is a vertebrate?",
+      "options": [
+        "An animal with a backbone",
+        "An animal with six legs",
+        "A plant with flowers"
+      ],
+      "correctIndex": 0,
+      "explanation": "Vertebrates have a vertebral column or backbone.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "animal_detective.vertebrate.q1",
+      "conceptId": "vertebrate",
+      "prompt": "Which answer best fits this clue: What is a vertebrate?",
+      "options": [
+        "An animal with six legs",
+        "An animal with a backbone",
+        "A plant with flowers"
+      ],
+      "correctIndex": 1,
+      "explanation": "Vertebrates have a vertebral column or backbone.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "animal_detective.vertebrate.q2",
+      "conceptId": "vertebrate",
+      "prompt": "Quizzie challenge: choose the correct statement for vertebrate.",
+      "options": [
+        "An animal with six legs",
+        "A plant with flowers",
+        "An animal with a backbone"
+      ],
+      "correctIndex": 2,
+      "explanation": "Vertebrates have a vertebral column or backbone.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "animal_detective.vertebrate.q3",
+      "conceptId": "vertebrate",
+      "prompt": "If you were teaching a friend about vertebrate, which answer would you use?",
+      "options": [
+        "An animal with a backbone",
+        "A plant with flowers",
+        "An animal with six legs"
+      ],
+      "correctIndex": 0,
+      "explanation": "Vertebrates have a vertebral column or backbone.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "animal_detective.invertebrate.q0",
+      "conceptId": "invertebrate",
+      "prompt": "What is an invertebrate?",
+      "options": [
+        "An animal without a backbone",
+        "A bird without feathers",
+        "A plant without roots"
+      ],
+      "correctIndex": 0,
+      "explanation": "Most animal species are invertebrates.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "animal_detective.invertebrate.q1",
+      "conceptId": "invertebrate",
+      "prompt": "Which answer best fits this clue: What is an invertebrate?",
+      "options": [
+        "A bird without feathers",
+        "An animal without a backbone",
+        "A plant without roots"
+      ],
+      "correctIndex": 1,
+      "explanation": "Most animal species are invertebrates.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "animal_detective.invertebrate.q2",
+      "conceptId": "invertebrate",
+      "prompt": "Quizzie challenge: choose the correct statement for invertebrate.",
+      "options": [
+        "A bird without feathers",
+        "A plant without roots",
+        "An animal without a backbone"
+      ],
+      "correctIndex": 2,
+      "explanation": "Most animal species are invertebrates.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "animal_detective.invertebrate.q3",
+      "conceptId": "invertebrate",
+      "prompt": "If you were teaching a friend about invertebrate, which answer would you use?",
+      "options": [
+        "An animal without a backbone",
+        "A plant without roots",
+        "A bird without feathers"
+      ],
+      "correctIndex": 0,
+      "explanation": "Most animal species are invertebrates.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "animal_detective.taxonomy.q0",
       "conceptId": "taxonomy",
       "prompt": "What is taxonomy?",
       "options": [
-        "Science of naming and classifying organisms",
-        "Study of clouds",
+        "The science of naming and classifying organisms",
+        "The study of clouds",
         "Rocket engineering"
       ],
       "correctIndex": 0,
-      "explanation": "Taxonomy organises biodiversity using shared characteristics.",
+      "explanation": "Taxonomy organises living things using shared traits and evolutionary relationships.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",
@@ -743,16 +1319,16 @@
       ]
     },
     {
-      "id": "animal_detective.taxonomy.v1",
+      "id": "animal_detective.taxonomy.q1",
       "conceptId": "taxonomy",
-      "prompt": "Think carefully: What is taxonomy?",
+      "prompt": "Which answer best fits this clue: What is taxonomy?",
       "options": [
-        "Study of clouds",
-        "Science of naming and classifying organisms",
+        "The study of clouds",
+        "The science of naming and classifying organisms",
         "Rocket engineering"
       ],
       "correctIndex": 1,
-      "explanation": "Taxonomy organises biodiversity using shared characteristics.",
+      "explanation": "Taxonomy organises living things using shared traits and evolutionary relationships.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",
@@ -761,16 +1337,16 @@
       ]
     },
     {
-      "id": "animal_detective.taxonomy.v2",
+      "id": "animal_detective.taxonomy.q2",
       "conceptId": "taxonomy",
-      "prompt": "Level challenge — What is taxonomy?",
+      "prompt": "Quizzie challenge: choose the correct statement for taxonomy.",
       "options": [
-        "Study of clouds",
+        "The study of clouds",
         "Rocket engineering",
-        "Science of naming and classifying organisms"
+        "The science of naming and classifying organisms"
       ],
       "correctIndex": 2,
-      "explanation": "Taxonomy organises biodiversity using shared characteristics.",
+      "explanation": "Taxonomy organises living things using shared traits and evolutionary relationships.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",
@@ -779,16 +1355,16 @@
       ]
     },
     {
-      "id": "animal_detective.taxonomy.v3",
+      "id": "animal_detective.taxonomy.q3",
       "conceptId": "taxonomy",
-      "prompt": "Choose the best answer: What is taxonomy?",
+      "prompt": "If you were teaching a friend about taxonomy, which answer would you use?",
       "options": [
-        "Science of naming and classifying organisms",
+        "The science of naming and classifying organisms",
         "Rocket engineering",
-        "Study of clouds"
+        "The study of clouds"
       ],
       "correctIndex": 0,
-      "explanation": "Taxonomy organises biodiversity using shared characteristics.",
+      "explanation": "Taxonomy organises living things using shared traits and evolutionary relationships.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",
@@ -797,34 +1373,16 @@
       ]
     },
     {
-      "id": "animal_detective.taxonomy.v4",
-      "conceptId": "taxonomy",
-      "prompt": "Final clue — What is taxonomy?",
+      "id": "animal_detective.species.q0",
+      "conceptId": "species",
+      "prompt": "In biology, what is a species?",
       "options": [
-        "Rocket engineering",
-        "Science of naming and classifying organisms",
-        "Study of clouds"
-      ],
-      "correctIndex": 1,
-      "explanation": "Taxonomy organises biodiversity using shared characteristics.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "animal_detective.uncertain.v0",
-      "conceptId": "uncertain",
-      "prompt": "What should you report when a photo lacks enough identification clues?",
-      "options": [
-        "Uncertainty",
-        "A made-up certainty",
-        "No evidence"
+        "A basic classification unit for closely related organisms",
+        "A weather event",
+        "A type of rock"
       ],
       "correctIndex": 0,
-      "explanation": "Responsible identification states uncertainty and seeks more evidence.",
+      "explanation": "Species concepts vary, but the term groups closely related organisms as a basic unit.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",
@@ -833,16 +1391,16 @@
       ]
     },
     {
-      "id": "animal_detective.uncertain.v1",
-      "conceptId": "uncertain",
-      "prompt": "Think carefully: What should you report when a photo lacks enough identification clues?",
+      "id": "animal_detective.species.q1",
+      "conceptId": "species",
+      "prompt": "Which answer best fits this clue: In biology, what is a species?",
       "options": [
-        "A made-up certainty",
-        "Uncertainty",
-        "No evidence"
+        "A weather event",
+        "A basic classification unit for closely related organisms",
+        "A type of rock"
       ],
       "correctIndex": 1,
-      "explanation": "Responsible identification states uncertainty and seeks more evidence.",
+      "explanation": "Species concepts vary, but the term groups closely related organisms as a basic unit.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",
@@ -851,16 +1409,16 @@
       ]
     },
     {
-      "id": "animal_detective.uncertain.v2",
-      "conceptId": "uncertain",
-      "prompt": "Level challenge — What should you report when a photo lacks enough identification clues?",
+      "id": "animal_detective.species.q2",
+      "conceptId": "species",
+      "prompt": "Quizzie challenge: choose the correct statement for species.",
       "options": [
-        "A made-up certainty",
-        "No evidence",
-        "Uncertainty"
+        "A weather event",
+        "A type of rock",
+        "A basic classification unit for closely related organisms"
       ],
       "correctIndex": 2,
-      "explanation": "Responsible identification states uncertainty and seeks more evidence.",
+      "explanation": "Species concepts vary, but the term groups closely related organisms as a basic unit.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",
@@ -869,16 +1427,16 @@
       ]
     },
     {
-      "id": "animal_detective.uncertain.v3",
-      "conceptId": "uncertain",
-      "prompt": "Choose the best answer: What should you report when a photo lacks enough identification clues?",
+      "id": "animal_detective.species.q3",
+      "conceptId": "species",
+      "prompt": "If you were teaching a friend about species, which answer would you use?",
       "options": [
-        "Uncertainty",
-        "No evidence",
-        "A made-up certainty"
+        "A basic classification unit for closely related organisms",
+        "A type of rock",
+        "A weather event"
       ],
       "correctIndex": 0,
-      "explanation": "Responsible identification states uncertainty and seeks more evidence.",
+      "explanation": "Species concepts vary, but the term groups closely related organisms as a basic unit.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",
@@ -887,70 +1445,16 @@
       ]
     },
     {
-      "id": "animal_detective.uncertain.v4",
-      "conceptId": "uncertain",
-      "prompt": "Final clue — What should you report when a photo lacks enough identification clues?",
+      "id": "animal_detective.habitat.q0",
+      "conceptId": "habitat",
+      "prompt": "What is a habitat?",
       "options": [
-        "No evidence",
-        "Uncertainty",
-        "A made-up certainty"
-      ],
-      "correctIndex": 1,
-      "explanation": "Responsible identification states uncertainty and seeks more evidence.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "animal_detective.feathers.v5",
-      "conceptId": "feathers",
-      "prompt": "Reason it out: Which covering identifies all living birds?",
-      "options": [
-        "Fur",
-        "Feathers",
-        "Wet skin"
-      ],
-      "correctIndex": 1,
-      "explanation": "Feathers are unique to birds among living animals.",
-      "difficulty": "medium",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "animal_detective.feathers.v6",
-      "conceptId": "feathers",
-      "prompt": "Quick recall challenge: Which covering identifies all living birds?",
-      "options": [
-        "Wet skin",
-        "Fur",
-        "Feathers"
-      ],
-      "correctIndex": 2,
-      "explanation": "Feathers are unique to birds among living animals.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "animal_detective.feathers.v7",
-      "conceptId": "feathers",
-      "prompt": "Apply the clue: Which covering identifies all living birds?",
-      "options": [
-        "Feathers",
-        "Wet skin",
-        "Fur"
+        "The environment where an organism lives",
+        "A type of tooth",
+        "A migration route only"
       ],
       "correctIndex": 0,
-      "explanation": "Feathers are unique to birds among living animals.",
+      "explanation": "A habitat provides the conditions and resources an organism uses.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",
@@ -959,34 +1463,16 @@
       ]
     },
     {
-      "id": "animal_detective.feathers.v8",
-      "conceptId": "feathers",
-      "prompt": "Expert checkpoint: Which covering identifies all living birds?",
+      "id": "animal_detective.habitat.q1",
+      "conceptId": "habitat",
+      "prompt": "Which answer best fits this clue: What is a habitat?",
       "options": [
-        "Fur",
-        "Wet skin",
-        "Feathers"
-      ],
-      "correctIndex": 2,
-      "explanation": "Feathers are unique to birds among living animals.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "animal_detective.feathers.v9",
-      "conceptId": "feathers",
-      "prompt": "Final mastery question: Which covering identifies all living birds?",
-      "options": [
-        "Wet skin",
-        "Feathers",
-        "Fur"
+        "A type of tooth",
+        "The environment where an organism lives",
+        "A migration route only"
       ],
       "correctIndex": 1,
-      "explanation": "Feathers are unique to birds among living animals.",
+      "explanation": "A habitat provides the conditions and resources an organism uses.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",
@@ -995,34 +1481,16 @@
       ]
     },
     {
-      "id": "animal_detective.tiger.v5",
-      "conceptId": "tiger",
-      "prompt": "Reason it out: Which animal has dark stripes on orange or pale fur?",
+      "id": "animal_detective.habitat.q2",
+      "conceptId": "habitat",
+      "prompt": "Quizzie challenge: choose the correct statement for habitat.",
       "options": [
-        "Dolphin",
-        "Tiger",
-        "Peafowl"
-      ],
-      "correctIndex": 1,
-      "explanation": "Individual tigers have distinctive stripe patterns.",
-      "difficulty": "medium",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "animal_detective.tiger.v6",
-      "conceptId": "tiger",
-      "prompt": "Quick recall challenge: Which animal has dark stripes on orange or pale fur?",
-      "options": [
-        "Peafowl",
-        "Dolphin",
-        "Tiger"
+        "A type of tooth",
+        "A migration route only",
+        "The environment where an organism lives"
       ],
       "correctIndex": 2,
-      "explanation": "Individual tigers have distinctive stripe patterns.",
+      "explanation": "A habitat provides the conditions and resources an organism uses.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",
@@ -1031,16 +1499,16 @@
       ]
     },
     {
-      "id": "animal_detective.tiger.v7",
-      "conceptId": "tiger",
-      "prompt": "Apply the clue: Which animal has dark stripes on orange or pale fur?",
+      "id": "animal_detective.habitat.q3",
+      "conceptId": "habitat",
+      "prompt": "If you were teaching a friend about habitat, which answer would you use?",
       "options": [
-        "Tiger",
-        "Peafowl",
-        "Dolphin"
+        "The environment where an organism lives",
+        "A migration route only",
+        "A type of tooth"
       ],
       "correctIndex": 0,
-      "explanation": "Individual tigers have distinctive stripe patterns.",
+      "explanation": "A habitat provides the conditions and resources an organism uses.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",
@@ -1049,88 +1517,16 @@
       ]
     },
     {
-      "id": "animal_detective.tiger.v8",
-      "conceptId": "tiger",
-      "prompt": "Expert checkpoint: Which animal has dark stripes on orange or pale fur?",
+      "id": "animal_detective.adaptation.q0",
+      "conceptId": "adaptation",
+      "prompt": "What is an adaptation?",
       "options": [
-        "Dolphin",
-        "Peafowl",
-        "Tiger"
-      ],
-      "correctIndex": 2,
-      "explanation": "Individual tigers have distinctive stripe patterns.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "animal_detective.tiger.v9",
-      "conceptId": "tiger",
-      "prompt": "Final mastery question: Which animal has dark stripes on orange or pale fur?",
-      "options": [
-        "Peafowl",
-        "Tiger",
-        "Dolphin"
-      ],
-      "correctIndex": 1,
-      "explanation": "Individual tigers have distinctive stripe patterns.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "animal_detective.mammal.v5",
-      "conceptId": "mammal",
-      "prompt": "Reason it out: What do female mammals produce for their young?",
-      "options": [
-        "Feathers",
-        "Milk",
-        "Gills"
-      ],
-      "correctIndex": 1,
-      "explanation": "Milk production is a defining mammalian trait.",
-      "difficulty": "medium",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "animal_detective.mammal.v6",
-      "conceptId": "mammal",
-      "prompt": "Quick recall challenge: What do female mammals produce for their young?",
-      "options": [
-        "Gills",
-        "Feathers",
-        "Milk"
-      ],
-      "correctIndex": 2,
-      "explanation": "Milk production is a defining mammalian trait.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "animal_detective.mammal.v7",
-      "conceptId": "mammal",
-      "prompt": "Apply the clue: What do female mammals produce for their young?",
-      "options": [
-        "Milk",
-        "Gills",
-        "Feathers"
+        "A heritable trait that improves success in a particular environment",
+        "Any learned trick",
+        "A temporary injury"
       ],
       "correctIndex": 0,
-      "explanation": "Milk production is a defining mammalian trait.",
+      "explanation": "Adaptations arise over generations through evolutionary processes.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",
@@ -1139,34 +1535,16 @@
       ]
     },
     {
-      "id": "animal_detective.mammal.v8",
-      "conceptId": "mammal",
-      "prompt": "Expert checkpoint: What do female mammals produce for their young?",
+      "id": "animal_detective.adaptation.q1",
+      "conceptId": "adaptation",
+      "prompt": "Which answer best fits this clue: What is an adaptation?",
       "options": [
-        "Feathers",
-        "Gills",
-        "Milk"
-      ],
-      "correctIndex": 2,
-      "explanation": "Milk production is a defining mammalian trait.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "animal_detective.mammal.v9",
-      "conceptId": "mammal",
-      "prompt": "Final mastery question: What do female mammals produce for their young?",
-      "options": [
-        "Gills",
-        "Milk",
-        "Feathers"
+        "Any learned trick",
+        "A heritable trait that improves success in a particular environment",
+        "A temporary injury"
       ],
       "correctIndex": 1,
-      "explanation": "Milk production is a defining mammalian trait.",
+      "explanation": "Adaptations arise over generations through evolutionary processes.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",
@@ -1175,34 +1553,16 @@
       ]
     },
     {
-      "id": "animal_detective.amphibian.v5",
-      "conceptId": "amphibian",
-      "prompt": "Reason it out: Which animal group often has moist skin and aquatic larvae?",
+      "id": "animal_detective.adaptation.q2",
+      "conceptId": "adaptation",
+      "prompt": "Quizzie challenge: choose the correct statement for adaptation.",
       "options": [
-        "Birds",
-        "Amphibians",
-        "Mammals"
-      ],
-      "correctIndex": 1,
-      "explanation": "Many amphibians change from aquatic larvae to adults.",
-      "difficulty": "medium",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "animal_detective.amphibian.v6",
-      "conceptId": "amphibian",
-      "prompt": "Quick recall challenge: Which animal group often has moist skin and aquatic larvae?",
-      "options": [
-        "Mammals",
-        "Birds",
-        "Amphibians"
+        "Any learned trick",
+        "A temporary injury",
+        "A heritable trait that improves success in a particular environment"
       ],
       "correctIndex": 2,
-      "explanation": "Many amphibians change from aquatic larvae to adults.",
+      "explanation": "Adaptations arise over generations through evolutionary processes.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",
@@ -1211,16 +1571,16 @@
       ]
     },
     {
-      "id": "animal_detective.amphibian.v7",
-      "conceptId": "amphibian",
-      "prompt": "Apply the clue: Which animal group often has moist skin and aquatic larvae?",
+      "id": "animal_detective.adaptation.q3",
+      "conceptId": "adaptation",
+      "prompt": "If you were teaching a friend about adaptation, which answer would you use?",
       "options": [
-        "Amphibians",
-        "Mammals",
-        "Birds"
+        "A heritable trait that improves success in a particular environment",
+        "A temporary injury",
+        "Any learned trick"
       ],
       "correctIndex": 0,
-      "explanation": "Many amphibians change from aquatic larvae to adults.",
+      "explanation": "Adaptations arise over generations through evolutionary processes.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",
@@ -1229,88 +1589,16 @@
       ]
     },
     {
-      "id": "animal_detective.amphibian.v8",
-      "conceptId": "amphibian",
-      "prompt": "Expert checkpoint: Which animal group often has moist skin and aquatic larvae?",
+      "id": "animal_detective.tracks.q0",
+      "conceptId": "tracks",
+      "prompt": "What can animal tracks reveal?",
       "options": [
-        "Birds",
-        "Mammals",
-        "Amphibians"
-      ],
-      "correctIndex": 2,
-      "explanation": "Many amphibians change from aquatic larvae to adults.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "animal_detective.amphibian.v9",
-      "conceptId": "amphibian",
-      "prompt": "Final mastery question: Which animal group often has moist skin and aquatic larvae?",
-      "options": [
-        "Mammals",
-        "Amphibians",
-        "Birds"
-      ],
-      "correctIndex": 1,
-      "explanation": "Many amphibians change from aquatic larvae to adults.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "animal_detective.reptile.v5",
-      "conceptId": "reptile",
-      "prompt": "Reason it out: Which feature is typical of reptiles?",
-      "options": [
-        "Feathers on every species",
-        "Scaly skin",
-        "Milk glands"
-      ],
-      "correctIndex": 1,
-      "explanation": "Reptiles have keratinised scales or scutes.",
-      "difficulty": "medium",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "animal_detective.reptile.v6",
-      "conceptId": "reptile",
-      "prompt": "Quick recall challenge: Which feature is typical of reptiles?",
-      "options": [
-        "Milk glands",
-        "Feathers on every species",
-        "Scaly skin"
-      ],
-      "correctIndex": 2,
-      "explanation": "Reptiles have keratinised scales or scutes.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "animal_detective.reptile.v7",
-      "conceptId": "reptile",
-      "prompt": "Apply the clue: Which feature is typical of reptiles?",
-      "options": [
-        "Scaly skin",
-        "Milk glands",
-        "Feathers on every species"
+        "Movement, size clues, and behaviour",
+        "Exact DNA sequence",
+        "Exact age always"
       ],
       "correctIndex": 0,
-      "explanation": "Reptiles have keratinised scales or scutes.",
+      "explanation": "Tracks can show direction, gait, and sometimes size or activity.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",
@@ -1319,34 +1607,16 @@
       ]
     },
     {
-      "id": "animal_detective.reptile.v8",
-      "conceptId": "reptile",
-      "prompt": "Expert checkpoint: Which feature is typical of reptiles?",
+      "id": "animal_detective.tracks.q1",
+      "conceptId": "tracks",
+      "prompt": "Which answer best fits this clue: What can animal tracks reveal?",
       "options": [
-        "Feathers on every species",
-        "Milk glands",
-        "Scaly skin"
-      ],
-      "correctIndex": 2,
-      "explanation": "Reptiles have keratinised scales or scutes.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "animal_detective.reptile.v9",
-      "conceptId": "reptile",
-      "prompt": "Final mastery question: Which feature is typical of reptiles?",
-      "options": [
-        "Milk glands",
-        "Scaly skin",
-        "Feathers on every species"
+        "Exact DNA sequence",
+        "Movement, size clues, and behaviour",
+        "Exact age always"
       ],
       "correctIndex": 1,
-      "explanation": "Reptiles have keratinised scales or scutes.",
+      "explanation": "Tracks can show direction, gait, and sometimes size or activity.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",
@@ -1355,34 +1625,16 @@
       ]
     },
     {
-      "id": "animal_detective.insect.v5",
-      "conceptId": "insect",
-      "prompt": "Reason it out: How many legs does an adult insect have?",
+      "id": "animal_detective.tracks.q2",
+      "conceptId": "tracks",
+      "prompt": "Quizzie challenge: choose the correct statement for tracks.",
       "options": [
-        "Eight",
-        "Six",
-        "Ten"
-      ],
-      "correctIndex": 1,
-      "explanation": "Adult insects have three pairs of legs.",
-      "difficulty": "medium",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "animal_detective.insect.v6",
-      "conceptId": "insect",
-      "prompt": "Quick recall challenge: How many legs does an adult insect have?",
-      "options": [
-        "Ten",
-        "Eight",
-        "Six"
+        "Exact DNA sequence",
+        "Exact age always",
+        "Movement, size clues, and behaviour"
       ],
       "correctIndex": 2,
-      "explanation": "Adult insects have three pairs of legs.",
+      "explanation": "Tracks can show direction, gait, and sometimes size or activity.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",
@@ -1391,16 +1643,16 @@
       ]
     },
     {
-      "id": "animal_detective.insect.v7",
-      "conceptId": "insect",
-      "prompt": "Apply the clue: How many legs does an adult insect have?",
+      "id": "animal_detective.tracks.q3",
+      "conceptId": "tracks",
+      "prompt": "If you were teaching a friend about tracks, which answer would you use?",
       "options": [
-        "Six",
-        "Ten",
-        "Eight"
+        "Movement, size clues, and behaviour",
+        "Exact age always",
+        "Exact DNA sequence"
       ],
       "correctIndex": 0,
-      "explanation": "Adult insects have three pairs of legs.",
+      "explanation": "Tracks can show direction, gait, and sometimes size or activity.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",
@@ -1409,88 +1661,16 @@
       ]
     },
     {
-      "id": "animal_detective.insect.v8",
-      "conceptId": "insect",
-      "prompt": "Expert checkpoint: How many legs does an adult insect have?",
+      "id": "animal_detective.scat.q0",
+      "conceptId": "scat",
+      "prompt": "Why do scientists study animal droppings?",
       "options": [
-        "Eight",
-        "Ten",
-        "Six"
-      ],
-      "correctIndex": 2,
-      "explanation": "Adult insects have three pairs of legs.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "animal_detective.insect.v9",
-      "conceptId": "insect",
-      "prompt": "Final mastery question: How many legs does an adult insect have?",
-      "options": [
-        "Ten",
-        "Six",
-        "Eight"
-      ],
-      "correctIndex": 1,
-      "explanation": "Adult insects have three pairs of legs.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "animal_detective.arachnid.v5",
-      "conceptId": "arachnid",
-      "prompt": "Reason it out: How many legs does a typical adult spider have?",
-      "options": [
-        "Six",
-        "Eight",
-        "Four"
-      ],
-      "correctIndex": 1,
-      "explanation": "Spiders are arachnids with four pairs of legs.",
-      "difficulty": "medium",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "animal_detective.arachnid.v6",
-      "conceptId": "arachnid",
-      "prompt": "Quick recall challenge: How many legs does a typical adult spider have?",
-      "options": [
-        "Four",
-        "Six",
-        "Eight"
-      ],
-      "correctIndex": 2,
-      "explanation": "Spiders are arachnids with four pairs of legs.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "animal_detective.arachnid.v7",
-      "conceptId": "arachnid",
-      "prompt": "Apply the clue: How many legs does a typical adult spider have?",
-      "options": [
-        "Eight",
-        "Four",
-        "Six"
+        "They can reveal diet and presence",
+        "They predict earthquakes",
+        "They show exact fur colour"
       ],
       "correctIndex": 0,
-      "explanation": "Spiders are arachnids with four pairs of legs.",
+      "explanation": "Scat can contain food remains, hormones, and DNA clues.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",
@@ -1499,34 +1679,16 @@
       ]
     },
     {
-      "id": "animal_detective.arachnid.v8",
-      "conceptId": "arachnid",
-      "prompt": "Expert checkpoint: How many legs does a typical adult spider have?",
+      "id": "animal_detective.scat.q1",
+      "conceptId": "scat",
+      "prompt": "Which answer best fits this clue: Why do scientists study animal droppings?",
       "options": [
-        "Six",
-        "Four",
-        "Eight"
-      ],
-      "correctIndex": 2,
-      "explanation": "Spiders are arachnids with four pairs of legs.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "animal_detective.arachnid.v9",
-      "conceptId": "arachnid",
-      "prompt": "Final mastery question: How many legs does a typical adult spider have?",
-      "options": [
-        "Four",
-        "Eight",
-        "Six"
+        "They predict earthquakes",
+        "They can reveal diet and presence",
+        "They show exact fur colour"
       ],
       "correctIndex": 1,
-      "explanation": "Spiders are arachnids with four pairs of legs.",
+      "explanation": "Scat can contain food remains, hormones, and DNA clues.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",
@@ -1535,34 +1697,16 @@
       ]
     },
     {
-      "id": "animal_detective.camouflage.v5",
-      "conceptId": "camouflage",
-      "prompt": "Reason it out: What is camouflage used for?",
+      "id": "animal_detective.scat.q2",
+      "conceptId": "scat",
+      "prompt": "Quizzie challenge: choose the correct statement for scat.",
       "options": [
-        "Making every animal louder",
-        "Blending with surroundings",
-        "Changing the weather"
-      ],
-      "correctIndex": 1,
-      "explanation": "Camouflage can help animals hide from predators or prey.",
-      "difficulty": "medium",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "animal_detective.camouflage.v6",
-      "conceptId": "camouflage",
-      "prompt": "Quick recall challenge: What is camouflage used for?",
-      "options": [
-        "Changing the weather",
-        "Making every animal louder",
-        "Blending with surroundings"
+        "They predict earthquakes",
+        "They show exact fur colour",
+        "They can reveal diet and presence"
       ],
       "correctIndex": 2,
-      "explanation": "Camouflage can help animals hide from predators or prey.",
+      "explanation": "Scat can contain food remains, hormones, and DNA clues.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",
@@ -1571,16 +1715,16 @@
       ]
     },
     {
-      "id": "animal_detective.camouflage.v7",
-      "conceptId": "camouflage",
-      "prompt": "Apply the clue: What is camouflage used for?",
+      "id": "animal_detective.scat.q3",
+      "conceptId": "scat",
+      "prompt": "If you were teaching a friend about scat, which answer would you use?",
       "options": [
-        "Blending with surroundings",
-        "Changing the weather",
-        "Making every animal louder"
+        "They can reveal diet and presence",
+        "They show exact fur colour",
+        "They predict earthquakes"
       ],
       "correctIndex": 0,
-      "explanation": "Camouflage can help animals hide from predators or prey.",
+      "explanation": "Scat can contain food remains, hormones, and DNA clues.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",
@@ -1589,88 +1733,16 @@
       ]
     },
     {
-      "id": "animal_detective.camouflage.v8",
-      "conceptId": "camouflage",
-      "prompt": "Expert checkpoint: What is camouflage used for?",
+      "id": "animal_detective.uncertainty.q0",
+      "conceptId": "uncertainty",
+      "prompt": "What should you do when a photo lacks enough clues for a confident animal ID?",
       "options": [
-        "Making every animal louder",
-        "Changing the weather",
-        "Blending with surroundings"
-      ],
-      "correctIndex": 2,
-      "explanation": "Camouflage can help animals hide from predators or prey.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "animal_detective.camouflage.v9",
-      "conceptId": "camouflage",
-      "prompt": "Final mastery question: What is camouflage used for?",
-      "options": [
-        "Changing the weather",
-        "Blending with surroundings",
-        "Making every animal louder"
-      ],
-      "correctIndex": 1,
-      "explanation": "Camouflage can help animals hide from predators or prey.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "animal_detective.taxonomy.v5",
-      "conceptId": "taxonomy",
-      "prompt": "Reason it out: What is taxonomy?",
-      "options": [
-        "Study of clouds",
-        "Science of naming and classifying organisms",
-        "Rocket engineering"
-      ],
-      "correctIndex": 1,
-      "explanation": "Taxonomy organises biodiversity using shared characteristics.",
-      "difficulty": "medium",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "animal_detective.taxonomy.v6",
-      "conceptId": "taxonomy",
-      "prompt": "Quick recall challenge: What is taxonomy?",
-      "options": [
-        "Rocket engineering",
-        "Study of clouds",
-        "Science of naming and classifying organisms"
-      ],
-      "correctIndex": 2,
-      "explanation": "Taxonomy organises biodiversity using shared characteristics.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "animal_detective.taxonomy.v7",
-      "conceptId": "taxonomy",
-      "prompt": "Apply the clue: What is taxonomy?",
-      "options": [
-        "Science of naming and classifying organisms",
-        "Rocket engineering",
-        "Study of clouds"
+        "Report uncertainty and seek more evidence",
+        "Invent a certain answer",
+        "Ignore all evidence"
       ],
       "correctIndex": 0,
-      "explanation": "Taxonomy organises biodiversity using shared characteristics.",
+      "explanation": "Responsible identification states uncertainty when evidence is limited.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",
@@ -1679,34 +1751,16 @@
       ]
     },
     {
-      "id": "animal_detective.taxonomy.v8",
-      "conceptId": "taxonomy",
-      "prompt": "Expert checkpoint: What is taxonomy?",
+      "id": "animal_detective.uncertainty.q1",
+      "conceptId": "uncertainty",
+      "prompt": "Which answer best fits this clue: What should you do when a photo lacks enough clues for a confident animal ID?",
       "options": [
-        "Study of clouds",
-        "Rocket engineering",
-        "Science of naming and classifying organisms"
-      ],
-      "correctIndex": 2,
-      "explanation": "Taxonomy organises biodiversity using shared characteristics.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "animal_detective.taxonomy.v9",
-      "conceptId": "taxonomy",
-      "prompt": "Final mastery question: What is taxonomy?",
-      "options": [
-        "Rocket engineering",
-        "Science of naming and classifying organisms",
-        "Study of clouds"
+        "Invent a certain answer",
+        "Report uncertainty and seek more evidence",
+        "Ignore all evidence"
       ],
       "correctIndex": 1,
-      "explanation": "Taxonomy organises biodiversity using shared characteristics.",
+      "explanation": "Responsible identification states uncertainty when evidence is limited.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",
@@ -1715,34 +1769,16 @@
       ]
     },
     {
-      "id": "animal_detective.uncertain.v5",
-      "conceptId": "uncertain",
-      "prompt": "Reason it out: What should you report when a photo lacks enough identification clues?",
+      "id": "animal_detective.uncertainty.q2",
+      "conceptId": "uncertainty",
+      "prompt": "Quizzie challenge: choose the correct statement for uncertainty.",
       "options": [
-        "A made-up certainty",
-        "Uncertainty",
-        "No evidence"
-      ],
-      "correctIndex": 1,
-      "explanation": "Responsible identification states uncertainty and seeks more evidence.",
-      "difficulty": "medium",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "animal_detective.uncertain.v6",
-      "conceptId": "uncertain",
-      "prompt": "Quick recall challenge: What should you report when a photo lacks enough identification clues?",
-      "options": [
-        "No evidence",
-        "A made-up certainty",
-        "Uncertainty"
+        "Invent a certain answer",
+        "Ignore all evidence",
+        "Report uncertainty and seek more evidence"
       ],
       "correctIndex": 2,
-      "explanation": "Responsible identification states uncertainty and seeks more evidence.",
+      "explanation": "Responsible identification states uncertainty when evidence is limited.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",
@@ -1751,52 +1787,16 @@
       ]
     },
     {
-      "id": "animal_detective.uncertain.v7",
-      "conceptId": "uncertain",
-      "prompt": "Apply the clue: What should you report when a photo lacks enough identification clues?",
+      "id": "animal_detective.uncertainty.q3",
+      "conceptId": "uncertainty",
+      "prompt": "If you were teaching a friend about uncertainty, which answer would you use?",
       "options": [
-        "Uncertainty",
-        "No evidence",
-        "A made-up certainty"
+        "Report uncertainty and seek more evidence",
+        "Ignore all evidence",
+        "Invent a certain answer"
       ],
       "correctIndex": 0,
-      "explanation": "Responsible identification states uncertainty and seeks more evidence.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "animal_detective.uncertain.v8",
-      "conceptId": "uncertain",
-      "prompt": "Expert checkpoint: What should you report when a photo lacks enough identification clues?",
-      "options": [
-        "A made-up certainty",
-        "No evidence",
-        "Uncertainty"
-      ],
-      "correctIndex": 2,
-      "explanation": "Responsible identification states uncertainty and seeks more evidence.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "animal_detective.uncertain.v9",
-      "conceptId": "uncertain",
-      "prompt": "Final mastery question: What should you report when a photo lacks enough identification clues?",
-      "options": [
-        "No evidence",
-        "Uncertainty",
-        "A made-up certainty"
-      ],
-      "correctIndex": 1,
-      "explanation": "Responsible identification states uncertainty and seeks more evidence.",
+      "explanation": "Responsible identification states uncertainty when evidence is limited.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",
