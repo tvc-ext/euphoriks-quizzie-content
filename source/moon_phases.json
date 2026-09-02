@@ -1,0 +1,30 @@
+{
+  "topicId": "moon_phases",
+  "facts": [
+    ["reflected_light","Why does the Moon shine?","It reflects sunlight","It makes its own light","Earth lights it","The Moon is visible because its surface reflects sunlight."],
+    ["orbit_earth","What does the Moon orbit?","Earth","Mars","Venus","The Moon is Earth’s natural satellite and orbits Earth."],
+    ["phase_cycle","About how long is one lunar phase cycle?","29.5 days","24 hours","365 days","The synodic month is about 29.5 days."],
+    ["new_moon","At new moon, where is the Moon roughly positioned?","Between Earth and the Sun","Behind Earth from the Sun","Next to Mars","At new moon the Moon is roughly between Earth and the Sun."],
+    ["full_moon","At full moon, which side of the Moon faces Earth?","Most of the sunlit side","Mostly the dark side","Only the far side","At full moon most of the sunlit half faces Earth."],
+    ["first_quarter","What fraction of the Moon’s disk looks lit at first quarter?","About half","All of it","None of it","At first quarter, about half the visible disk is illuminated."],
+    ["last_quarter","What happens after a full moon as it heads toward last quarter?","The lit portion we see decreases","It becomes physically smaller","It stops orbiting","The visible illuminated fraction wanes after full moon."],
+    ["waxing","What does waxing mean for the Moon?","The visible lit portion is increasing","The Moon is getting heavier","The Moon is moving away forever","Waxing means the illuminated portion we see is growing."],
+    ["waning","What does waning mean for the Moon?","The visible lit portion is decreasing","The Moon is melting","The Moon is moving faster","Waning means the illuminated portion we see is shrinking."],
+    ["crescent","What shape describes less than half of the Moon looking lit?","Crescent","Gibbous","Full","A crescent phase shows less than half the disk illuminated."],
+    ["gibbous","What shape describes more than half but not all of the Moon looking lit?","Gibbous","Crescent","New","A gibbous phase shows more than half but less than all illuminated."],
+    ["same_face","Why do we usually see the same lunar face?","The Moon rotates once per orbit","The Moon never rotates","Clouds hide the other side","Synchronous rotation keeps nearly the same face toward Earth."],
+    ["terminator","What is the line between lunar day and night called?","The terminator","The equator","The horizon belt","The terminator is the boundary between light and darkness on the Moon."],
+    ["lunar_eclipse","What causes a lunar eclipse?","Earth’s shadow falls on the Moon","The Moon blocks Earth from the Sun","Mars covers the Moon","A lunar eclipse occurs when Earth lies between the Sun and Moon."],
+    ["solar_eclipse","What causes a solar eclipse?","The Moon blocks some sunlight from reaching Earth","Earth blocks sunlight from the Moon","Venus covers the Sun","A solar eclipse occurs when the Moon passes between Earth and the Sun."],
+    ["tides","Which force links the Moon to ocean tides?","Gravity","Magnetism","Sound","The Moon’s gravity contributes strongly to ocean tides."],
+    ["craters","Why are many Moon craters well preserved?","There is little weather and no flowing water","It rains every day","Plants protect them","The Moon has almost no atmosphere and little erosion."],
+    ["atmosphere","How thick is the Moon’s atmosphere?","Extremely thin","Thicker than Earth’s","Like Jupiter’s","The Moon has only a very tenuous exosphere."],
+    ["gravity","How does lunar surface gravity compare with Earth’s?","About one sixth as strong","About six times stronger","Exactly the same","Surface gravity on the Moon is about one sixth of Earth’s."],
+    ["distance","About how far is the Moon from Earth on average?","384,000 km","38 km","3.8 million km","The average Earth–Moon distance is roughly 384,400 km."],
+    ["far_side","Does the Moon’s far side always stay dark?","No","Yes","Only in summer","The far side receives sunlight too; it is simply mostly hidden from Earth."],
+    ["phases_not_shadow","Are normal Moon phases caused by Earth’s shadow?","No","Yes, always","Only at full moon","Normal phases come from viewing different portions of the sunlit half."],
+    ["rise_times","Does the Moon rise at the same time every day?","No","Yes","Only on weekends","The Moon generally rises about 50 minutes later each day on average."],
+    ["surface","What is lunar regolith?","Loose dust and broken rock on the surface","Liquid ocean water","A cloud layer","Regolith is the dusty, fragmented material covering much of the lunar surface."],
+    ["exploration","Which mission first landed humans on the Moon?","Apollo 11","Voyager 1","Hubble","Apollo 11 landed humans on the Moon in 1969."]
+  ]
+}

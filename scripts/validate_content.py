@@ -1,4 +1,5 @@
 import json
+from collections import Counter
 from pathlib import Path
 
 manifest = json.loads(Path("manifest.json").read_text())
@@ -13,11 +14,11 @@ for entry in manifest["packs"]:
     if entry["type"] != "questions":
         continue
     questions = data["questions"]
-    assert len(questions) >= 100, path
+    assert len(questions) == 100, path
     total += len(questions)
     prompts = set()
     levels = set()
-    concepts = set()
+    concepts = []
     for question in questions:
         assert question["id"] not in ids
         ids.add(question["id"])
@@ -28,8 +29,10 @@ for entry in manifest["packs"]:
         assert question["explanation"].strip()
         assert question["difficulty"] in {"easy", "medium", "hard"}
         levels.add(question["difficulty"])
-        concepts.add(question["conceptId"])
+        concepts.append(question["conceptId"])
     assert levels == {"easy", "medium", "hard"}
-    assert len(concepts) >= 10
+    concept_counts = Counter(concepts)
+    assert len(concept_counts) >= 25, (path, len(concept_counts))
+    assert max(concept_counts.values()) <= 4, (path, concept_counts.most_common(1))
 assert total == manifest["questionCount"]
 print(f"Validated {total} questions across {len(manifest['packs']) - 1} topic packs")

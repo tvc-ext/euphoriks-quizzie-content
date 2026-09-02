@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "packVersion": 2,
+  "packVersion": 3,
   "topicId": "ai_pattern_lab",
   "questionCount": 100,
   "questions": [
     {
-      "id": "ai_pattern_lab.examples.v0",
-      "conceptId": "examples",
+      "id": "ai_pattern_lab.training_data.q0",
+      "conceptId": "training_data",
       "prompt": "What helps an AI model learn patterns?",
       "options": [
-        "Training examples",
+        "Training data",
         "Magic words",
         "Screen brightness"
       ],
       "correctIndex": 0,
-      "explanation": "Models learn mathematical patterns from data examples.",
+      "explanation": "Models learn statistical patterns from examples in data.",
       "difficulty": "easy",
       "ageBands": [
         "explorer6to8",
@@ -23,268 +23,16 @@
       ]
     },
     {
-      "id": "ai_pattern_lab.examples.v1",
-      "conceptId": "examples",
-      "prompt": "Think carefully: What helps an AI model learn patterns?",
+      "id": "ai_pattern_lab.training_data.q1",
+      "conceptId": "training_data",
+      "prompt": "Which answer best fits this clue: What helps an AI model learn patterns?",
       "options": [
         "Magic words",
-        "Training examples",
+        "Training data",
         "Screen brightness"
       ],
       "correctIndex": 1,
-      "explanation": "Models learn mathematical patterns from data examples.",
-      "difficulty": "medium",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.examples.v2",
-      "conceptId": "examples",
-      "prompt": "Level challenge — What helps an AI model learn patterns?",
-      "options": [
-        "Magic words",
-        "Screen brightness",
-        "Training examples"
-      ],
-      "correctIndex": 2,
-      "explanation": "Models learn mathematical patterns from data examples.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.examples.v3",
-      "conceptId": "examples",
-      "prompt": "Choose the best answer: What helps an AI model learn patterns?",
-      "options": [
-        "Training examples",
-        "Screen brightness",
-        "Magic words"
-      ],
-      "correctIndex": 0,
-      "explanation": "Models learn mathematical patterns from data examples.",
-      "difficulty": "medium",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.examples.v4",
-      "conceptId": "examples",
-      "prompt": "Final clue — What helps an AI model learn patterns?",
-      "options": [
-        "Screen brightness",
-        "Training examples",
-        "Magic words"
-      ],
-      "correctIndex": 1,
-      "explanation": "Models learn mathematical patterns from data examples.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.label.v0",
-      "conceptId": "label",
-      "prompt": "What is a label in supervised learning?",
-      "options": [
-        "The expected answer",
-        "A battery",
-        "A secret password"
-      ],
-      "correctIndex": 0,
-      "explanation": "Labels tell the model what an example represents.",
-      "difficulty": "medium",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.label.v1",
-      "conceptId": "label",
-      "prompt": "Think carefully: What is a label in supervised learning?",
-      "options": [
-        "A battery",
-        "The expected answer",
-        "A secret password"
-      ],
-      "correctIndex": 1,
-      "explanation": "Labels tell the model what an example represents.",
-      "difficulty": "medium",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.label.v2",
-      "conceptId": "label",
-      "prompt": "Level challenge — What is a label in supervised learning?",
-      "options": [
-        "A battery",
-        "A secret password",
-        "The expected answer"
-      ],
-      "correctIndex": 2,
-      "explanation": "Labels tell the model what an example represents.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.label.v3",
-      "conceptId": "label",
-      "prompt": "Choose the best answer: What is a label in supervised learning?",
-      "options": [
-        "The expected answer",
-        "A secret password",
-        "A battery"
-      ],
-      "correctIndex": 0,
-      "explanation": "Labels tell the model what an example represents.",
-      "difficulty": "medium",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.label.v4",
-      "conceptId": "label",
-      "prompt": "Final clue — What is a label in supervised learning?",
-      "options": [
-        "A secret password",
-        "The expected answer",
-        "A battery"
-      ],
-      "correctIndex": 1,
-      "explanation": "Labels tell the model what an example represents.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.bias.v0",
-      "conceptId": "bias",
-      "prompt": "What can unbalanced training data cause?",
-      "options": [
-        "Biased results",
-        "Perfect fairness",
-        "More battery power"
-      ],
-      "correctIndex": 0,
-      "explanation": "Unrepresentative data can produce unfair or unreliable results.",
-      "difficulty": "medium",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.bias.v1",
-      "conceptId": "bias",
-      "prompt": "Think carefully: What can unbalanced training data cause?",
-      "options": [
-        "Perfect fairness",
-        "Biased results",
-        "More battery power"
-      ],
-      "correctIndex": 1,
-      "explanation": "Unrepresentative data can produce unfair or unreliable results.",
-      "difficulty": "medium",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.bias.v2",
-      "conceptId": "bias",
-      "prompt": "Level challenge — What can unbalanced training data cause?",
-      "options": [
-        "Perfect fairness",
-        "More battery power",
-        "Biased results"
-      ],
-      "correctIndex": 2,
-      "explanation": "Unrepresentative data can produce unfair or unreliable results.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.bias.v3",
-      "conceptId": "bias",
-      "prompt": "Choose the best answer: What can unbalanced training data cause?",
-      "options": [
-        "Biased results",
-        "More battery power",
-        "Perfect fairness"
-      ],
-      "correctIndex": 0,
-      "explanation": "Unrepresentative data can produce unfair or unreliable results.",
-      "difficulty": "medium",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.bias.v4",
-      "conceptId": "bias",
-      "prompt": "Final clue — What can unbalanced training data cause?",
-      "options": [
-        "More battery power",
-        "Biased results",
-        "Perfect fairness"
-      ],
-      "correctIndex": 1,
-      "explanation": "Unrepresentative data can produce unfair or unreliable results.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.privacy.v0",
-      "conceptId": "privacy",
-      "prompt": "What should you avoid sharing with a public AI tool?",
-      "options": [
-        "Private personal information",
-        "A public science fact",
-        "A made-up animal name"
-      ],
-      "correctIndex": 0,
-      "explanation": "Personal data should be protected.",
+      "explanation": "Models learn statistical patterns from examples in data.",
       "difficulty": "easy",
       "ageBands": [
         "explorer6to8",
@@ -293,16 +41,16 @@
       ]
     },
     {
-      "id": "ai_pattern_lab.privacy.v1",
-      "conceptId": "privacy",
-      "prompt": "Think carefully: What should you avoid sharing with a public AI tool?",
+      "id": "ai_pattern_lab.training_data.q2",
+      "conceptId": "training_data",
+      "prompt": "Quizzie challenge: choose the correct statement for training data.",
       "options": [
-        "A public science fact",
-        "Private personal information",
-        "A made-up animal name"
+        "Magic words",
+        "Screen brightness",
+        "Training data"
       ],
-      "correctIndex": 1,
-      "explanation": "Personal data should be protected.",
+      "correctIndex": 2,
+      "explanation": "Models learn statistical patterns from examples in data.",
       "difficulty": "medium",
       "ageBands": [
         "explorer6to8",
@@ -311,17 +59,287 @@
       ]
     },
     {
-      "id": "ai_pattern_lab.privacy.v2",
+      "id": "ai_pattern_lab.training_data.q3",
+      "conceptId": "training_data",
+      "prompt": "If you were teaching a friend about training data, which answer would you use?",
+      "options": [
+        "Training data",
+        "Screen brightness",
+        "Magic words"
+      ],
+      "correctIndex": 0,
+      "explanation": "Models learn statistical patterns from examples in data.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.label.q0",
+      "conceptId": "label",
+      "prompt": "In supervised learning, what is a label?",
+      "options": [
+        "The expected target or answer",
+        "A battery",
+        "A password"
+      ],
+      "correctIndex": 0,
+      "explanation": "Labels identify the target associated with training examples.",
+      "difficulty": "easy",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.label.q1",
+      "conceptId": "label",
+      "prompt": "Which answer best fits this clue: In supervised learning, what is a label?",
+      "options": [
+        "A battery",
+        "The expected target or answer",
+        "A password"
+      ],
+      "correctIndex": 1,
+      "explanation": "Labels identify the target associated with training examples.",
+      "difficulty": "easy",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.label.q2",
+      "conceptId": "label",
+      "prompt": "Quizzie challenge: choose the correct statement for label.",
+      "options": [
+        "A battery",
+        "A password",
+        "The expected target or answer"
+      ],
+      "correctIndex": 2,
+      "explanation": "Labels identify the target associated with training examples.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.label.q3",
+      "conceptId": "label",
+      "prompt": "If you were teaching a friend about label, which answer would you use?",
+      "options": [
+        "The expected target or answer",
+        "A password",
+        "A battery"
+      ],
+      "correctIndex": 0,
+      "explanation": "Labels identify the target associated with training examples.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.feature.q0",
+      "conceptId": "feature",
+      "prompt": "What is a feature in machine learning?",
+      "options": [
+        "An input characteristic used by a model",
+        "A screen colour only",
+        "A secret key"
+      ],
+      "correctIndex": 0,
+      "explanation": "Features are measurable inputs used for prediction.",
+      "difficulty": "easy",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.feature.q1",
+      "conceptId": "feature",
+      "prompt": "Which answer best fits this clue: What is a feature in machine learning?",
+      "options": [
+        "A screen colour only",
+        "An input characteristic used by a model",
+        "A secret key"
+      ],
+      "correctIndex": 1,
+      "explanation": "Features are measurable inputs used for prediction.",
+      "difficulty": "easy",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.feature.q2",
+      "conceptId": "feature",
+      "prompt": "Quizzie challenge: choose the correct statement for feature.",
+      "options": [
+        "A screen colour only",
+        "A secret key",
+        "An input characteristic used by a model"
+      ],
+      "correctIndex": 2,
+      "explanation": "Features are measurable inputs used for prediction.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.feature.q3",
+      "conceptId": "feature",
+      "prompt": "If you were teaching a friend about feature, which answer would you use?",
+      "options": [
+        "An input characteristic used by a model",
+        "A secret key",
+        "A screen colour only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Features are measurable inputs used for prediction.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.bias.q0",
+      "conceptId": "bias",
+      "prompt": "What can unrepresentative training data cause?",
+      "options": [
+        "Biased or unreliable results",
+        "Perfect fairness automatically",
+        "More battery life"
+      ],
+      "correctIndex": 0,
+      "explanation": "Skewed data can produce unfair or inaccurate outcomes.",
+      "difficulty": "easy",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.bias.q1",
+      "conceptId": "bias",
+      "prompt": "Which answer best fits this clue: What can unrepresentative training data cause?",
+      "options": [
+        "Perfect fairness automatically",
+        "Biased or unreliable results",
+        "More battery life"
+      ],
+      "correctIndex": 1,
+      "explanation": "Skewed data can produce unfair or inaccurate outcomes.",
+      "difficulty": "easy",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.bias.q2",
+      "conceptId": "bias",
+      "prompt": "Quizzie challenge: choose the correct statement for bias.",
+      "options": [
+        "Perfect fairness automatically",
+        "More battery life",
+        "Biased or unreliable results"
+      ],
+      "correctIndex": 2,
+      "explanation": "Skewed data can produce unfair or inaccurate outcomes.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.bias.q3",
+      "conceptId": "bias",
+      "prompt": "If you were teaching a friend about bias, which answer would you use?",
+      "options": [
+        "Biased or unreliable results",
+        "More battery life",
+        "Perfect fairness automatically"
+      ],
+      "correctIndex": 0,
+      "explanation": "Skewed data can produce unfair or inaccurate outcomes.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.privacy.q0",
       "conceptId": "privacy",
-      "prompt": "Level challenge — What should you avoid sharing with a public AI tool?",
+      "prompt": "What should a child avoid sharing with a public AI tool?",
+      "options": [
+        "Private personal information",
+        "A public science fact",
+        "A made-up animal name"
+      ],
+      "correctIndex": 0,
+      "explanation": "Personal data should be protected when using online tools.",
+      "difficulty": "easy",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.privacy.q1",
+      "conceptId": "privacy",
+      "prompt": "Which answer best fits this clue: What should a child avoid sharing with a public AI tool?",
+      "options": [
+        "A public science fact",
+        "Private personal information",
+        "A made-up animal name"
+      ],
+      "correctIndex": 1,
+      "explanation": "Personal data should be protected when using online tools.",
+      "difficulty": "easy",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.privacy.q2",
+      "conceptId": "privacy",
+      "prompt": "Quizzie challenge: choose the correct statement for privacy.",
       "options": [
         "A public science fact",
         "A made-up animal name",
         "Private personal information"
       ],
       "correctIndex": 2,
-      "explanation": "Personal data should be protected.",
-      "difficulty": "hard",
+      "explanation": "Personal data should be protected when using online tools.",
+      "difficulty": "medium",
       "ageBands": [
         "explorer6to8",
         "adventurer9to11",
@@ -329,16 +347,16 @@
       ]
     },
     {
-      "id": "ai_pattern_lab.privacy.v3",
+      "id": "ai_pattern_lab.privacy.q3",
       "conceptId": "privacy",
-      "prompt": "Choose the best answer: What should you avoid sharing with a public AI tool?",
+      "prompt": "If you were teaching a friend about privacy, which answer would you use?",
       "options": [
         "Private personal information",
         "A made-up animal name",
         "A public science fact"
       ],
       "correctIndex": 0,
-      "explanation": "Personal data should be protected.",
+      "explanation": "Personal data should be protected when using online tools.",
       "difficulty": "medium",
       "ageBands": [
         "explorer6to8",
@@ -347,125 +365,17 @@
       ]
     },
     {
-      "id": "ai_pattern_lab.privacy.v4",
-      "conceptId": "privacy",
-      "prompt": "Final clue — What should you avoid sharing with a public AI tool?",
-      "options": [
-        "A made-up animal name",
-        "Private personal information",
-        "A public science fact"
-      ],
-      "correctIndex": 1,
-      "explanation": "Personal data should be protected.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.check.v0",
-      "conceptId": "check",
-      "prompt": "Who should verify important AI answers?",
-      "options": [
-        "A responsible person",
-        "Nobody",
-        "A random machine only"
-      ],
-      "correctIndex": 0,
-      "explanation": "Human judgement remains necessary for important decisions.",
-      "difficulty": "easy",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.check.v1",
-      "conceptId": "check",
-      "prompt": "Think carefully: Who should verify important AI answers?",
-      "options": [
-        "Nobody",
-        "A responsible person",
-        "A random machine only"
-      ],
-      "correctIndex": 1,
-      "explanation": "Human judgement remains necessary for important decisions.",
-      "difficulty": "medium",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.check.v2",
-      "conceptId": "check",
-      "prompt": "Level challenge — Who should verify important AI answers?",
-      "options": [
-        "Nobody",
-        "A random machine only",
-        "A responsible person"
-      ],
-      "correctIndex": 2,
-      "explanation": "Human judgement remains necessary for important decisions.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.check.v3",
-      "conceptId": "check",
-      "prompt": "Choose the best answer: Who should verify important AI answers?",
-      "options": [
-        "A responsible person",
-        "A random machine only",
-        "Nobody"
-      ],
-      "correctIndex": 0,
-      "explanation": "Human judgement remains necessary for important decisions.",
-      "difficulty": "medium",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.check.v4",
-      "conceptId": "check",
-      "prompt": "Final clue — Who should verify important AI answers?",
-      "options": [
-        "A random machine only",
-        "A responsible person",
-        "Nobody"
-      ],
-      "correctIndex": 1,
-      "explanation": "Human judgement remains necessary for important decisions.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.hallucination.v0",
+      "id": "ai_pattern_lab.hallucination.q0",
       "conceptId": "hallucination",
       "prompt": "What is an AI hallucination?",
       "options": [
-        "A confident but incorrect output",
+        "A plausible but incorrect generated answer",
         "A screen animation",
-        "A faster processor"
+        "A faster chip"
       ],
       "correctIndex": 0,
-      "explanation": "Generative models can produce plausible-sounding false information.",
-      "difficulty": "medium",
+      "explanation": "Generative models can produce confident-sounding false information.",
+      "difficulty": "easy",
       "ageBands": [
         "explorer6to8",
         "adventurer9to11",
@@ -473,17 +383,17 @@
       ]
     },
     {
-      "id": "ai_pattern_lab.hallucination.v1",
+      "id": "ai_pattern_lab.hallucination.q1",
       "conceptId": "hallucination",
-      "prompt": "Think carefully: What is an AI hallucination?",
+      "prompt": "Which answer best fits this clue: What is an AI hallucination?",
       "options": [
         "A screen animation",
-        "A confident but incorrect output",
-        "A faster processor"
+        "A plausible but incorrect generated answer",
+        "A faster chip"
       ],
       "correctIndex": 1,
-      "explanation": "Generative models can produce plausible-sounding false information.",
-      "difficulty": "medium",
+      "explanation": "Generative models can produce confident-sounding false information.",
+      "difficulty": "easy",
       "ageBands": [
         "explorer6to8",
         "adventurer9to11",
@@ -491,34 +401,16 @@
       ]
     },
     {
-      "id": "ai_pattern_lab.hallucination.v2",
+      "id": "ai_pattern_lab.hallucination.q2",
       "conceptId": "hallucination",
-      "prompt": "Level challenge — What is an AI hallucination?",
+      "prompt": "Quizzie challenge: choose the correct statement for hallucination.",
       "options": [
         "A screen animation",
-        "A faster processor",
-        "A confident but incorrect output"
+        "A faster chip",
+        "A plausible but incorrect generated answer"
       ],
       "correctIndex": 2,
-      "explanation": "Generative models can produce plausible-sounding false information.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.hallucination.v3",
-      "conceptId": "hallucination",
-      "prompt": "Choose the best answer: What is an AI hallucination?",
-      "options": [
-        "A confident but incorrect output",
-        "A faster processor",
-        "A screen animation"
-      ],
-      "correctIndex": 0,
-      "explanation": "Generative models can produce plausible-sounding false information.",
+      "explanation": "Generative models can produce confident-sounding false information.",
       "difficulty": "medium",
       "ageBands": [
         "explorer6to8",
@@ -527,17 +419,17 @@
       ]
     },
     {
-      "id": "ai_pattern_lab.hallucination.v4",
+      "id": "ai_pattern_lab.hallucination.q3",
       "conceptId": "hallucination",
-      "prompt": "Final clue — What is an AI hallucination?",
+      "prompt": "If you were teaching a friend about hallucination, which answer would you use?",
       "options": [
-        "A faster processor",
-        "A confident but incorrect output",
+        "A plausible but incorrect generated answer",
+        "A faster chip",
         "A screen animation"
       ],
-      "correctIndex": 1,
-      "explanation": "Generative models can produce plausible-sounding false information.",
-      "difficulty": "hard",
+      "correctIndex": 0,
+      "explanation": "Generative models can produce confident-sounding false information.",
+      "difficulty": "medium",
       "ageBands": [
         "explorer6to8",
         "adventurer9to11",
@@ -545,17 +437,89 @@
       ]
     },
     {
-      "id": "ai_pattern_lab.testdata.v0",
-      "conceptId": "testdata",
+      "id": "ai_pattern_lab.human_check.q0",
+      "conceptId": "human_check",
+      "prompt": "Who should verify important AI outputs?",
+      "options": [
+        "A responsible person",
+        "Nobody",
+        "Only another random model"
+      ],
+      "correctIndex": 0,
+      "explanation": "Human judgement is important for consequential decisions.",
+      "difficulty": "easy",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.human_check.q1",
+      "conceptId": "human_check",
+      "prompt": "Which answer best fits this clue: Who should verify important AI outputs?",
+      "options": [
+        "Nobody",
+        "A responsible person",
+        "Only another random model"
+      ],
+      "correctIndex": 1,
+      "explanation": "Human judgement is important for consequential decisions.",
+      "difficulty": "easy",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.human_check.q2",
+      "conceptId": "human_check",
+      "prompt": "Quizzie challenge: choose the correct statement for human check.",
+      "options": [
+        "Nobody",
+        "Only another random model",
+        "A responsible person"
+      ],
+      "correctIndex": 2,
+      "explanation": "Human judgement is important for consequential decisions.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.human_check.q3",
+      "conceptId": "human_check",
+      "prompt": "If you were teaching a friend about human check, which answer would you use?",
+      "options": [
+        "A responsible person",
+        "Only another random model",
+        "Nobody"
+      ],
+      "correctIndex": 0,
+      "explanation": "Human judgement is important for consequential decisions.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.test_data.q0",
+      "conceptId": "test_data",
       "prompt": "Why keep test data separate from training data?",
       "options": [
-        "To measure generalisation fairly",
+        "To measure performance on unseen examples",
         "To make files colourful",
-        "To hide every answer"
+        "To hide the model forever"
       ],
       "correctIndex": 0,
-      "explanation": "Unseen test data checks performance beyond memorised examples.",
-      "difficulty": "hard",
+      "explanation": "Unseen test data helps measure generalisation.",
+      "difficulty": "easy",
       "ageBands": [
         "explorer6to8",
         "adventurer9to11",
@@ -563,17 +527,17 @@
       ]
     },
     {
-      "id": "ai_pattern_lab.testdata.v1",
-      "conceptId": "testdata",
-      "prompt": "Think carefully: Why keep test data separate from training data?",
+      "id": "ai_pattern_lab.test_data.q1",
+      "conceptId": "test_data",
+      "prompt": "Which answer best fits this clue: Why keep test data separate from training data?",
       "options": [
         "To make files colourful",
-        "To measure generalisation fairly",
-        "To hide every answer"
+        "To measure performance on unseen examples",
+        "To hide the model forever"
       ],
       "correctIndex": 1,
-      "explanation": "Unseen test data checks performance beyond memorised examples.",
-      "difficulty": "hard",
+      "explanation": "Unseen test data helps measure generalisation.",
+      "difficulty": "easy",
       "ageBands": [
         "explorer6to8",
         "adventurer9to11",
@@ -581,17 +545,17 @@
       ]
     },
     {
-      "id": "ai_pattern_lab.testdata.v2",
-      "conceptId": "testdata",
-      "prompt": "Level challenge — Why keep test data separate from training data?",
+      "id": "ai_pattern_lab.test_data.q2",
+      "conceptId": "test_data",
+      "prompt": "Quizzie challenge: choose the correct statement for test data.",
       "options": [
         "To make files colourful",
-        "To hide every answer",
-        "To measure generalisation fairly"
+        "To hide the model forever",
+        "To measure performance on unseen examples"
       ],
       "correctIndex": 2,
-      "explanation": "Unseen test data checks performance beyond memorised examples.",
-      "difficulty": "hard",
+      "explanation": "Unseen test data helps measure generalisation.",
+      "difficulty": "medium",
       "ageBands": [
         "explorer6to8",
         "adventurer9to11",
@@ -599,17 +563,17 @@
       ]
     },
     {
-      "id": "ai_pattern_lab.testdata.v3",
-      "conceptId": "testdata",
-      "prompt": "Choose the best answer: Why keep test data separate from training data?",
+      "id": "ai_pattern_lab.test_data.q3",
+      "conceptId": "test_data",
+      "prompt": "If you were teaching a friend about test data, which answer would you use?",
       "options": [
-        "To measure generalisation fairly",
-        "To hide every answer",
+        "To measure performance on unseen examples",
+        "To hide the model forever",
         "To make files colourful"
       ],
       "correctIndex": 0,
-      "explanation": "Unseen test data checks performance beyond memorised examples.",
-      "difficulty": "hard",
+      "explanation": "Unseen test data helps measure generalisation.",
+      "difficulty": "medium",
       "ageBands": [
         "explorer6to8",
         "adventurer9to11",
@@ -617,35 +581,17 @@
       ]
     },
     {
-      "id": "ai_pattern_lab.testdata.v4",
-      "conceptId": "testdata",
-      "prompt": "Final clue — Why keep test data separate from training data?",
-      "options": [
-        "To hide every answer",
-        "To measure generalisation fairly",
-        "To make files colourful"
-      ],
-      "correctIndex": 1,
-      "explanation": "Unseen test data checks performance beyond memorised examples.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.overfit.v0",
-      "conceptId": "overfit",
+      "id": "ai_pattern_lab.overfitting.q0",
+      "conceptId": "overfitting",
       "prompt": "What is overfitting?",
       "options": [
-        "Learning training details but failing on new examples",
+        "Doing well on training data but poorly on new data",
         "Learning nothing",
-        "Turning off a model"
+        "Turning a computer off"
       ],
       "correctIndex": 0,
-      "explanation": "An overfit model does not generalise well.",
-      "difficulty": "hard",
+      "explanation": "An overfit model memorises training details rather than generalising.",
+      "difficulty": "medium",
       "ageBands": [
         "explorer6to8",
         "adventurer9to11",
@@ -653,17 +599,17 @@
       ]
     },
     {
-      "id": "ai_pattern_lab.overfit.v1",
-      "conceptId": "overfit",
-      "prompt": "Think carefully: What is overfitting?",
+      "id": "ai_pattern_lab.overfitting.q1",
+      "conceptId": "overfitting",
+      "prompt": "Which answer best fits this clue: What is overfitting?",
       "options": [
         "Learning nothing",
-        "Learning training details but failing on new examples",
-        "Turning off a model"
+        "Doing well on training data but poorly on new data",
+        "Turning a computer off"
       ],
       "correctIndex": 1,
-      "explanation": "An overfit model does not generalise well.",
-      "difficulty": "hard",
+      "explanation": "An overfit model memorises training details rather than generalising.",
+      "difficulty": "medium",
       "ageBands": [
         "explorer6to8",
         "adventurer9to11",
@@ -671,17 +617,17 @@
       ]
     },
     {
-      "id": "ai_pattern_lab.overfit.v2",
-      "conceptId": "overfit",
-      "prompt": "Level challenge — What is overfitting?",
+      "id": "ai_pattern_lab.overfitting.q2",
+      "conceptId": "overfitting",
+      "prompt": "Quizzie challenge: choose the correct statement for overfitting.",
       "options": [
         "Learning nothing",
-        "Turning off a model",
-        "Learning training details but failing on new examples"
+        "Turning a computer off",
+        "Doing well on training data but poorly on new data"
       ],
       "correctIndex": 2,
-      "explanation": "An overfit model does not generalise well.",
-      "difficulty": "hard",
+      "explanation": "An overfit model memorises training details rather than generalising.",
+      "difficulty": "medium",
       "ageBands": [
         "explorer6to8",
         "adventurer9to11",
@@ -689,17 +635,17 @@
       ]
     },
     {
-      "id": "ai_pattern_lab.overfit.v3",
-      "conceptId": "overfit",
-      "prompt": "Choose the best answer: What is overfitting?",
+      "id": "ai_pattern_lab.overfitting.q3",
+      "conceptId": "overfitting",
+      "prompt": "If you were teaching a friend about overfitting, which answer would you use?",
       "options": [
-        "Learning training details but failing on new examples",
-        "Turning off a model",
+        "Doing well on training data but poorly on new data",
+        "Turning a computer off",
         "Learning nothing"
       ],
       "correctIndex": 0,
-      "explanation": "An overfit model does not generalise well.",
-      "difficulty": "hard",
+      "explanation": "An overfit model memorises training details rather than generalising.",
+      "difficulty": "medium",
       "ageBands": [
         "explorer6to8",
         "adventurer9to11",
@@ -707,35 +653,17 @@
       ]
     },
     {
-      "id": "ai_pattern_lab.overfit.v4",
-      "conceptId": "overfit",
-      "prompt": "Final clue — What is overfitting?",
+      "id": "ai_pattern_lab.underfitting.q0",
+      "conceptId": "underfitting",
+      "prompt": "What is underfitting?",
       "options": [
-        "Turning off a model",
-        "Learning training details but failing on new examples",
-        "Learning nothing"
-      ],
-      "correctIndex": 1,
-      "explanation": "An overfit model does not generalise well.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.confidence.v0",
-      "conceptId": "confidence",
-      "prompt": "Does a high AI confidence score guarantee correctness?",
-      "options": [
-        "No",
-        "Always",
-        "Only on Tuesdays"
+        "A model is too simple to capture useful patterns",
+        "A model has too much storage",
+        "A model uses too many colours"
       ],
       "correctIndex": 0,
-      "explanation": "Confidence is a model estimate and can be miscalibrated.",
-      "difficulty": "hard",
+      "explanation": "Underfit models fail even on basic patterns in training data.",
+      "difficulty": "medium",
       "ageBands": [
         "explorer6to8",
         "adventurer9to11",
@@ -743,17 +671,17 @@
       ]
     },
     {
-      "id": "ai_pattern_lab.confidence.v1",
-      "conceptId": "confidence",
-      "prompt": "Think carefully: Does a high AI confidence score guarantee correctness?",
+      "id": "ai_pattern_lab.underfitting.q1",
+      "conceptId": "underfitting",
+      "prompt": "Which answer best fits this clue: What is underfitting?",
       "options": [
-        "Always",
-        "No",
-        "Only on Tuesdays"
+        "A model has too much storage",
+        "A model is too simple to capture useful patterns",
+        "A model uses too many colours"
       ],
       "correctIndex": 1,
-      "explanation": "Confidence is a model estimate and can be miscalibrated.",
-      "difficulty": "hard",
+      "explanation": "Underfit models fail even on basic patterns in training data.",
+      "difficulty": "medium",
       "ageBands": [
         "explorer6to8",
         "adventurer9to11",
@@ -761,17 +689,233 @@
       ]
     },
     {
-      "id": "ai_pattern_lab.confidence.v2",
-      "conceptId": "confidence",
-      "prompt": "Level challenge — Does a high AI confidence score guarantee correctness?",
+      "id": "ai_pattern_lab.underfitting.q2",
+      "conceptId": "underfitting",
+      "prompt": "Quizzie challenge: choose the correct statement for underfitting.",
       "options": [
-        "Always",
-        "Only on Tuesdays",
+        "A model has too much storage",
+        "A model uses too many colours",
+        "A model is too simple to capture useful patterns"
+      ],
+      "correctIndex": 2,
+      "explanation": "Underfit models fail even on basic patterns in training data.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.underfitting.q3",
+      "conceptId": "underfitting",
+      "prompt": "If you were teaching a friend about underfitting, which answer would you use?",
+      "options": [
+        "A model is too simple to capture useful patterns",
+        "A model uses too many colours",
+        "A model has too much storage"
+      ],
+      "correctIndex": 0,
+      "explanation": "Underfit models fail even on basic patterns in training data.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.classification.q0",
+      "conceptId": "classification",
+      "prompt": "What does a classifier usually do?",
+      "options": [
+        "Assign an input to a category",
+        "Write only poems",
+        "Compress every file"
+      ],
+      "correctIndex": 0,
+      "explanation": "Classification predicts categories or labels.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.classification.q1",
+      "conceptId": "classification",
+      "prompt": "Which answer best fits this clue: What does a classifier usually do?",
+      "options": [
+        "Write only poems",
+        "Assign an input to a category",
+        "Compress every file"
+      ],
+      "correctIndex": 1,
+      "explanation": "Classification predicts categories or labels.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.classification.q2",
+      "conceptId": "classification",
+      "prompt": "Quizzie challenge: choose the correct statement for classification.",
+      "options": [
+        "Write only poems",
+        "Compress every file",
+        "Assign an input to a category"
+      ],
+      "correctIndex": 2,
+      "explanation": "Classification predicts categories or labels.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.classification.q3",
+      "conceptId": "classification",
+      "prompt": "If you were teaching a friend about classification, which answer would you use?",
+      "options": [
+        "Assign an input to a category",
+        "Compress every file",
+        "Write only poems"
+      ],
+      "correctIndex": 0,
+      "explanation": "Classification predicts categories or labels.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.regression.q0",
+      "conceptId": "regression",
+      "prompt": "What does regression usually predict?",
+      "options": [
+        "A numerical value",
+        "A password",
+        "A drawing only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Regression models estimate continuous numerical outcomes.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.regression.q1",
+      "conceptId": "regression",
+      "prompt": "Which answer best fits this clue: What does regression usually predict?",
+      "options": [
+        "A password",
+        "A numerical value",
+        "A drawing only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Regression models estimate continuous numerical outcomes.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.regression.q2",
+      "conceptId": "regression",
+      "prompt": "Quizzie challenge: choose the correct statement for regression.",
+      "options": [
+        "A password",
+        "A drawing only",
+        "A numerical value"
+      ],
+      "correctIndex": 2,
+      "explanation": "Regression models estimate continuous numerical outcomes.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.regression.q3",
+      "conceptId": "regression",
+      "prompt": "If you were teaching a friend about regression, which answer would you use?",
+      "options": [
+        "A numerical value",
+        "A drawing only",
+        "A password"
+      ],
+      "correctIndex": 0,
+      "explanation": "Regression models estimate continuous numerical outcomes.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.confidence.q0",
+      "conceptId": "confidence",
+      "prompt": "Does high model confidence guarantee correctness?",
+      "options": [
+        "No",
+        "Yes, always",
+        "Only on Fridays"
+      ],
+      "correctIndex": 0,
+      "explanation": "Confidence is an estimate and can be wrong or miscalibrated.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.confidence.q1",
+      "conceptId": "confidence",
+      "prompt": "Which answer best fits this clue: Does high model confidence guarantee correctness?",
+      "options": [
+        "Yes, always",
+        "No",
+        "Only on Fridays"
+      ],
+      "correctIndex": 1,
+      "explanation": "Confidence is an estimate and can be wrong or miscalibrated.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.confidence.q2",
+      "conceptId": "confidence",
+      "prompt": "Quizzie challenge: choose the correct statement for confidence.",
+      "options": [
+        "Yes, always",
+        "Only on Fridays",
         "No"
       ],
       "correctIndex": 2,
-      "explanation": "Confidence is a model estimate and can be miscalibrated.",
-      "difficulty": "hard",
+      "explanation": "Confidence is an estimate and can be wrong or miscalibrated.",
+      "difficulty": "medium",
       "ageBands": [
         "explorer6to8",
         "adventurer9to11",
@@ -779,52 +923,16 @@
       ]
     },
     {
-      "id": "ai_pattern_lab.confidence.v3",
+      "id": "ai_pattern_lab.confidence.q3",
       "conceptId": "confidence",
-      "prompt": "Choose the best answer: Does a high AI confidence score guarantee correctness?",
+      "prompt": "If you were teaching a friend about confidence, which answer would you use?",
       "options": [
         "No",
-        "Only on Tuesdays",
-        "Always"
+        "Only on Fridays",
+        "Yes, always"
       ],
       "correctIndex": 0,
-      "explanation": "Confidence is a model estimate and can be miscalibrated.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.confidence.v4",
-      "conceptId": "confidence",
-      "prompt": "Final clue — Does a high AI confidence score guarantee correctness?",
-      "options": [
-        "Only on Tuesdays",
-        "No",
-        "Always"
-      ],
-      "correctIndex": 1,
-      "explanation": "Confidence is a model estimate and can be miscalibrated.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.purpose.v0",
-      "conceptId": "purpose",
-      "prompt": "What should come before choosing an AI system?",
-      "options": [
-        "A clear problem and responsible use",
-        "Buying the largest computer",
-        "Collecting every private detail"
-      ],
-      "correctIndex": 0,
-      "explanation": "Purpose, risk and human needs should guide AI use.",
+      "explanation": "Confidence is an estimate and can be wrong or miscalibrated.",
       "difficulty": "medium",
       "ageBands": [
         "explorer6to8",
@@ -833,52 +941,16 @@
       ]
     },
     {
-      "id": "ai_pattern_lab.purpose.v1",
-      "conceptId": "purpose",
-      "prompt": "Think carefully: What should come before choosing an AI system?",
+      "id": "ai_pattern_lab.prompt.q0",
+      "conceptId": "prompt",
+      "prompt": "What is a prompt for a generative AI system?",
       "options": [
-        "Buying the largest computer",
-        "A clear problem and responsible use",
-        "Collecting every private detail"
-      ],
-      "correctIndex": 1,
-      "explanation": "Purpose, risk and human needs should guide AI use.",
-      "difficulty": "medium",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.purpose.v2",
-      "conceptId": "purpose",
-      "prompt": "Level challenge — What should come before choosing an AI system?",
-      "options": [
-        "Buying the largest computer",
-        "Collecting every private detail",
-        "A clear problem and responsible use"
-      ],
-      "correctIndex": 2,
-      "explanation": "Purpose, risk and human needs should guide AI use.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.purpose.v3",
-      "conceptId": "purpose",
-      "prompt": "Choose the best answer: What should come before choosing an AI system?",
-      "options": [
-        "A clear problem and responsible use",
-        "Collecting every private detail",
-        "Buying the largest computer"
+        "Input instructions or context",
+        "A cooling fan",
+        "A database table only"
       ],
       "correctIndex": 0,
-      "explanation": "Purpose, risk and human needs should guide AI use.",
+      "explanation": "A prompt gives the model instructions, questions, or context.",
       "difficulty": "medium",
       "ageBands": [
         "explorer6to8",
@@ -887,34 +959,16 @@
       ]
     },
     {
-      "id": "ai_pattern_lab.purpose.v4",
-      "conceptId": "purpose",
-      "prompt": "Final clue — What should come before choosing an AI system?",
+      "id": "ai_pattern_lab.prompt.q1",
+      "conceptId": "prompt",
+      "prompt": "Which answer best fits this clue: What is a prompt for a generative AI system?",
       "options": [
-        "Collecting every private detail",
-        "A clear problem and responsible use",
-        "Buying the largest computer"
+        "A cooling fan",
+        "Input instructions or context",
+        "A database table only"
       ],
       "correctIndex": 1,
-      "explanation": "Purpose, risk and human needs should guide AI use.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.examples.v5",
-      "conceptId": "examples",
-      "prompt": "Reason it out: What helps an AI model learn patterns?",
-      "options": [
-        "Magic words",
-        "Training examples",
-        "Screen brightness"
-      ],
-      "correctIndex": 1,
-      "explanation": "Models learn mathematical patterns from data examples.",
+      "explanation": "A prompt gives the model instructions, questions, or context.",
       "difficulty": "medium",
       "ageBands": [
         "explorer6to8",
@@ -923,17 +977,17 @@
       ]
     },
     {
-      "id": "ai_pattern_lab.examples.v6",
-      "conceptId": "examples",
-      "prompt": "Quick recall challenge: What helps an AI model learn patterns?",
+      "id": "ai_pattern_lab.prompt.q2",
+      "conceptId": "prompt",
+      "prompt": "Quizzie challenge: choose the correct statement for prompt.",
       "options": [
-        "Screen brightness",
-        "Magic words",
-        "Training examples"
+        "A cooling fan",
+        "A database table only",
+        "Input instructions or context"
       ],
       "correctIndex": 2,
-      "explanation": "Models learn mathematical patterns from data examples.",
-      "difficulty": "hard",
+      "explanation": "A prompt gives the model instructions, questions, or context.",
+      "difficulty": "medium",
       "ageBands": [
         "explorer6to8",
         "adventurer9to11",
@@ -941,70 +995,16 @@
       ]
     },
     {
-      "id": "ai_pattern_lab.examples.v7",
-      "conceptId": "examples",
-      "prompt": "Apply the clue: What helps an AI model learn patterns?",
+      "id": "ai_pattern_lab.prompt.q3",
+      "conceptId": "prompt",
+      "prompt": "If you were teaching a friend about prompt, which answer would you use?",
       "options": [
-        "Training examples",
-        "Screen brightness",
-        "Magic words"
+        "Input instructions or context",
+        "A database table only",
+        "A cooling fan"
       ],
       "correctIndex": 0,
-      "explanation": "Models learn mathematical patterns from data examples.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.examples.v8",
-      "conceptId": "examples",
-      "prompt": "Expert checkpoint: What helps an AI model learn patterns?",
-      "options": [
-        "Magic words",
-        "Screen brightness",
-        "Training examples"
-      ],
-      "correctIndex": 2,
-      "explanation": "Models learn mathematical patterns from data examples.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.examples.v9",
-      "conceptId": "examples",
-      "prompt": "Final mastery question: What helps an AI model learn patterns?",
-      "options": [
-        "Screen brightness",
-        "Training examples",
-        "Magic words"
-      ],
-      "correctIndex": 1,
-      "explanation": "Models learn mathematical patterns from data examples.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.label.v5",
-      "conceptId": "label",
-      "prompt": "Reason it out: What is a label in supervised learning?",
-      "options": [
-        "A battery",
-        "The expected answer",
-        "A secret password"
-      ],
-      "correctIndex": 1,
-      "explanation": "Labels tell the model what an example represents.",
+      "explanation": "A prompt gives the model instructions, questions, or context.",
       "difficulty": "medium",
       "ageBands": [
         "explorer6to8",
@@ -1013,88 +1013,16 @@
       ]
     },
     {
-      "id": "ai_pattern_lab.label.v6",
-      "conceptId": "label",
-      "prompt": "Quick recall challenge: What is a label in supervised learning?",
+      "id": "ai_pattern_lab.context.q0",
+      "conceptId": "context",
+      "prompt": "Why can adding context improve an AI answer?",
       "options": [
-        "A secret password",
-        "A battery",
-        "The expected answer"
-      ],
-      "correctIndex": 2,
-      "explanation": "Labels tell the model what an example represents.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.label.v7",
-      "conceptId": "label",
-      "prompt": "Apply the clue: What is a label in supervised learning?",
-      "options": [
-        "The expected answer",
-        "A secret password",
-        "A battery"
+        "It clarifies what the user needs",
+        "It doubles battery size",
+        "It removes all errors"
       ],
       "correctIndex": 0,
-      "explanation": "Labels tell the model what an example represents.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.label.v8",
-      "conceptId": "label",
-      "prompt": "Expert checkpoint: What is a label in supervised learning?",
-      "options": [
-        "A battery",
-        "A secret password",
-        "The expected answer"
-      ],
-      "correctIndex": 2,
-      "explanation": "Labels tell the model what an example represents.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.label.v9",
-      "conceptId": "label",
-      "prompt": "Final mastery question: What is a label in supervised learning?",
-      "options": [
-        "A secret password",
-        "The expected answer",
-        "A battery"
-      ],
-      "correctIndex": 1,
-      "explanation": "Labels tell the model what an example represents.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.bias.v5",
-      "conceptId": "bias",
-      "prompt": "Reason it out: What can unbalanced training data cause?",
-      "options": [
-        "Perfect fairness",
-        "Biased results",
-        "More battery power"
-      ],
-      "correctIndex": 1,
-      "explanation": "Unrepresentative data can produce unfair or unreliable results.",
+      "explanation": "Relevant context can guide the model toward a more appropriate response.",
       "difficulty": "medium",
       "ageBands": [
         "explorer6to8",
@@ -1103,88 +1031,16 @@
       ]
     },
     {
-      "id": "ai_pattern_lab.bias.v6",
-      "conceptId": "bias",
-      "prompt": "Quick recall challenge: What can unbalanced training data cause?",
+      "id": "ai_pattern_lab.context.q1",
+      "conceptId": "context",
+      "prompt": "Which answer best fits this clue: Why can adding context improve an AI answer?",
       "options": [
-        "More battery power",
-        "Perfect fairness",
-        "Biased results"
-      ],
-      "correctIndex": 2,
-      "explanation": "Unrepresentative data can produce unfair or unreliable results.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.bias.v7",
-      "conceptId": "bias",
-      "prompt": "Apply the clue: What can unbalanced training data cause?",
-      "options": [
-        "Biased results",
-        "More battery power",
-        "Perfect fairness"
-      ],
-      "correctIndex": 0,
-      "explanation": "Unrepresentative data can produce unfair or unreliable results.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.bias.v8",
-      "conceptId": "bias",
-      "prompt": "Expert checkpoint: What can unbalanced training data cause?",
-      "options": [
-        "Perfect fairness",
-        "More battery power",
-        "Biased results"
-      ],
-      "correctIndex": 2,
-      "explanation": "Unrepresentative data can produce unfair or unreliable results.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.bias.v9",
-      "conceptId": "bias",
-      "prompt": "Final mastery question: What can unbalanced training data cause?",
-      "options": [
-        "More battery power",
-        "Biased results",
-        "Perfect fairness"
+        "It doubles battery size",
+        "It clarifies what the user needs",
+        "It removes all errors"
       ],
       "correctIndex": 1,
-      "explanation": "Unrepresentative data can produce unfair or unreliable results.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.privacy.v5",
-      "conceptId": "privacy",
-      "prompt": "Reason it out: What should you avoid sharing with a public AI tool?",
-      "options": [
-        "A public science fact",
-        "Private personal information",
-        "A made-up animal name"
-      ],
-      "correctIndex": 1,
-      "explanation": "Personal data should be protected.",
+      "explanation": "Relevant context can guide the model toward a more appropriate response.",
       "difficulty": "medium",
       "ageBands": [
         "explorer6to8",
@@ -1193,88 +1049,16 @@
       ]
     },
     {
-      "id": "ai_pattern_lab.privacy.v6",
-      "conceptId": "privacy",
-      "prompt": "Quick recall challenge: What should you avoid sharing with a public AI tool?",
+      "id": "ai_pattern_lab.context.q2",
+      "conceptId": "context",
+      "prompt": "Quizzie challenge: choose the correct statement for context.",
       "options": [
-        "A made-up animal name",
-        "A public science fact",
-        "Private personal information"
+        "It doubles battery size",
+        "It removes all errors",
+        "It clarifies what the user needs"
       ],
       "correctIndex": 2,
-      "explanation": "Personal data should be protected.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.privacy.v7",
-      "conceptId": "privacy",
-      "prompt": "Apply the clue: What should you avoid sharing with a public AI tool?",
-      "options": [
-        "Private personal information",
-        "A made-up animal name",
-        "A public science fact"
-      ],
-      "correctIndex": 0,
-      "explanation": "Personal data should be protected.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.privacy.v8",
-      "conceptId": "privacy",
-      "prompt": "Expert checkpoint: What should you avoid sharing with a public AI tool?",
-      "options": [
-        "A public science fact",
-        "A made-up animal name",
-        "Private personal information"
-      ],
-      "correctIndex": 2,
-      "explanation": "Personal data should be protected.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.privacy.v9",
-      "conceptId": "privacy",
-      "prompt": "Final mastery question: What should you avoid sharing with a public AI tool?",
-      "options": [
-        "A made-up animal name",
-        "Private personal information",
-        "A public science fact"
-      ],
-      "correctIndex": 1,
-      "explanation": "Personal data should be protected.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.check.v5",
-      "conceptId": "check",
-      "prompt": "Reason it out: Who should verify important AI answers?",
-      "options": [
-        "Nobody",
-        "A responsible person",
-        "A random machine only"
-      ],
-      "correctIndex": 1,
-      "explanation": "Human judgement remains necessary for important decisions.",
+      "explanation": "Relevant context can guide the model toward a more appropriate response.",
       "difficulty": "medium",
       "ageBands": [
         "explorer6to8",
@@ -1283,88 +1067,16 @@
       ]
     },
     {
-      "id": "ai_pattern_lab.check.v6",
-      "conceptId": "check",
-      "prompt": "Quick recall challenge: Who should verify important AI answers?",
+      "id": "ai_pattern_lab.context.q3",
+      "conceptId": "context",
+      "prompt": "If you were teaching a friend about context, which answer would you use?",
       "options": [
-        "A random machine only",
-        "Nobody",
-        "A responsible person"
-      ],
-      "correctIndex": 2,
-      "explanation": "Human judgement remains necessary for important decisions.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.check.v7",
-      "conceptId": "check",
-      "prompt": "Apply the clue: Who should verify important AI answers?",
-      "options": [
-        "A responsible person",
-        "A random machine only",
-        "Nobody"
+        "It clarifies what the user needs",
+        "It removes all errors",
+        "It doubles battery size"
       ],
       "correctIndex": 0,
-      "explanation": "Human judgement remains necessary for important decisions.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.check.v8",
-      "conceptId": "check",
-      "prompt": "Expert checkpoint: Who should verify important AI answers?",
-      "options": [
-        "Nobody",
-        "A random machine only",
-        "A responsible person"
-      ],
-      "correctIndex": 2,
-      "explanation": "Human judgement remains necessary for important decisions.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.check.v9",
-      "conceptId": "check",
-      "prompt": "Final mastery question: Who should verify important AI answers?",
-      "options": [
-        "A random machine only",
-        "A responsible person",
-        "Nobody"
-      ],
-      "correctIndex": 1,
-      "explanation": "Human judgement remains necessary for important decisions.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.hallucination.v5",
-      "conceptId": "hallucination",
-      "prompt": "Reason it out: What is an AI hallucination?",
-      "options": [
-        "A screen animation",
-        "A confident but incorrect output",
-        "A faster processor"
-      ],
-      "correctIndex": 1,
-      "explanation": "Generative models can produce plausible-sounding false information.",
+      "explanation": "Relevant context can guide the model toward a more appropriate response.",
       "difficulty": "medium",
       "ageBands": [
         "explorer6to8",
@@ -1373,88 +1085,16 @@
       ]
     },
     {
-      "id": "ai_pattern_lab.hallucination.v6",
-      "conceptId": "hallucination",
-      "prompt": "Quick recall challenge: What is an AI hallucination?",
+      "id": "ai_pattern_lab.verification.q0",
+      "conceptId": "verification",
+      "prompt": "How can you check an AI factual claim?",
       "options": [
-        "A faster processor",
-        "A screen animation",
-        "A confident but incorrect output"
-      ],
-      "correctIndex": 2,
-      "explanation": "Generative models can produce plausible-sounding false information.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.hallucination.v7",
-      "conceptId": "hallucination",
-      "prompt": "Apply the clue: What is an AI hallucination?",
-      "options": [
-        "A confident but incorrect output",
-        "A faster processor",
-        "A screen animation"
+        "Compare it with reliable sources",
+        "Assume it is true",
+        "Share it immediately"
       ],
       "correctIndex": 0,
-      "explanation": "Generative models can produce plausible-sounding false information.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.hallucination.v8",
-      "conceptId": "hallucination",
-      "prompt": "Expert checkpoint: What is an AI hallucination?",
-      "options": [
-        "A screen animation",
-        "A faster processor",
-        "A confident but incorrect output"
-      ],
-      "correctIndex": 2,
-      "explanation": "Generative models can produce plausible-sounding false information.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.hallucination.v9",
-      "conceptId": "hallucination",
-      "prompt": "Final mastery question: What is an AI hallucination?",
-      "options": [
-        "A faster processor",
-        "A confident but incorrect output",
-        "A screen animation"
-      ],
-      "correctIndex": 1,
-      "explanation": "Generative models can produce plausible-sounding false information.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.testdata.v5",
-      "conceptId": "testdata",
-      "prompt": "Reason it out: Why keep test data separate from training data?",
-      "options": [
-        "To make files colourful",
-        "To measure generalisation fairly",
-        "To hide every answer"
-      ],
-      "correctIndex": 1,
-      "explanation": "Unseen test data checks performance beyond memorised examples.",
+      "explanation": "Important claims should be verified against trustworthy evidence.",
       "difficulty": "medium",
       "ageBands": [
         "explorer6to8",
@@ -1463,88 +1103,16 @@
       ]
     },
     {
-      "id": "ai_pattern_lab.testdata.v6",
-      "conceptId": "testdata",
-      "prompt": "Quick recall challenge: Why keep test data separate from training data?",
+      "id": "ai_pattern_lab.verification.q1",
+      "conceptId": "verification",
+      "prompt": "Which answer best fits this clue: How can you check an AI factual claim?",
       "options": [
-        "To hide every answer",
-        "To make files colourful",
-        "To measure generalisation fairly"
-      ],
-      "correctIndex": 2,
-      "explanation": "Unseen test data checks performance beyond memorised examples.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.testdata.v7",
-      "conceptId": "testdata",
-      "prompt": "Apply the clue: Why keep test data separate from training data?",
-      "options": [
-        "To measure generalisation fairly",
-        "To hide every answer",
-        "To make files colourful"
-      ],
-      "correctIndex": 0,
-      "explanation": "Unseen test data checks performance beyond memorised examples.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.testdata.v8",
-      "conceptId": "testdata",
-      "prompt": "Expert checkpoint: Why keep test data separate from training data?",
-      "options": [
-        "To make files colourful",
-        "To hide every answer",
-        "To measure generalisation fairly"
-      ],
-      "correctIndex": 2,
-      "explanation": "Unseen test data checks performance beyond memorised examples.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.testdata.v9",
-      "conceptId": "testdata",
-      "prompt": "Final mastery question: Why keep test data separate from training data?",
-      "options": [
-        "To hide every answer",
-        "To measure generalisation fairly",
-        "To make files colourful"
+        "Assume it is true",
+        "Compare it with reliable sources",
+        "Share it immediately"
       ],
       "correctIndex": 1,
-      "explanation": "Unseen test data checks performance beyond memorised examples.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.overfit.v5",
-      "conceptId": "overfit",
-      "prompt": "Reason it out: What is overfitting?",
-      "options": [
-        "Learning nothing",
-        "Learning training details but failing on new examples",
-        "Turning off a model"
-      ],
-      "correctIndex": 1,
-      "explanation": "An overfit model does not generalise well.",
+      "explanation": "Important claims should be verified against trustworthy evidence.",
       "difficulty": "medium",
       "ageBands": [
         "explorer6to8",
@@ -1553,88 +1121,16 @@
       ]
     },
     {
-      "id": "ai_pattern_lab.overfit.v6",
-      "conceptId": "overfit",
-      "prompt": "Quick recall challenge: What is overfitting?",
+      "id": "ai_pattern_lab.verification.q2",
+      "conceptId": "verification",
+      "prompt": "Quizzie challenge: choose the correct statement for verification.",
       "options": [
-        "Turning off a model",
-        "Learning nothing",
-        "Learning training details but failing on new examples"
+        "Assume it is true",
+        "Share it immediately",
+        "Compare it with reliable sources"
       ],
       "correctIndex": 2,
-      "explanation": "An overfit model does not generalise well.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.overfit.v7",
-      "conceptId": "overfit",
-      "prompt": "Apply the clue: What is overfitting?",
-      "options": [
-        "Learning training details but failing on new examples",
-        "Turning off a model",
-        "Learning nothing"
-      ],
-      "correctIndex": 0,
-      "explanation": "An overfit model does not generalise well.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.overfit.v8",
-      "conceptId": "overfit",
-      "prompt": "Expert checkpoint: What is overfitting?",
-      "options": [
-        "Learning nothing",
-        "Turning off a model",
-        "Learning training details but failing on new examples"
-      ],
-      "correctIndex": 2,
-      "explanation": "An overfit model does not generalise well.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.overfit.v9",
-      "conceptId": "overfit",
-      "prompt": "Final mastery question: What is overfitting?",
-      "options": [
-        "Turning off a model",
-        "Learning training details but failing on new examples",
-        "Learning nothing"
-      ],
-      "correctIndex": 1,
-      "explanation": "An overfit model does not generalise well.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.confidence.v5",
-      "conceptId": "confidence",
-      "prompt": "Reason it out: Does a high AI confidence score guarantee correctness?",
-      "options": [
-        "Always",
-        "No",
-        "Only on Tuesdays"
-      ],
-      "correctIndex": 1,
-      "explanation": "Confidence is a model estimate and can be miscalibrated.",
+      "explanation": "Important claims should be verified against trustworthy evidence.",
       "difficulty": "medium",
       "ageBands": [
         "explorer6to8",
@@ -1643,88 +1139,16 @@
       ]
     },
     {
-      "id": "ai_pattern_lab.confidence.v6",
-      "conceptId": "confidence",
-      "prompt": "Quick recall challenge: Does a high AI confidence score guarantee correctness?",
+      "id": "ai_pattern_lab.verification.q3",
+      "conceptId": "verification",
+      "prompt": "If you were teaching a friend about verification, which answer would you use?",
       "options": [
-        "Only on Tuesdays",
-        "Always",
-        "No"
-      ],
-      "correctIndex": 2,
-      "explanation": "Confidence is a model estimate and can be miscalibrated.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.confidence.v7",
-      "conceptId": "confidence",
-      "prompt": "Apply the clue: Does a high AI confidence score guarantee correctness?",
-      "options": [
-        "No",
-        "Only on Tuesdays",
-        "Always"
+        "Compare it with reliable sources",
+        "Share it immediately",
+        "Assume it is true"
       ],
       "correctIndex": 0,
-      "explanation": "Confidence is a model estimate and can be miscalibrated.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.confidence.v8",
-      "conceptId": "confidence",
-      "prompt": "Expert checkpoint: Does a high AI confidence score guarantee correctness?",
-      "options": [
-        "Always",
-        "Only on Tuesdays",
-        "No"
-      ],
-      "correctIndex": 2,
-      "explanation": "Confidence is a model estimate and can be miscalibrated.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.confidence.v9",
-      "conceptId": "confidence",
-      "prompt": "Final mastery question: Does a high AI confidence score guarantee correctness?",
-      "options": [
-        "Only on Tuesdays",
-        "No",
-        "Always"
-      ],
-      "correctIndex": 1,
-      "explanation": "Confidence is a model estimate and can be miscalibrated.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.purpose.v5",
-      "conceptId": "purpose",
-      "prompt": "Reason it out: What should come before choosing an AI system?",
-      "options": [
-        "Buying the largest computer",
-        "A clear problem and responsible use",
-        "Collecting every private detail"
-      ],
-      "correctIndex": 1,
-      "explanation": "Purpose, risk and human needs should guide AI use.",
+      "explanation": "Important claims should be verified against trustworthy evidence.",
       "difficulty": "medium",
       "ageBands": [
         "explorer6to8",
@@ -1733,35 +1157,17 @@
       ]
     },
     {
-      "id": "ai_pattern_lab.purpose.v6",
-      "conceptId": "purpose",
-      "prompt": "Quick recall challenge: What should come before choosing an AI system?",
+      "id": "ai_pattern_lab.copyright.q0",
+      "conceptId": "copyright",
+      "prompt": "Why should generated content be reviewed before publishing?",
       "options": [
-        "Collecting every private detail",
-        "Buying the largest computer",
-        "A clear problem and responsible use"
-      ],
-      "correctIndex": 2,
-      "explanation": "Purpose, risk and human needs should guide AI use.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.purpose.v7",
-      "conceptId": "purpose",
-      "prompt": "Apply the clue: What should come before choosing an AI system?",
-      "options": [
-        "A clear problem and responsible use",
-        "Collecting every private detail",
-        "Buying the largest computer"
+        "It may contain errors or rights issues",
+        "It is always perfect",
+        "Review is illegal"
       ],
       "correctIndex": 0,
-      "explanation": "Purpose, risk and human needs should guide AI use.",
-      "difficulty": "hard",
+      "explanation": "Human review helps catch factual, safety, and rights problems.",
+      "difficulty": "medium",
       "ageBands": [
         "explorer6to8",
         "adventurer9to11",
@@ -1769,34 +1175,628 @@
       ]
     },
     {
-      "id": "ai_pattern_lab.purpose.v8",
-      "conceptId": "purpose",
-      "prompt": "Expert checkpoint: What should come before choosing an AI system?",
+      "id": "ai_pattern_lab.copyright.q1",
+      "conceptId": "copyright",
+      "prompt": "Which answer best fits this clue: Why should generated content be reviewed before publishing?",
       "options": [
-        "Buying the largest computer",
-        "Collecting every private detail",
-        "A clear problem and responsible use"
-      ],
-      "correctIndex": 2,
-      "explanation": "Purpose, risk and human needs should guide AI use.",
-      "difficulty": "hard",
-      "ageBands": [
-        "explorer6to8",
-        "adventurer9to11",
-        "creator12to14"
-      ]
-    },
-    {
-      "id": "ai_pattern_lab.purpose.v9",
-      "conceptId": "purpose",
-      "prompt": "Final mastery question: What should come before choosing an AI system?",
-      "options": [
-        "Collecting every private detail",
-        "A clear problem and responsible use",
-        "Buying the largest computer"
+        "It is always perfect",
+        "It may contain errors or rights issues",
+        "Review is illegal"
       ],
       "correctIndex": 1,
-      "explanation": "Purpose, risk and human needs should guide AI use.",
+      "explanation": "Human review helps catch factual, safety, and rights problems.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.copyright.q2",
+      "conceptId": "copyright",
+      "prompt": "Quizzie challenge: choose the correct statement for copyright.",
+      "options": [
+        "It is always perfect",
+        "Review is illegal",
+        "It may contain errors or rights issues"
+      ],
+      "correctIndex": 2,
+      "explanation": "Human review helps catch factual, safety, and rights problems.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.copyright.q3",
+      "conceptId": "copyright",
+      "prompt": "If you were teaching a friend about copyright, which answer would you use?",
+      "options": [
+        "It may contain errors or rights issues",
+        "Review is illegal",
+        "It is always perfect"
+      ],
+      "correctIndex": 0,
+      "explanation": "Human review helps catch factual, safety, and rights problems.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.fairness.q0",
+      "conceptId": "fairness",
+      "prompt": "What does AI fairness aim to reduce?",
+      "options": [
+        "Unjustified differences in outcomes",
+        "Computer speed",
+        "File size"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fairness work looks for and mitigates harmful disparities.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.fairness.q1",
+      "conceptId": "fairness",
+      "prompt": "Which answer best fits this clue: What does AI fairness aim to reduce?",
+      "options": [
+        "Computer speed",
+        "Unjustified differences in outcomes",
+        "File size"
+      ],
+      "correctIndex": 1,
+      "explanation": "Fairness work looks for and mitigates harmful disparities.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.fairness.q2",
+      "conceptId": "fairness",
+      "prompt": "Quizzie challenge: choose the correct statement for fairness.",
+      "options": [
+        "Computer speed",
+        "File size",
+        "Unjustified differences in outcomes"
+      ],
+      "correctIndex": 2,
+      "explanation": "Fairness work looks for and mitigates harmful disparities.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.fairness.q3",
+      "conceptId": "fairness",
+      "prompt": "If you were teaching a friend about fairness, which answer would you use?",
+      "options": [
+        "Unjustified differences in outcomes",
+        "File size",
+        "Computer speed"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fairness work looks for and mitigates harmful disparities.",
+      "difficulty": "medium",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.transparency.q0",
+      "conceptId": "transparency",
+      "prompt": "What does transparency in AI help users understand?",
+      "options": [
+        "How a system is used and its limits",
+        "The weather tomorrow",
+        "Only the screen size"
+      ],
+      "correctIndex": 0,
+      "explanation": "Clear explanations of purpose, data, and limits support responsible use.",
+      "difficulty": "hard",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.transparency.q1",
+      "conceptId": "transparency",
+      "prompt": "Which answer best fits this clue: What does transparency in AI help users understand?",
+      "options": [
+        "The weather tomorrow",
+        "How a system is used and its limits",
+        "Only the screen size"
+      ],
+      "correctIndex": 1,
+      "explanation": "Clear explanations of purpose, data, and limits support responsible use.",
+      "difficulty": "hard",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.transparency.q2",
+      "conceptId": "transparency",
+      "prompt": "Quizzie challenge: choose the correct statement for transparency.",
+      "options": [
+        "The weather tomorrow",
+        "Only the screen size",
+        "How a system is used and its limits"
+      ],
+      "correctIndex": 2,
+      "explanation": "Clear explanations of purpose, data, and limits support responsible use.",
+      "difficulty": "hard",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.transparency.q3",
+      "conceptId": "transparency",
+      "prompt": "If you were teaching a friend about transparency, which answer would you use?",
+      "options": [
+        "How a system is used and its limits",
+        "Only the screen size",
+        "The weather tomorrow"
+      ],
+      "correctIndex": 0,
+      "explanation": "Clear explanations of purpose, data, and limits support responsible use.",
+      "difficulty": "hard",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.automation_bias.q0",
+      "conceptId": "automation_bias",
+      "prompt": "What is automation bias?",
+      "options": [
+        "Trusting automated suggestions too readily",
+        "A faster algorithm",
+        "A broken keyboard"
+      ],
+      "correctIndex": 0,
+      "explanation": "People can over-trust automated recommendations even when they are wrong.",
+      "difficulty": "hard",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.automation_bias.q1",
+      "conceptId": "automation_bias",
+      "prompt": "Which answer best fits this clue: What is automation bias?",
+      "options": [
+        "A faster algorithm",
+        "Trusting automated suggestions too readily",
+        "A broken keyboard"
+      ],
+      "correctIndex": 1,
+      "explanation": "People can over-trust automated recommendations even when they are wrong.",
+      "difficulty": "hard",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.automation_bias.q2",
+      "conceptId": "automation_bias",
+      "prompt": "Quizzie challenge: choose the correct statement for automation bias.",
+      "options": [
+        "A faster algorithm",
+        "A broken keyboard",
+        "Trusting automated suggestions too readily"
+      ],
+      "correctIndex": 2,
+      "explanation": "People can over-trust automated recommendations even when they are wrong.",
+      "difficulty": "hard",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.automation_bias.q3",
+      "conceptId": "automation_bias",
+      "prompt": "If you were teaching a friend about automation bias, which answer would you use?",
+      "options": [
+        "Trusting automated suggestions too readily",
+        "A broken keyboard",
+        "A faster algorithm"
+      ],
+      "correctIndex": 0,
+      "explanation": "People can over-trust automated recommendations even when they are wrong.",
+      "difficulty": "hard",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.model.q0",
+      "conceptId": "model",
+      "prompt": "What is an AI model?",
+      "options": [
+        "A mathematical system learned from data or rules",
+        "A physical robot only",
+        "A website password"
+      ],
+      "correctIndex": 0,
+      "explanation": "Models transform inputs into outputs using learned or designed relationships.",
+      "difficulty": "hard",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.model.q1",
+      "conceptId": "model",
+      "prompt": "Which answer best fits this clue: What is an AI model?",
+      "options": [
+        "A physical robot only",
+        "A mathematical system learned from data or rules",
+        "A website password"
+      ],
+      "correctIndex": 1,
+      "explanation": "Models transform inputs into outputs using learned or designed relationships.",
+      "difficulty": "hard",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.model.q2",
+      "conceptId": "model",
+      "prompt": "Quizzie challenge: choose the correct statement for model.",
+      "options": [
+        "A physical robot only",
+        "A website password",
+        "A mathematical system learned from data or rules"
+      ],
+      "correctIndex": 2,
+      "explanation": "Models transform inputs into outputs using learned or designed relationships.",
+      "difficulty": "hard",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.model.q3",
+      "conceptId": "model",
+      "prompt": "If you were teaching a friend about model, which answer would you use?",
+      "options": [
+        "A mathematical system learned from data or rules",
+        "A website password",
+        "A physical robot only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Models transform inputs into outputs using learned or designed relationships.",
+      "difficulty": "hard",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.inference.q0",
+      "conceptId": "inference",
+      "prompt": "What is inference in machine learning?",
+      "options": [
+        "Using a trained model to produce an output",
+        "Deleting all training data",
+        "Charging a battery"
+      ],
+      "correctIndex": 0,
+      "explanation": "Inference is the stage where a trained model makes predictions or generations.",
+      "difficulty": "hard",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.inference.q1",
+      "conceptId": "inference",
+      "prompt": "Which answer best fits this clue: What is inference in machine learning?",
+      "options": [
+        "Deleting all training data",
+        "Using a trained model to produce an output",
+        "Charging a battery"
+      ],
+      "correctIndex": 1,
+      "explanation": "Inference is the stage where a trained model makes predictions or generations.",
+      "difficulty": "hard",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.inference.q2",
+      "conceptId": "inference",
+      "prompt": "Quizzie challenge: choose the correct statement for inference.",
+      "options": [
+        "Deleting all training data",
+        "Charging a battery",
+        "Using a trained model to produce an output"
+      ],
+      "correctIndex": 2,
+      "explanation": "Inference is the stage where a trained model makes predictions or generations.",
+      "difficulty": "hard",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.inference.q3",
+      "conceptId": "inference",
+      "prompt": "If you were teaching a friend about inference, which answer would you use?",
+      "options": [
+        "Using a trained model to produce an output",
+        "Charging a battery",
+        "Deleting all training data"
+      ],
+      "correctIndex": 0,
+      "explanation": "Inference is the stage where a trained model makes predictions or generations.",
+      "difficulty": "hard",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.dataset_split.q0",
+      "conceptId": "dataset_split",
+      "prompt": "Why split data into training, validation, and test sets?",
+      "options": [
+        "To develop and evaluate a model more fairly",
+        "To make three backups only",
+        "To hide all mistakes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Separate sets reduce leakage and improve evaluation.",
+      "difficulty": "hard",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.dataset_split.q1",
+      "conceptId": "dataset_split",
+      "prompt": "Which answer best fits this clue: Why split data into training, validation, and test sets?",
+      "options": [
+        "To make three backups only",
+        "To develop and evaluate a model more fairly",
+        "To hide all mistakes"
+      ],
+      "correctIndex": 1,
+      "explanation": "Separate sets reduce leakage and improve evaluation.",
+      "difficulty": "hard",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.dataset_split.q2",
+      "conceptId": "dataset_split",
+      "prompt": "Quizzie challenge: choose the correct statement for dataset split.",
+      "options": [
+        "To make three backups only",
+        "To hide all mistakes",
+        "To develop and evaluate a model more fairly"
+      ],
+      "correctIndex": 2,
+      "explanation": "Separate sets reduce leakage and improve evaluation.",
+      "difficulty": "hard",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.dataset_split.q3",
+      "conceptId": "dataset_split",
+      "prompt": "If you were teaching a friend about dataset split, which answer would you use?",
+      "options": [
+        "To develop and evaluate a model more fairly",
+        "To hide all mistakes",
+        "To make three backups only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Separate sets reduce leakage and improve evaluation.",
+      "difficulty": "hard",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.responsible_use.q0",
+      "conceptId": "responsible_use",
+      "prompt": "What should come before choosing an AI tool?",
+      "options": [
+        "A clear purpose and risk check",
+        "Buying the biggest computer",
+        "Collecting every detail"
+      ],
+      "correctIndex": 0,
+      "explanation": "Purpose, users, risks, and safeguards should guide tool choice.",
+      "difficulty": "hard",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.responsible_use.q1",
+      "conceptId": "responsible_use",
+      "prompt": "Which answer best fits this clue: What should come before choosing an AI tool?",
+      "options": [
+        "Buying the biggest computer",
+        "A clear purpose and risk check",
+        "Collecting every detail"
+      ],
+      "correctIndex": 1,
+      "explanation": "Purpose, users, risks, and safeguards should guide tool choice.",
+      "difficulty": "hard",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.responsible_use.q2",
+      "conceptId": "responsible_use",
+      "prompt": "Quizzie challenge: choose the correct statement for responsible use.",
+      "options": [
+        "Buying the biggest computer",
+        "Collecting every detail",
+        "A clear purpose and risk check"
+      ],
+      "correctIndex": 2,
+      "explanation": "Purpose, users, risks, and safeguards should guide tool choice.",
+      "difficulty": "hard",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.responsible_use.q3",
+      "conceptId": "responsible_use",
+      "prompt": "If you were teaching a friend about responsible use, which answer would you use?",
+      "options": [
+        "A clear purpose and risk check",
+        "Collecting every detail",
+        "Buying the biggest computer"
+      ],
+      "correctIndex": 0,
+      "explanation": "Purpose, users, risks, and safeguards should guide tool choice.",
+      "difficulty": "hard",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.limitations.q0",
+      "conceptId": "limitations",
+      "prompt": "Why should an AI system state its limitations?",
+      "options": [
+        "So users know when not to rely on it",
+        "To make it slower",
+        "To avoid all testing"
+      ],
+      "correctIndex": 0,
+      "explanation": "Known limits help people use AI more safely and appropriately.",
+      "difficulty": "hard",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.limitations.q1",
+      "conceptId": "limitations",
+      "prompt": "Which answer best fits this clue: Why should an AI system state its limitations?",
+      "options": [
+        "To make it slower",
+        "So users know when not to rely on it",
+        "To avoid all testing"
+      ],
+      "correctIndex": 1,
+      "explanation": "Known limits help people use AI more safely and appropriately.",
+      "difficulty": "hard",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.limitations.q2",
+      "conceptId": "limitations",
+      "prompt": "Quizzie challenge: choose the correct statement for limitations.",
+      "options": [
+        "To make it slower",
+        "To avoid all testing",
+        "So users know when not to rely on it"
+      ],
+      "correctIndex": 2,
+      "explanation": "Known limits help people use AI more safely and appropriately.",
+      "difficulty": "hard",
+      "ageBands": [
+        "explorer6to8",
+        "adventurer9to11",
+        "creator12to14"
+      ]
+    },
+    {
+      "id": "ai_pattern_lab.limitations.q3",
+      "conceptId": "limitations",
+      "prompt": "If you were teaching a friend about limitations, which answer would you use?",
+      "options": [
+        "So users know when not to rely on it",
+        "To avoid all testing",
+        "To make it slower"
+      ],
+      "correctIndex": 0,
+      "explanation": "Known limits help people use AI more safely and appropriately.",
       "difficulty": "hard",
       "ageBands": [
         "explorer6to8",
